@@ -1,0 +1,48 @@
+/* 
+    Created on : 13-sep-2018, 10:45:44
+    Author     : Remy Conen
+*/
+html, body{
+    padding: 0px;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+html{
+    background-color: white;
+}
+
+#mainContainer{
+    height: 930px;
+    width: 1920px;
+    background-color: yellow;
+}
+
+#sideBarLeft{
+    height: 930px;
+    width: 360px;
+    background-color: red;
+    float: left;
+}
+
+#sideBarRight{
+    height: 700px;
+    width: 360px;
+    background-color: red;
+    float: left;
+}
+
+#middleContainer{
+    height: 700px;
+    width: 1200px;
+    background-color: blue;
+    float: left;
+}
+
+#header{
+    height: 230px;
+    width: 1560px;
+    float: left;
+    background-color: purple;
+}
