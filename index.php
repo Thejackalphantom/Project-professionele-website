@@ -28,12 +28,22 @@ Index Project Professionele Website
                 <div id="headerContainer">
                 </div>
                 <div class="headerInlog">
+                    <p class="biggerText"> Inloggen </p>
                 </div>
                 <div id="headerSpace">
                 </div>
                 <div class="headerInlog">
+                    <p class="biggerText"> Change language </p>
                 </div>
                 <div id="headerContainer2">
+                </div>
+                <div class="headerWhiteSpace">    
+                </div>
+                <div class="headerWhiteSpace2">    
+                </div>
+                <div class="search">
+                    <input type="text" placeholder="Search..">
+                    <input type="submit" value="Zoek">
                 </div>
             </div>
             <div id="middleContainer">
