@@ -43,8 +43,11 @@ Index Project Professionele Website
                 </div>
                 <div class="searchSpace">    
                     <div class="search">
-                      <input type="text" placeholder="Search..">
+                        <input type="text" placeholder="Search..">
                 </div>
+                </div>
+                <div id="menuPNG">
+                    <img src="img/menu.png" alt="menu">
                 </div>
             </div>
             <div id="middleContainer">
