@@ -2,6 +2,8 @@
     Created on : 13-sep-2018, 10:45:44
     Author     : Remy Conen
 */
+
+/*RESETS BROWSER*/
 html, body{
     padding: 0px;
     margin: 0;
@@ -9,9 +11,13 @@ html, body{
     overflow-x: hidden;
 }
 
+/*BACKGROUND COLOR*/
+
 html{
     background-color: white;
 }
+
+/*CONTAINER HOLDING THE WEBSITE*/
 
 #mainContainer{
     height: 1200px;
@@ -19,10 +25,12 @@ html{
     background-color: yellow;
 }
 
+/*EVERYTHING BELONGING TO THE LEFT SIDE BAR SUCH AS THE LOGO AND MENU*/
+
 #sideBarLeft{
     height: 930px;
     width: 360px;
-    background-color: red;
+    background-color: white;
     float: left;
 }
 
@@ -45,8 +53,18 @@ html{
 }
 
 #menu{
-    
+    height: 420px;
+    width: 300px;
+    margin: 25px;
+    border: 4px solid black;
+    background-color: white;
 }
+
+#menu p {
+    font-family: arial;
+}
+
+/*EVERYTHING BELONGING TO THE RIGHT SIDE BAR SUCH AS THE SOCIAL MEDIA BUTTONS*/
 
 #sideBarRight{
     height: 700px;
@@ -55,6 +73,8 @@ html{
     float: left;
 }
 
+/*CONTAINING THE HOMEPAGE FOTO'S AND EXPLORE EDUCATION BUTTON'*/
+
 #middleContainer{
     height: 700px;
     width: 1200px;
@@ -62,12 +82,16 @@ html{
     float: left;
 }
 
+/*CONTAINING THE HAMBURGER MENU AT THE TOP AND LOGIN BUTTON WITH THE CHANGE LANGUAGE BUTTON*/
+
 #header{
     height: 230px;
     width: 1560px;
     float: left;
     background-color: purple;
 }
+
+/*CONTAINS EVERYTHING FOR THE FOOTER*/
 
 #footer{
     height: 270px;
