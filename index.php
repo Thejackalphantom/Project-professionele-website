@@ -13,6 +13,12 @@ Index Project Professionele Website
         <div id="mainContainer">
             <div id="sideBarLeft">
                 <div id="logo">
+                    <img src="img/kleur_logo.jpg" alt="Archon Hogeschool">
+                </div>
+                <div id="menuFiller">
+                    <div id="menu">
+                        
+                    </div>
                 </div>
             </div>
             <div id="header">

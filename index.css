@@ -29,7 +29,22 @@ html{
 #logo{
     height: 260px;
     width: 360px;
-    background-color: violet;
+    background-color: white;
+}
+
+#logo img{
+    height: 260px;
+    width: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#menuFiller{
+    height: 670px;
+    width: 360px;
+}
+
+#menu{
     
 }
 
