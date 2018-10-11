@@ -41,9 +41,10 @@ Index Project Professionele Website
                 </div>
                 <div class="headerWhiteSpace2">    
                 </div>
-                <div class="search">
-                    <input type="text" placeholder="Search..">
-                    <input type="submit" value="Zoek">
+                <div class="searchSpace">    
+                    <div class="search">
+                      <input type="text" placeholder="Search..">
+                </div>
                 </div>
             </div>
             <div id="middleContainer">

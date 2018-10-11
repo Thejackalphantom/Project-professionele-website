@@ -147,14 +147,14 @@ html{
 
 .search {
     overflow: hidden;
-
+    background-color: white;
 	float: left;
 }
 
 .search input[type=text] {
-    float: right;
+    float: left;
     padding: 12px;
-	padding-left: 10px;
+	padding-left: 120px;
     font-size: 17px;
 }
 
@@ -168,4 +168,12 @@ html{
 	width: 760px;
 	background-color: white;
 	float: left;
+}
+
+.searchSpace{
+	height: 200px;
+	width: 400px;
+	background-color: white;
+    float: left;
+
 }
