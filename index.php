@@ -1,3 +1,4 @@
+<?php require_once ('functions/functions.php'); ?>
 <!DOCTYPE html>
 <!--
 Index Project Professionele Website
@@ -6,7 +7,7 @@ Index Project Professionele Website
     <head>
         <link rel="stylesheet" type="text/css" href="index.css">
         <meta charset="UTF-8">
-        <title>placeholder</title>
+        <title>Archon Hogeschool</title>
         
     </head>
     <body>
@@ -17,13 +18,13 @@ Index Project Professionele Website
                 </div>
                 <div id="menuFiller">
                     <div id="menu">
-                        <p>Evenementen</p>
-                        <p>Inschrijven</p>
-                        <p>Opleidingen</p>
-                        <p>Twijfel je nog over een studie?</p>
+                        <p><?php echo CONTENT_MENU_1; ?></p>
+                        <p><?php echo CONTENT_MENU_2; ?></p>
+                        <p><?php echo CONTENT_MENU_3; ?></p>
+                        <p><?php echo CONTENT_MENU_4; ?></p>
                     </div>
-                </div>
-            </div>
+                </div> <!-- END OF MENU FILLER-->
+            </div> <!-- END OF LEFT SIDE BAR-->
             <div id="header">
                 <div id="headerContainer">
                 </div>
@@ -34,14 +35,14 @@ Index Project Professionele Website
                 </div>
                 <div class="headerInlog">
                     <div class="headerFlagNL">
-                        <img src="img/nl.jpg" alt="NL">
+                        <a href="?lang=nl"><img src="img/nl.jpg" alt="NL"></a>
                     </div>
                     <div class="headerFlagSpace">   
                     </div>
                     <div class="headerFlagENG">
-                        <img src="img/eng.jpg" alt="ENG">
+                        <a href="?lang=en"><img src="img/eng.jpg" alt="ENG"></a>
                     </div>                    
-                </div>
+                </div> <!-- END OF HEADER INLOG-->
                 <div id="headerContainer2">
                 </div>
                 <div class="headerWhiteSpace">    
@@ -51,19 +52,21 @@ Index Project Professionele Website
                 <div class="searchSpace">    
                     <div class="search">
                         <input type="text" placeholder="Search..">
-                </div>
+                    </div>
                 </div>
                 <div id="menuPNG">
                     <img src="img/menu.png" alt="menu">
                 </div>
-            </div>
+            </div> <!-- END OF HEADER -->
             <div id="middleContainer">
-            </div>
+                <div id="bigButton">
+                </div>
+            </div> <!-- END OF MIDDLE CONTAINERS-->
             <div id="sideBarRight">
             </div>
             <div id="footer">
                 <span> &copy; Archon Hogeschool </span>
-            </div>
-        </div>
+            </div> <!-- END OF FOOTER-->
+        </div> <!-- END OF MAIN CONTAINERS-->
      </body>
 </html>

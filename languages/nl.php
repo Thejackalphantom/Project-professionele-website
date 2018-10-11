@@ -1,8 +1,5 @@
 <?php
-
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
+define('CONTENT_MENU_1', 'Evenementen');
+define('CONTENT_MENU_2', 'Inschrijven');
+define('CONTENT_MENU_3', 'Opleidingen');
+define('CONTENT_MENU_4', 'Twijfel je nog over een studie?');

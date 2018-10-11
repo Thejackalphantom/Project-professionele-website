@@ -185,9 +185,9 @@ html{
 .search input[type=text] {
 
     padding: 12px;
-	padding-left: 120px;
+    padding-left: 120px;
     font-size: 17px;
-	float: left;
+    float: left;
 }
 
 .search input[type=text] {
@@ -196,23 +196,27 @@ html{
 }
 
 .headerWhiteSpace2{
-	height: 50px;
-	width: 760px;
-	background-color: white;
-	float: left;
+    height: 50px;
+    width: 760px;
+    background-color: white;
+    float: left;
 }
 
 .searchSpace{
-	height: 140px;
-	width: 400px;
-	background-color: white;
+    height: 140px;
+    width: 400px;
+    background-color: white;
     float: left;
-
 }
 #menuPNG{
-	height: 140px;
-	width: 360px;
-	background-color: white;
+    height: 140px;
+    width: 360px;
+    background-color: white;
     float: left;
+}
+
+#menuPNG img{
+    height: 140px;
+    width: 360px;
 
 }
