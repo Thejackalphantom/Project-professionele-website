@@ -33,7 +33,14 @@ Index Project Professionele Website
                 <div id="headerSpace">
                 </div>
                 <div class="headerInlog">
-                    <p class="biggerText"> Change language </p>
+                    <div class="headerFlagNL">
+                        <img src="img/nl.jpg" alt="NL">
+                    </div>
+                    <div class="headerFlagSpace">   
+                    </div>
+                    <div class="headerFlagENG">
+                        <img src="img/eng.jpg" alt="ENG">
+                    </div>                    
                 </div>
                 <div id="headerContainer2">
                 </div>

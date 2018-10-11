@@ -125,9 +125,30 @@ html{
 	background-color: lightgrey;
 	float: left;
 	padding-left: 20px;
-	
-
 }
+
+.headerFlagNL{
+	height: 20px;
+	width: 30px;
+	background-color: grey;
+	padding-top: 10px;
+	float: left;
+}
+.headerFlagENG{
+	height: 20px;
+	width: 30px;
+	background-color: grey;
+	padding-top: 10px;
+	float: left;
+}
+.headerFlagSpace{
+	height: 20px;
+	width: 90px;
+	background-color: lightgrey;
+	padding-top: 10px;
+	float: left;
+}
+
 #headerSpace{
 	height: 40px;
 	width: 8px;
