@@ -2,7 +2,7 @@
 <!--
 Index Project Professionele Website
 -->
-<html>
+<html lang="nl-NL">
     <head>
         <link rel="stylesheet" type="text/css" href="index.css">
         <meta charset="UTF-8">
@@ -55,7 +55,7 @@ Index Project Professionele Website
             <div id="sideBarRight">
             </div>
             <div id="footer">
-                <span> &copy; Archon Hogeschool en het Archon Hogeschool logo zijn beschermde 
+                <span> &copy; Archon Hogeschool </span>
             </div>
         </div>
      </body>
