@@ -17,7 +17,10 @@ Index Project Professionele Website
                 </div>
                 <div id="menuFiller">
                     <div id="menu">
-                        
+                        <p>Evenementen</p>
+                        <p>Inschrijven</p>
+                        <p>Opleidingen</p>
+                        <p>Twijfel je nog over een studie?</p>
                     </div>
                 </div>
             </div>
