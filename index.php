@@ -22,7 +22,16 @@ Index Project Professionele Website
                 </div>
             </div>
             <div id="header">
-                
+                <div id="headerContainer">
+                </div>
+                <div class="headerInlog">
+                </div>
+                <div id="headerSpace">
+                </div>
+                <div class="headerInlog">
+                </div>
+                <div id="headerContainer2">
+                </div>
             </div>
             <div id="middleContainer">
             </div>
