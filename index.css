@@ -128,19 +128,26 @@ html{
 }
 
 .headerFlagNL{
-	height: 20px;
-	width: 30px;
-	background-color: grey;
-	padding-top: 10px;
+        border: 4px solid grey;
+	margin-top: 6px;
 	float: left;
+        display:block
 }
+
+.headerFlagNL img{
+        display:block
+}
+
 .headerFlagENG{
-	height: 20px;
-	width: 30px;
-	background-color: grey;
-	padding-top: 10px;
+        border: 4px solid grey;
+	margin-top: 6px;
 	float: left;
+        display:block
 }
+.headerFlagENG img{
+        display:block
+}
+
 .headerFlagSpace{
 	height: 20px;
 	width: 90px;

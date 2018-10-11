@@ -29,7 +29,7 @@ Index Project Professionele Website
                 <div id="headerContainer">
                 </div>
                 <div class="headerInlog">
-                    <p class="biggerText"> Inloggen </p>
+                    <p class="biggerText"><?php echo CONTENT_MENU_LOGIN; ?></p>
                 </div>
                 <div id="headerSpace">
                 </div>
@@ -65,7 +65,7 @@ Index Project Professionele Website
             <div id="sideBarRight">
             </div>
             <div id="footer">
-                <span> &copy; Archon Hogeschool </span>
+                <span><?php echo CONTENT_FOOTER_DISCLAIMER; ?></span>
             </div> <!-- END OF FOOTER-->
         </div> <!-- END OF MAIN CONTAINERS-->
      </body>
