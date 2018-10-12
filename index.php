@@ -16,7 +16,9 @@ Index Project Professionele Website
                 </div>
             </div>
             <div id="header">
-                
+                <div id="headerContainer">
+                    
+                </div>
             </div>
             <div id="middleContainer">
             </div>

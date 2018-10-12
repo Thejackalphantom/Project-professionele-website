@@ -60,3 +60,9 @@ html{
     float: left;
     background-color: rgb(0, 160, 148); 
 }
+#headerContainer{
+	height: 100px;
+	width: 800px;
+	background-color: white;
+	float: left;
+}
