@@ -1,2 +1,6 @@
 Graag alleen dingen met de website te maken hebben hier delen!
 DUS clone deze repository naar jouw XAMPP/HTDOCS/ProjectprofessioneleWebsite.....
+
+
+EDIT: 11-10-2018 ---> Ik heb zojuist 'en.php' en 'nl.php' files gemaakt MAAK hierin ALLE tekst dat op de pagina wordt geshowed thx.
+-Remy-

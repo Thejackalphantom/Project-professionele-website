@@ -2,50 +2,97 @@
     Created on : 13-sep-2018, 10:45:44
     Author     : Remy Conen
 */
+
+/*RESETS BROWSER*/
 html, body{
     padding: 0px;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
 }
+
+/*BACKGROUND COLOR*/
 
 html{
     background-color: white;
 }
 
+/*CONTAINER HOLDING THE WEBSITE*/
+
 #mainContainer{
     height: 1200px;
     width: 1920px;
-    background-color: yellow;
+    background-color: white;
 }
+
+/*EVERYTHING BELONGING TO THE LEFT SIDE BAR SUCH AS THE LOGO AND MENU*/
 
 #sideBarLeft{
     height: 930px;
     width: 360px;
-    background-color: red;
+    background-color: white;
     float: left;
 }
+
+/*LOGO SPACE*/
 
 #logo{
     height: 260px;
     width: 360px;
-    background-color: violet;
-    
+    background-color: white;
 }
+
+#logo img{
+    height: 260px;
+    width: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/*FILLS THE PLACE WHERE THE MENU GOES TO PREVENT THE CONTENT FROM SHIFTING*/
+
+#menuFiller{
+    height: 670px;
+    width: 360px;
+}
+
+/*THIS IS THE MENU BAR*/
+
+#menu{
+    height: 460px;
+    width: 280px;
+    margin-top: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
+    border: 4px solid black;
+    background-color: white;
+}
+
+#menu p {
+    font-family: arial;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-size: 32px;
+}
+
+/*EVERYTHING BELONGING TO THE RIGHT SIDE BAR SUCH AS THE SOCIAL MEDIA BUTTONS*/
 
 #sideBarRight{
     height: 700px;
     width: 360px;
-    background-color: red;
+    background-color: white;
     float: left;
 }
 
+/*CONTAINING THE HOMEPAGE FOTO'S AND EXPLORE EDUCATION BUTTON'*/
+
 #middleContainer{
-    height: 700px;
     width: 1200px;
-    background-color: blue;
+    height: 600px;
+    background: url('img/banner1.png');
     float: left;
 }
+
+/*CONTAINING THE HAMBURGER MENU AT THE TOP AND LOGIN BUTTON WITH THE CHANGE LANGUAGE BUTTON*/
 
 #header{
     height: 230px;
@@ -54,15 +101,129 @@ html{
     background-color: purple;
 }
 
+/*CONTAINS EVERYTHING FOR THE FOOTER*/
+
 #footer{
     height: 270px;
     width: 1920px;
     float: left;
-    background-color: rgb(0, 160, 148); 
+    background-color: #83bcd9; 
 }
+
+/*HEADER BOXES*/
+
 #headerContainer{
-	height: 100px;
+	height: 40px;
+	width: 850px;
+	background-color: white;
+	float: left;
+
+}
+.headerInlog{
+	height: 40px;
+	width: 180px;
+	background-color: lightgrey;
+	float: left;
+	padding-left: 20px;
+}
+
+.headerFlagNL{
+        border: 4px solid grey;
+	margin-top: 6px;
+	float: left;
+        display:block
+}
+
+.headerFlagNL img{
+        display:block
+}
+
+.headerFlagENG{
+        border: 4px solid grey;
+	margin-top: 6px;
+	float: left;
+        display:block
+}
+.headerFlagENG img{
+        display:block
+}
+
+.headerFlagSpace{
+	height: 20px;
+	width: 90px;
+	background-color: lightgrey;
+	padding-top: 10px;
+	float: left;
+}
+
+#headerSpace{
+	height: 40px;
+	width: 8px;
+	background-color: grey;
+	float: left;
+
+}
+#headerContainer2{
+	height: 40px;
+	width: 302px;
+	background-color: white;
+	float: left;
+}
+
+.biggerText{
+	font-size: 20px;
+	font-family: arial;
+	margin-top: 10px;
+}
+
+.headerWhiteSpace{
+	height: 190px;
 	width: 800px;
 	background-color: white;
 	float: left;
+}
+
+.search {
+    overflow: hidden;
+    background-color: white;
+	float: left;
+}
+
+.search input[type=text] {
+
+    padding: 12px;
+    padding-left: 120px;
+    font-size: 17px;
+    float: left;
+}
+
+.search input[type=text] {
+    border: 1px solid #ccc;
+    
+}
+
+.headerWhiteSpace2{
+    height: 50px;
+    width: 760px;
+    background-color: white;
+    float: left;
+}
+
+.searchSpace{
+    height: 140px;
+    width: 400px;
+    background-color: white;
+    float: left;
+}
+#menuPNG{
+    height: 140px;
+    width: 360px;
+    background-color: white;
+    float: left;
+}
+
+#menuPNG img{
+    height: 140px;
+    width: 360px;
+
 }
