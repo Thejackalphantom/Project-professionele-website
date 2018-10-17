@@ -1,4 +1,5 @@
 <?php
+//ONLY ADD DUTCH CONTENT HERE!
 define('CONTENT_MENU_1', 'Evenementen');
 define('CONTENT_MENU_2', 'Inschrijven');
 define('CONTENT_MENU_3', 'Opleidingen');

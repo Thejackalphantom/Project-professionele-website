@@ -1,4 +1,5 @@
 <?php
+//ONLY ADD ENGLISH CONTENT HERE!
 define('CONTENT_MENU_1', 'Events');
 define('CONTENT_MENU_2', 'Enroll');
 define('CONTENT_MENU_3', 'Our courses');
