@@ -56,21 +56,37 @@ Index Project Professionele Website
                 </div>
                 <div id="menuSpace">
                 </div>
-                <div id="hamburger">
+                <div class="dropdown" id="hamburger">
+                        <div class="dropdown">
+                            <p id="menuTextChange"> MENU </p>
+                            <div class="dropdown-content">
+                              <a href="www.google.com"> <p><?=CONTENT_HAMBURGER_NEWS; ?></p> </a>
+                              <a href="www.google.com"> <p><?=CONTENT_MENU_1; ?></p> </a>
+                              <a href="www.google.com"> <p><?=CONTENT_MENU_2; ?></p> </a> 
+                              <a href="www.google.com"> <p><?=CONTENT_MENU_3; ?></p> </a>
+                              <a href="www.google.com"> <p><?=CONTENT_MENU_4; ?></p> </a>
+                            </div>
+                        </div>
+                    <div id="hamburgerBox">
                     <div class="hamburgerButton">
                     </div>
                     <div class="hamburgerButton">
                     </div>
-                    <div class="hamburgerButton">
+                    <div class="hamburgerButton">      
                     </div>
-                </div>
-                <div id="hamburgerRightSpace">
-                    <p id="menuTextChange"> MENU </p>
-                </div>
-                <div id="hamburgerUnderSpace">
-                </div>
+                    </div>
+
+
+                    </div>
+                
+                  <div id="hamburgerRightSpace">
+                  </div>
+                  <div id="hamburgerUnderSpace">
+                  </div>
+                  
             </div> <!-- END OF HEADER -->
             <div id="middleContainer">
+                <img src="img/banner1.png" alt="Studenten"> 
                 <div id="bigButton">
                     <p><?=CONTENT_BIG_BUTTON; ?></p>
                 </div>
