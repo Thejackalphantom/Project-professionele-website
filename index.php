@@ -57,16 +57,8 @@ Index Project Professionele Website
                 <div id="menuSpace">
                 </div>
                 <div class="dropdown" id="hamburger">
-                    <div id="hamburgerBox">
-                    <div class="hamburgerButton">
-                    </div>
-                    <div class="hamburgerButton">
-                    </div>
-                    <div class="hamburgerButton">      
-                    </div>
-                    </div>
-                    <p id="menuTextChange"> MENU </p>
                         <div class="dropdown">
+                            <p id="menuTextChange"> MENU </p>
                             <div class="dropdown-content">
                               <a href="www.google.com"> <p>Nieuws</p> </a>
                               <a href="www.google.com"> <p>Opleidingen</p> </a>
@@ -75,6 +67,16 @@ Index Project Professionele Website
                               <a href="www.google.com"> <p>Twijfel je nog over een studie</p> </a>
                             </div>
                         </div>
+                    <div id="hamburgerBox">
+                    <div class="hamburgerButton">
+                    </div>
+                    <div class="hamburgerButton">
+                    </div>
+                    <div class="hamburgerButton">      
+                    </div>
+                    </div>
+
+
                     </div>
                 
                   <div id="hamburgerRightSpace">
