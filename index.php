@@ -117,7 +117,7 @@ Index Project Professionele Website
                 <div id="footerContainerSecond">
                 
                 <div class="search">
-                    <input type="text" placeholder="Search..">
+                    <input type="text" placeholder=<?=CONTENT_SEARCH; ?>>
                 </div>
                 <div id="footerRight">
                     <div class="footerIcon">
