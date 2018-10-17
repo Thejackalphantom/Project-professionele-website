@@ -1,4 +1,4 @@
-/* 
+/*
     Created on : 13-sep-2018, 10:45:44
     Author     : Remy Conen
 */
@@ -63,15 +63,16 @@ html{
     margin-top: 25px;
     margin-left: 35px;
     margin-right: 35px;
-    border: 4px solid black;
+    border: 2px solid black;
     background-color: white;
 }
 
 #menu p {
     font-family: arial;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-left: 30px;
-    font-size: 32px;
+    padding-right: 30px;
+    font-size: 25px;
 }
 
 /*EVERYTHING BELONGING TO THE RIGHT SIDE BAR SUCH AS THE SOCIAL MEDIA BUTTONS*/
@@ -104,7 +105,7 @@ html{
 }
 
 #bigButton p{
-    
+
     font-family: arial;
     font-size: 40px;
     text-align: center;
@@ -127,7 +128,7 @@ html{
     height: 270px;
     width: 1920px;
     float: left;
-    background-color: #83bcd9; 
+    background-color: #83bcd9;
 }
 
 /*HEADER BOXES*/
@@ -219,7 +220,7 @@ html{
 
 .search input[type=text] {
     border: 1px solid #ccc;
-    
+
 }
 
 .headerWhiteSpace2{
@@ -252,7 +253,7 @@ html{
 
 #hamburgerBox{
     height: 40px;
-    width: 50px; 
+    width: 50px;
     background-color: white;
     float: left;
 }
@@ -276,7 +277,7 @@ html{
 }
 #menuTextChange{
     font-family: arial;
-    font-size: 20px; 
+    font-size: 20px;
     margin: 7px;
     float: left;
 }
@@ -286,7 +287,7 @@ html{
 .dropdown {
     position: relative;
     display: inline-block;
-    
+
 }
 
 .dropdown-content {
@@ -303,5 +304,5 @@ html{
 .dropdown:hover .dropdown-content {
     display: block;
     margin-top: 40px;
-    
+
 }
