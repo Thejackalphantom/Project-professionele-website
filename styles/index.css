@@ -1,4 +1,4 @@
-/* 
+/*
     Created on : 13-sep-2018, 10:45:44
     Author     : Remy Conen
 */
@@ -63,15 +63,16 @@ html{
     margin-top: 25px;
     margin-left: 35px;
     margin-right: 35px;
-    border: 4px solid black;
+    border: 2px solid black;
     background-color: white;
 }
 
 #menu p {
     font-family: arial;
-    padding-top: 20px;
+    padding-top: 30px;
     padding-left: 30px;
-    font-size: 32px;
+    padding-right: 30px;
+    font-size: 25px;
 }
 
 /*EVERYTHING BELONGING TO THE RIGHT SIDE BAR SUCH AS THE SOCIAL MEDIA BUTTONS*/
@@ -88,7 +89,28 @@ html{
 #middleContainer{
     width: 1200px;
     height: 600px;
+    background: url('../img/banner1.png');
     float: left;
+}
+
+#bigButton{
+    height: 100px;
+    width: 500px;
+    background-color: white;
+    font-family: arial;
+    font-size: 40px;
+    margin-top: 25px;
+    margin-right: 25px;
+    float: right;
+}
+
+#bigButton p{
+
+    font-family: arial;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 25px;
+    margin-right: 25px;
 }
 
 /*CONTAINING THE HAMBURGER MENU AT THE TOP AND LOGIN BUTTON WITH THE CHANGE LANGUAGE BUTTON*/
@@ -106,7 +128,73 @@ html{
     height: 270px;
     width: 1920px;
     float: left;
-    background-color: #83bcd9; 
+    background-color: #83bcd9;
+}
+
+#footerBlankSpaceUp{
+    height: 40px;
+    width: 1920px;
+    float: left;
+
+}
+#footerBlankSpaceLeft{
+    height: 200px;
+    width: 650px;
+    float: left;
+
+}
+
+#footerContainer{
+    height: 200px;
+    width: 260px;
+    float: left;
+
+}
+#footerInfo{
+    height: 50px;
+    width: 260px;
+    float: left;
+}
+
+.TextChangeWhite{
+    font-family: arial;
+    font-size: 20px; 
+    margin: 7px;
+    float: left;
+    color: white;
+}
+#footerSpacer{
+    height: 200px;
+    width: 5px;
+    float: left;
+    background-color: white;
+}
+
+#footerSpaceLeftOfSpacer{
+    height: 200px;
+    width: 30px;
+    float: left;
+}
+
+#footerContainerSecond{
+    height: 200px;
+    width: 500px;
+    float: left;
+}
+#footerRight{
+	height: 50px;
+	width: 150px;
+	float: left;
+}
+
+.footerIcon img{
+	height: 26px;
+	width: auto;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	float: left;
 }
 
 /*HEADER BOXES*/
@@ -198,7 +286,7 @@ html{
 
 .search input[type=text] {
     border: 1px solid #ccc;
-    
+
 }
 
 .headerWhiteSpace2{
@@ -231,7 +319,7 @@ html{
 
 #hamburgerBox{
     height: 40px;
-    width: 50px; 
+    width: 50px;
     background-color: white;
     float: left;
 }
@@ -253,9 +341,9 @@ html{
     background-color: white;
     float: left;
 }
-#menuTextChange{
+#TextChange{
     font-family: arial;
-    font-size: 20px; 
+    font-size: 20px;
     margin: 7px;
     float: left;
 }
@@ -265,7 +353,7 @@ html{
 .dropdown {
     position: relative;
     display: inline-block;
-    
+
 }
 
 .dropdown-content {
@@ -282,5 +370,5 @@ html{
 .dropdown:hover .dropdown-content {
     display: block;
     margin-top: 40px;
-    
+
 }

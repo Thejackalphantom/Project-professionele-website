@@ -6,7 +6,6 @@ Index Project Professionele Website
 <html lang="nl-NL">
     <head>
         <link rel="stylesheet" type="text/css" href="styles/index.css">
-        <link rel="stylesheet" type="text/css" href="styles/home.css">
         <meta charset="UTF-8">
         <title>Archon Hogeschool</title>
 
@@ -51,18 +50,16 @@ Index Project Professionele Website
                 <div class="headerWhiteSpace2">
                 </div>
                 <div class="searchSpace">
-                    <div class="search">
-                        <input type="text" placeholder="Search..">
-                    </div>
                 </div>
                 <div id="menuSpace">
                 </div>
+                <!--                HEAD-->
                 <div class="dropdown" id="hamburger">
                         <div class="dropdown">
                             <div id="hamburgerBox">
                             <img src="img/hamburger.jpg" alt="hamburger_menu">
                             </div>
-                            <p id="menuTextChange"> MENU </p>
+                            <p id="TextChange"> MENU </p>
                             <div class="dropdown-content">
                               <a href="www.google.com"> <p><?=CONTENT_HAMBURGER_NEWS; ?></p> </a>
                               <a href="www.google.com"> <p><?=CONTENT_MENU_1; ?></p> </a>
@@ -73,12 +70,15 @@ Index Project Professionele Website
                         </div>
                     </div>
                 
+                
                   <div id="hamburgerRightSpace">
                   </div>
                   <div id="hamburgerUnderSpace">
                   </div>
+                  
             </div> <!-- END OF HEADER -->
             <div id="middleContainer">
+                <img src="img/banner1.png" alt="Studenten"> 
                 <div id="bigButton">
                     <p><?=CONTENT_BIG_BUTTON; ?></p>
                 </div>
@@ -86,7 +86,54 @@ Index Project Professionele Website
             <div id="sideBarRight">
             </div>
             <div id="footer">
-                <span><?=CONTENT_FOOTER_DISCLAIMER; ?></span>
+
+                <div id="footerBlankSpaceUp">   
+                </div>
+                
+                <div id="footerBlankSpaceLeft">   
+                </div>
+                
+                <div id="footerContainer"> 
+                    <div id="footerInfo">   
+                        <p class="TextChangeWhite"> Over Archon Hogeschool </p>
+                    </div>
+                    <div id="footerInfo">   
+                        <p class="TextChangeWhite"> Contact </p>
+                    </div>
+                    <div id="footerInfo">   
+                        <p class="TextChangeWhite"> Disclaimer </p>
+                    </div>
+                    <div id="footerInfo"> 
+                        <p class="TextChangeWhite"> <?=CONTENT_FOOTER_DISCLAIMER; ?></p>
+                    </div>
+                </div>
+                
+                <div id="footerSpacer">   
+                </div>
+
+                <div id="footerSpaceLeftOfSpacer">   
+                </div>
+                
+                <div id="footerContainerSecond">
+                
+                <div class="search">
+                    <input type="text" placeholder="Search..">
+                </div>
+                <div id="footerRight">
+                    <div class="footerIcon">
+			<a href="http://facebook.nl" target="_blank"><img src="img/facebook.png" alt="Facebook"></a>
+                    </div>
+                    <div class="footerIcon">
+			<a href="http://twitter.com" target="_blank"><img src="img/twitter.png" alt="Twitter"></a>
+                    </div>
+                    <div class="footerIcon">
+			<a href="https://www.instagram.com" target="_blank"><img src="img/insta.png" alt="Instagram"></a>
+                    </div>
+                </div>
+                
+                </div>
+
+                
             </div> <!-- END OF FOOTER-->
         </div> <!-- END OF MAIN CONTAINERS-->
      </body>
