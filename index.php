@@ -60,11 +60,11 @@ Index Project Professionele Website
                         <div class="dropdown">
                             <p id="menuTextChange"> MENU </p>
                             <div class="dropdown-content">
-                              <a href="www.google.com"> <p>Nieuws</p> </a>
-                              <a href="www.google.com"> <p>Opleidingen</p> </a>
-                              <a href="www.google.com"> <p>Evenementen</p> </a> 
-                              <a href="www.google.com"> <p>Inschrijven</p> </a>
-                              <a href="www.google.com"> <p>Twijfel je nog over een studie</p> </a>
+                              <a href="www.google.com"> <p><?=CONTENT_HAMBURGER_NEWS; ?></p> </a>
+                              <a href="www.google.com"> <p><?=CONTENT_MENU_1; ?></p> </a>
+                              <a href="www.google.com"> <p><?=CONTENT_MENU_2; ?></p> </a> 
+                              <a href="www.google.com"> <p><?=CONTENT_MENU_3; ?></p> </a>
+                              <a href="www.google.com"> <p><?=CONTENT_MENU_4; ?></p> </a>
                             </div>
                         </div>
                     <div id="hamburgerBox">

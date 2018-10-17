@@ -4,6 +4,9 @@ define('CONTENT_MENU_1', 'Events');
 define('CONTENT_MENU_2', 'Enroll');
 define('CONTENT_MENU_3', 'Our courses');
 define('CONTENT_MENU_4', 'Are you still in doubt about a course?');
+/*DEFINE HAMBURGER MENU HERE*/
+define('CONTENT_HAMBURGER_NEWS', 'News');
+
 /*DEFINES LOGIN BUTTON*/
 define('CONTENT_MENU_LOGIN', 'Login');
 /*DEFINES THE BIG BUTTON ON THE HOMEPAGE*/
