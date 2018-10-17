@@ -5,7 +5,8 @@ Index Project Professionele Website
 -->
 <html lang="nl-NL">
     <head>
-        <link rel="stylesheet" type="text/css" href="styles/index.css">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="stylesheet" type="text/css" href="developer.css">
         <meta charset="UTF-8">
         <title>Archon Hogeschool</title>
 
@@ -54,20 +55,8 @@ Index Project Professionele Website
                         <input type="text" placeholder="Search..">
                     </div>
                 </div>
-                <div id="menuSpace">
-                </div>
-                <div id="hamburger">
-                    <div class="hamburgerButton">
-                    </div>
-                    <div class="hamburgerButton">
-                    </div>
-                    <div class="hamburgerButton">
-                    </div>
-                </div>
-                <div id="hamburgerRightSpace">
-                    <p id="menuTextChange"> MENU </p>
-                </div>
-                <div id="hamburgerUnderSpace">
+                <div id="menuPNG">
+                    <img src="img/menu.png" alt="menu">
                 </div>
             </div> <!-- END OF HEADER -->
             <div id="middleContainer">
