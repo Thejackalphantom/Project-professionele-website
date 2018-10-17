@@ -73,6 +73,7 @@ Index Project Professionele Website
             <div id="middleContainer">
                 <img src="img/banner1.png" alt="Studenten">
                 <div id="bigButton">
+                    <p><?=CONTENT_BIG_BUTTON; ?></p>
                 </div>
             </div> <!-- END OF MIDDLE CONTAINERS-->
             <div id="sideBarRight">
@@ -81,6 +82,5 @@ Index Project Professionele Website
                 <span><?=CONTENT_FOOTER_DISCLAIMER; ?></span>
             </div> <!-- END OF FOOTER-->
         </div> <!-- END OF MAIN CONTAINERS-->
-        moi
      </body>
 </html>
