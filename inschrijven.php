@@ -5,7 +5,8 @@ Index Project Professionele Website
 -->
 <html lang="nl-NL">
     <head>
-        <link rel="stylesheet" type="text/css" href="styles/index.css">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="stylesheet" type="text/css" href="developer.css">
         <meta charset="UTF-8">
         <title>Archon Hogeschool</title>
 
