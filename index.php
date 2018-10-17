@@ -5,10 +5,11 @@ Index Project Professionele Website
 -->
 <html lang="nl-NL">
     <head>
-        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="stylesheet" type="text/css" href="styles/index.css">
+        <link rel="stylesheet" type="text/css" href="styles/home.css">
         <meta charset="UTF-8">
         <title>Archon Hogeschool</title>
-        
+
     </head>
     <body>
         <div id="mainContainer">
@@ -16,57 +17,17 @@ Index Project Professionele Website
                 <div id="logo">
                     <img src="img/kleur_logo.jpg" alt="Archon Hogeschool">
                 </div>
-                <div id="menuFiller">
-                    <div id="menu">
-                        <p><?php echo CONTENT_MENU_1; ?></p>
-                        <p><?php echo CONTENT_MENU_2; ?></p>
-                        <p><?php echo CONTENT_MENU_3; ?></p>
-                        <p><?php echo CONTENT_MENU_4; ?></p>
-                    </div>
-                </div> <!-- END OF MENU FILLER-->
+                      <?php include('includes/menu.php');?>
             </div> <!-- END OF LEFT SIDE BAR-->
-            <div id="header">
-                <div id="headerContainer">
-                </div>
-                <div class="headerInlog">
-                    <p class="biggerText"><?php echo CONTENT_MENU_LOGIN; ?></p>
-                </div>
-                <div id="headerSpace">
-                </div>
-                <div class="headerInlog">
-                    <div class="headerFlagNL">
-                        <a href="?lang=nl"><img src="img/nl.jpg" alt="NL"></a>
-                    </div>
-                    <div class="headerFlagSpace">   
-                    </div>
-                    <div class="headerFlagENG">
-                        <a href="?lang=en"><img src="img/eng.jpg" alt="ENG"></a>
-                    </div>                    
-                </div> <!-- END OF HEADER INLOG-->
-                <div id="headerContainer2">
-                </div>
-                <div class="headerWhiteSpace">    
-                </div>
-                <div class="headerWhiteSpace2">    
-                </div>
-                <div class="searchSpace">    
-                    <div class="search">
-                        <input type="text" placeholder="Search..">
-                    </div>
-                </div>
-                <div id="menuPNG">
-                    <img src="img/menu.png" alt="menu">
-                </div>
-            </div> <!-- END OF HEADER -->
+                <?php include('includes/header.php'); ?>
             <div id="middleContainer">
                 <div id="bigButton">
+                    <p><?=CONTENT_BIG_BUTTON; ?></p>
                 </div>
             </div> <!-- END OF MIDDLE CONTAINERS-->
             <div id="sideBarRight">
             </div>
-            <div id="footer">
-                <span><?php echo CONTENT_FOOTER_DISCLAIMER; ?></span>
-            </div> <!-- END OF FOOTER-->
+                <?php include('includes/footer.php');?>
         </div> <!-- END OF MAIN CONTAINERS-->
      </body>
 </html>
