@@ -49,10 +49,7 @@ Index Project Professionele Website
                 </div>
                 <div class="headerWhiteSpace2">
                 </div>
-                <div class="searchSpace">
-                    <div class="search">
-                        <input type="text" placeholder="Search..">
-                    </div>
+                <div class="searchSpace">             
                 </div>
                 <div id="menuSpace">
                 </div>
