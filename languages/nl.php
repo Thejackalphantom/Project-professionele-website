@@ -19,3 +19,4 @@ define('CONTENT_FOOTER_DISCLAIMER', '&copy; Archon Hogeschool');
 
 
 /*DEFINES ALL LINES FOR THE PAGE SPECIALNEEDS.PHP*/
+define('TEXT_BLOCK_1', 'Test test test');
