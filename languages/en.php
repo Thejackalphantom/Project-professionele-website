@@ -19,6 +19,7 @@ define('CONTENT_FOOTER_DISCLAIMER', '&copy; Archon College');
 
 
 /*DEFINES ALL LINES FOR THE PAGE SPECIALNEEDS.PHP*/
+define ('TEXT_BLOCK_1', 'test test test');
 
 
 /*DEFINE ALL LINES FOR ENROLL PAGE */
