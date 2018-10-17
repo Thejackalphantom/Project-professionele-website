@@ -19,7 +19,7 @@ Index Project Professionele Website
                     <img src="img/kleur_logo.jpg" alt="Archon Hogeschool">
                   </a>
                 </div>
-                        <?php include('menu.php');?>
+                        <?php include('includes/menu.php');?>
                         <!-- END OF MENU FILLER-->
             </div> <!-- END OF LEFT SIDE BAR-->
             <div id="header">
