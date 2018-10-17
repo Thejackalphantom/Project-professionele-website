@@ -22,44 +22,12 @@ Index Project Professionele Website
                         <?php include('includes/menu.php');?>
                         <!-- END OF MENU FILLER-->
             </div> <!-- END OF LEFT SIDE BAR-->
-            <div id="header">
-                <div id="headerContainer">
-                </div>
-                <div class="headerInlog">
-                    <p class="biggerText"><?php echo CONTENT_MENU_LOGIN; ?></p>
-                </div>
-                <div id="headerSpace">
-                </div>
-                <div class="headerInlog">
-                    <div class="headerFlagNL">
-                        <a href="?lang=nl"><img src="img/nl.jpg" alt="NL"></a>
-                    </div>
-                    <div class="headerFlagSpace">
-                    </div>
-                    <div class="headerFlagENG">
-                        <a href="?lang=en"><img src="img/eng.jpg" alt="ENG"></a>
-                    </div>
-                </div> <!-- END OF HEADER INLOG-->
-                <div id="headerContainer2">
-                </div>
-                <div class="headerWhiteSpace">
-                </div>
-                <div class="headerWhiteSpace2">
-                </div>
-                <div class="searchSpace">
-                    <div class="search">
-                        <input type="text" placeholder="Search..">
-                    </div>
-                </div>
-                <div id="menuPNG">
-                    <img src="img/menu.png" alt="menu">
-                </div>
-            </div> <!-- END OF HEADER -->
+        <?php include('includes/header.php');?>
             <div id="middleContainer">
               <div class="form_main">
                 <form id="inschrijven.php">
                   <div class="form_header">
-                    <h1> Inschrijven </h1>
+                    <h1>  <?=PAGEHEADER?> </h1>
                   </div>
                   <p>
 
@@ -69,10 +37,10 @@ Index Project Professionele Website
                   </p>
                   <div class="form_row">
                     <span>
-                         Opleiding
+                         <?=EDUCATION_1?>
                     </span>
                     <select>
-                      <option><?=EDUCATION; ?></option>
+                      <option><?=EDUCATION_2; ?></option>
                       <option value="arch_1"><?=EDU_1; ?></option>
                       <option value="arch_2"><?=EDU_2; ?></option>
                       <option value="tour_1"><?=EDU_3; ?></option>

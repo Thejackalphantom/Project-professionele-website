@@ -22,7 +22,9 @@ define('CONTENT_FOOTER_DISCLAIMER', '&copy; Archon College');
 
 
 /*DEFINE ALL LINES FOR ENROLL PAGE */
-define('EDUCATION', 'Chose your education');
+define('PAGEHEADER', 'Enroll');
+define('EDUCATION_1', 'Education');
+define('EDUCATION_2', 'Chose your education');
 define('EDU_1','archelology - glaciology');
 define('EDU_2','archelology - soil research');
 define('EDU_3','archelology - glaciology');
