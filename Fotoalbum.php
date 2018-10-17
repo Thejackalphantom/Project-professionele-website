@@ -13,13 +13,15 @@ Index Project Professionele Website
 
     </head>
     <body>
+             
         <div id="mainContainer">
             <div id="sideBarLeft">
                 <div id="logo">
                     <img src="img/kleur_logo.jpg" alt="Archon Hogeschool">
                 </div>
-                      <?php include('menu.php');?>
+                      <?php include('includes/menu.php');?>
                 <!-- END OF MENU FILLER-->
+                 <h1> FotoAlbum </h1>
             </div> <!-- END OF LEFT SIDE BAR-->
             <div id="header">
                 <div id="headerContainer">
