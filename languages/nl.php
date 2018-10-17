@@ -19,3 +19,15 @@ define('CONTENT_FOOTER_DISCLAIMER', '&copy; Archon Hogeschool');
 
 
 /*DEFINES ALL LINES FOR THE PAGE SPECIALNEEDS.PHP*/
+
+/*DEFINE ALL LINES FOR ENROLL PAGE */
+define('EDUCATION', 'Kies je opleiding');
+define('EDU_1','archelologie - glaciologie');
+define('EDU_2','archelologie - bodemonderzoek');
+define('EDU_3','tourism - hotelmanagment');
+define('EDU_4','tourism - hospitality');
+
+define('FIRSTNAME', 'Voornaam');
+define('LASTNAME', 'Achternaam');
+define('CITY', 'Plaats');
+define('STREETNAME', 'Straat');

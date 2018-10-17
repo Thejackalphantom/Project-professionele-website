@@ -72,34 +72,34 @@ Index Project Professionele Website
                          Opleiding
                     </span>
                     <select>
-                      <option> Kies een opleiding </option>
-                      <option value="arch_1">archelologie - glaciologie</option>
-                      <option value="arch_2">archelologie - bodemonderzoek</option>
-                      <option value="tour_1">tourism - hotelmanagment</option>
-                      <option value="tour_2">tourism - hospitality</option>
+                      <option><?=EDUCATION; ?></option>
+                      <option value="arch_1"><?=EDU_1; ?></option>
+                      <option value="arch_2"><?=EDU_2; ?></option>
+                      <option value="tour_1"><?=EDU_3; ?></option>
+                      <option value="tour_2"><?=EDU_4; ?></option>
                     </select>
                   </div>
                   <div class="form_row">
                     <span>
-                      Voornaam
+                      <?=FIRSTNAME; ?>
                     </span>
                     <input type='text' name='firstname'>
                   </div>
                   <div class="form_row">
                     <span>
-                      Achternaam
+                      <?=LASTNAME; ?>
                     </span>
                     <input type='text' name='lastname'>
                   </div>
                   <div class="form_row">
                     <span>
-                      Plaats
+                      <?=CITY; ?>
                     </span>
                     <input type='text' name='city'>
                   </div>
                   <div class="form_row">
                     <span>
-                      Straat
+                      <?=STREETNAME; ?>
                     </span>
                     <input type='text' name='streetname'>
                   </div>
