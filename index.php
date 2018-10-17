@@ -18,10 +18,10 @@ Index Project Professionele Website
                 </div>
                 <div id="menuFiller">
                     <div id="menu">
-                        <p><?php echo CONTENT_MENU_1; ?></p>
-                        <p><?php echo CONTENT_MENU_2; ?></p>
-                        <p><?php echo CONTENT_MENU_3; ?></p>
-                        <p><?php echo CONTENT_MENU_4; ?></p>
+                        <p><?=CONTENT_MENU_1; ?></p>
+                        <p><?=CONTENT_MENU_2; ?></p>
+                        <p><?=CONTENT_MENU_3; ?></p>
+                        <p><?=CONTENT_MENU_4; ?></p>
                     </div>
                 </div> <!-- END OF MENU FILLER-->
             </div> <!-- END OF LEFT SIDE BAR-->
@@ -29,7 +29,7 @@ Index Project Professionele Website
                 <div id="headerContainer">
                 </div>
                 <div class="headerInlog">
-                    <p class="biggerText"><?php echo CONTENT_MENU_LOGIN; ?></p>
+                    <p class="biggerText"><?=CONTENT_MENU_LOGIN; ?></p>
                 </div>
                 <div id="headerSpace">
                 </div>
@@ -65,8 +65,9 @@ Index Project Professionele Website
             <div id="sideBarRight">
             </div>
             <div id="footer">
-                <span><?php echo CONTENT_FOOTER_DISCLAIMER; ?></span>
+                <span><?=CONTENT_FOOTER_DISCLAIMER; ?></span>
             </div> <!-- END OF FOOTER-->
         </div> <!-- END OF MAIN CONTAINERS-->
+        moi
      </body>
 </html>
