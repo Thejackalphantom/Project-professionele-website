@@ -7,18 +7,21 @@ Index Project Professionele Website
     <head>
         <link rel="stylesheet" type="text/css" href="styles/index.css">
         <link rel="stylesheet" type="text/css" href="styles/home.css">
+        <link rel="stylesheet" type="text/css" href="styles/fotoalbum.css">
         <meta charset="UTF-8">
         <title>Archon Hogeschool</title>
 
     </head>
     <body>
+             
         <div id="mainContainer">
             <div id="sideBarLeft">
                 <div id="logo">
                     <img src="img/kleur_logo.jpg" alt="Archon Hogeschool">
                 </div>
-                      <?php include('menu.php');?>
+                      <?php include('includes/menu.php');?>
                 <!-- END OF MENU FILLER-->
+                
             </div> <!-- END OF LEFT SIDE BAR-->
             <div id="header">
                 <div id="headerContainer">
@@ -72,8 +75,10 @@ Index Project Professionele Website
                   </div>
                   
             </div> <!-- END OF HEADER -->
-           
-            </div> <!-- END OF MIDDLE CONTAINERS-->
+             <div id="fotosize">
+            <img src="img/file.jpg" alt="file">
+             </div>
+>          </div> <!-- END OF MIDDLE CONTAINERS-->
             <div id="sideBarRight">
             </div>
             <div id="footer">
