@@ -54,8 +54,20 @@ Index Project Professionele Website
                         <input type="text" placeholder="Search..">
                     </div>
                 </div>
-                <div id="menuPNG">
-                    <img src="img/menu.png" alt="menu">
+                <div id="menuSpace">
+                </div>
+                <div id="hamburger">
+                    <div class="hamburgerButton">
+                    </div>
+                    <div class="hamburgerButton">
+                    </div>
+                    <div class="hamburgerButton">
+                    </div>
+                </div>
+                <div id="hamburgerRightSpace">
+                    <p id="menuTextChange"> MENU </p>
+                </div>
+                <div id="hamburgerUnderSpace">
                 </div>
             </div> <!-- END OF HEADER -->
             <div id="middleContainer">
