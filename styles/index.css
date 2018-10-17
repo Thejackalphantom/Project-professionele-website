@@ -215,15 +215,39 @@ html{
     background-color: white;
     float: left;
 }
-#menuPNG{
+#menuSpace{
     height: 140px;
-    width: 360px;
+    width: 60px;
+    background-color: white;
+    float: left;
+}
+#hamburger{
+    height: 40px;
+    width: 40px;
     background-color: white;
     float: left;
 }
 
-#menuPNG img{
-    height: 140px;
-    width: 360px;
-
+.hamburgerButton {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+#hamburgerRightSpace{
+    height: 40px;
+    width: 260px;
+    background-color: white;
+    float: left;
+}
+#hamburgerUnderSpace{
+    height: 100px;
+    width: 300px;
+    background-color: white;
+    float: left;
+}
+#menuTextChange{
+    font-family: arial;
+    font-size: 20px; 
+    margin: 7px;
 }

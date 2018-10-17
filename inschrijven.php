@@ -5,7 +5,8 @@ Index Project Professionele Website
 -->
 <html lang="nl-NL">
     <head>
-        <link rel="stylesheet" type="text/css" href="styles/index.css">
+        <link rel="stylesheet" type="text/css" href="index.css">
+        <link rel="stylesheet" type="text/css" href="developer.css">
         <meta charset="UTF-8">
         <title>Archon Hogeschool</title>
 
@@ -18,10 +19,10 @@ Index Project Professionele Website
                 </div>
                 <div id="menuFiller">
                     <div id="menu">
-                        <p><?=CONTENT_MENU_1; ?></p>
-                        <p><?=CONTENT_MENU_2; ?></p>
-                        <p><?=CONTENT_MENU_3; ?></p>
-                        <p><?=CONTENT_MENU_4; ?></p>
+                        <p><?php echo CONTENT_MENU_1; ?></p>
+                        <p><?php echo CONTENT_MENU_2; ?></p>
+                        <p><?php echo CONTENT_MENU_3; ?></p>
+                        <p><?php echo CONTENT_MENU_4; ?></p>
                     </div>
                 </div> <!-- END OF MENU FILLER-->
             </div> <!-- END OF LEFT SIDE BAR-->
@@ -29,7 +30,7 @@ Index Project Professionele Website
                 <div id="headerContainer">
                 </div>
                 <div class="headerInlog">
-                    <p class="biggerText"><?=CONTENT_MENU_LOGIN; ?></p>
+                    <p class="biggerText"><?php echo CONTENT_MENU_LOGIN; ?></p>
                 </div>
                 <div id="headerSpace">
                 </div>
@@ -54,33 +55,19 @@ Index Project Professionele Website
                         <input type="text" placeholder="Search..">
                     </div>
                 </div>
-                <div id="menuSpace">
-                </div>
-                <div id="hamburger">
-                    <div class="hamburgerButton">
-                    </div>
-                    <div class="hamburgerButton">
-                    </div>
-                    <div class="hamburgerButton">
-                    </div>
-                </div>
-                <div id="hamburgerRightSpace">
-                    <p id="menuTextChange"> MENU </p>
-                </div>
-                <div id="hamburgerUnderSpace">
+                <div id="menuPNG">
+                    <img src="img/menu.png" alt="menu">
                 </div>
             </div> <!-- END OF HEADER -->
             <div id="middleContainer">
-                <img src="img/banner1.png" alt="Studenten">
                 <div id="bigButton">
                 </div>
             </div> <!-- END OF MIDDLE CONTAINERS-->
             <div id="sideBarRight">
             </div>
             <div id="footer">
-                <span><?=CONTENT_FOOTER_DISCLAIMER; ?></span>
+                <span><?php echo CONTENT_FOOTER_DISCLAIMER; ?></span>
             </div> <!-- END OF FOOTER-->
         </div> <!-- END OF MAIN CONTAINERS-->
-        moi
      </body>
 </html>
