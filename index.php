@@ -18,14 +18,8 @@ Index Project Professionele Website
                     <img src="img/kleur_logo.jpg" alt="Archon Hogeschool">
                   </a>
                 </div>
-                <div id="menuFiller">
-                    <div id="menu">
-                        <p><?=CONTENT_MENU_1; ?></p>
-                        <p><a href='inschrijven.php'><?=CONTENT_MENU_2; ?></a></p>
-                        <p><?=CONTENT_MENU_3; ?></p>
-                        <p><?=CONTENT_MENU_4; ?></p>
-                    </div>
-                </div> <!-- END OF MENU FILLER-->
+                      <?php include('menu.php');?>
+                <!-- END OF MENU FILLER-->
             </div> <!-- END OF LEFT SIDE BAR-->
             <div id="header">
                 <div id="headerContainer">
