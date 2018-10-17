@@ -14,9 +14,7 @@ Index Project Professionele Website
         <div id="mainContainer">
             <div id="sideBarLeft">
                 <div id="logo">
-                  <a href='index.php'>
                     <img src="img/kleur_logo.jpg" alt="Archon Hogeschool">
-                  </a>
                 </div>
                 <div id="menuFiller">
                     <div id="menu">
@@ -55,9 +53,8 @@ Index Project Professionele Website
                 </div>
                 <div id="menuSpace">
                 </div>
-
+                <!--                HEAD-->
                 <div class="dropdown" id="hamburger">
-<<<<<<< HEAD
                         <div class="dropdown">
                             <div id="hamburgerBox">
                             <img src="img/hamburger.jpg" alt="hamburger_menu">
@@ -66,35 +63,22 @@ Index Project Professionele Website
                             <div class="dropdown-content">
                               <a href="www.google.com"> <p><?=CONTENT_HAMBURGER_NEWS; ?></p> </a>
                               <a href="www.google.com"> <p><?=CONTENT_MENU_1; ?></p> </a>
-                              <a href="www.google.com"> <p><?=CONTENT_MENU_2; ?></p> </a>
+                              <a href="www.google.com"> <p><?=CONTENT_MENU_2; ?></p> </a> 
                               <a href="www.google.com"> <p><?=CONTENT_MENU_3; ?></p> </a>
                               <a href="www.google.com"> <p><?=CONTENT_MENU_4; ?></p> </a>
                             </div>
-=======
-                    <div class="dropdown">
-                        <div id="hamburgerBox">
-                        <img src="img/hamburger.jpg" alt="hamburger_menu">
-                        </div>
-                        <p id="menuTextChange"> MENU </p>
-                        <div class="dropdown-content">
-                            <a href="www.google.com"> <p><?=CONTENT_HAMBURGER_NEWS; ?></p> </a>
-                            <a href="www.google.com"> <p><?=CONTENT_MENU_1; ?></p> </a>
-                            <a href="www.google.com"> <p><?=CONTENT_MENU_2; ?></p> </a>
-                            <a href="www.google.com"> <p><?=CONTENT_MENU_3; ?></p> </a>
-                            <a href="www.google.com"> <p><?=CONTENT_MENU_4; ?></p> </a>
->>>>>>> ea6e15a9cd9342c6455cd312a22328268039975d
                         </div>
                     </div>
-                </div>
-
+                
+                
                   <div id="hamburgerRightSpace">
                   </div>
                   <div id="hamburgerUnderSpace">
                   </div>
-
+                  
             </div> <!-- END OF HEADER -->
             <div id="middleContainer">
-                <img src="img/banner1.png" alt="Studenten">
+                <img src="img/banner1.png" alt="Studenten"> 
                 <div id="bigButton">
                     <p><?=CONTENT_BIG_BUTTON; ?></p>
                 </div>
@@ -103,35 +87,35 @@ Index Project Professionele Website
             </div>
             <div id="footer">
 
-                <div id="footerBlankSpaceUp">
+                <div id="footerBlankSpaceUp">   
                 </div>
-
-                <div id="footerBlankSpaceLeft">
+                
+                <div id="footerBlankSpaceLeft">   
                 </div>
-
-                <div id="footerContainer">
-                    <div id="footerInfo">
+                
+                <div id="footerContainer"> 
+                    <div id="footerInfo">   
                         <p class="TextChangeWhite"> Over Archon Hogeschool </p>
                     </div>
-                    <div id="footerInfo">
+                    <div id="footerInfo">   
                         <p class="TextChangeWhite"> Contact </p>
                     </div>
-                    <div id="footerInfo">
+                    <div id="footerInfo">   
                         <p class="TextChangeWhite"> Disclaimer </p>
                     </div>
-                    <div id="footerInfo">
+                    <div id="footerInfo"> 
                         <p class="TextChangeWhite"> <?=CONTENT_FOOTER_DISCLAIMER; ?></p>
                     </div>
                 </div>
-
-                <div id="footerSpacer">
+                
+                <div id="footerSpacer">   
                 </div>
 
-                <div id="footerSpaceLeftOfSpacer">
+                <div id="footerSpaceLeftOfSpacer">   
                 </div>
-
+                
                 <div id="footerContainerSecond">
-
+                
                 <div class="search">
                     <input type="text" placeholder="Search..">
                 </div>
@@ -146,10 +130,10 @@ Index Project Professionele Website
 			<a href="https://www.instagram.com" target="_blank"><img src="img/insta.png" alt="Instagram"></a>
                     </div>
                 </div>
-
+                
                 </div>
 
-
+                
             </div> <!-- END OF FOOTER-->
         </div> <!-- END OF MAIN CONTAINERS-->
      </body>
