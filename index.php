@@ -71,7 +71,6 @@ Index Project Professionele Website
                 </div>
             </div> <!-- END OF HEADER -->
             <div id="middleContainer">
-                <img src="img/banner1.png" alt="Studenten">
                 <div id="bigButton">
                     <p><?=CONTENT_BIG_BUTTON; ?></p>
                 </div>
