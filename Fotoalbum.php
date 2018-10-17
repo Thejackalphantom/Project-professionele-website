@@ -7,6 +7,7 @@ Index Project Professionele Website
     <head>
         <link rel="stylesheet" type="text/css" href="styles/index.css">
         <link rel="stylesheet" type="text/css" href="styles/home.css">
+        <link rel="stylesheet" type="text/css" href="styles/fotoalbum.css">
         <meta charset="UTF-8">
         <title>Archon Hogeschool</title>
 
@@ -72,8 +73,8 @@ Index Project Professionele Website
                   </div>
                   
             </div> <!-- END OF HEADER -->
-           
-            </div> <!-- END OF MIDDLE CONTAINERS-->
+            <img src="img/file.jpg" alt="file">
+>          </div> <!-- END OF MIDDLE CONTAINERS-->
             <div id="sideBarRight">
             </div>
             <div id="footer">
