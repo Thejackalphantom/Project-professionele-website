@@ -7,6 +7,9 @@ define('CONTENT_MENU_4', 'Twijfel je nog over een studie?');
 /*DEFINE HAMBURGER MENU HERE*/
 define('CONTENT_HAMBURGER_NEWS', 'Nieuws');
 
+/*DEFINE SEARCH BAR HERE*/
+define('CONTENT_SEARCH', 'Zoeken..');
+
 /*DEFINES LOGIN BUTTON*/
 define('CONTENT_MENU_LOGIN', 'Inloggen');
 /*DEFINES THE BIG BUTTON ON THE HOMEPAGE*/

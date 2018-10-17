@@ -7,6 +7,9 @@ define('CONTENT_MENU_4', 'Are you still in doubt about a course?');
 /*DEFINE HAMBURGER MENU HERE*/
 define('CONTENT_HAMBURGER_NEWS', 'News');
 
+/*DEFINE SEARCH BAR HERE*/
+define('CONTENT_SEARCH', 'Search..');
+
 /*DEFINES LOGIN BUTTON*/
 define('CONTENT_MENU_LOGIN', 'Login');
 /*DEFINES THE BIG BUTTON ON THE HOMEPAGE*/
