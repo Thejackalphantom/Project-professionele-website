@@ -110,6 +110,72 @@ html{
     background-color: #83bcd9; 
 }
 
+#footerBlankSpaceUp{
+    height: 40px;
+    width: 1920px;
+    float: left;
+
+}
+#footerBlankSpaceLeft{
+    height: 200px;
+    width: 650px;
+    float: left;
+
+}
+
+#footerContainer{
+    height: 200px;
+    width: 260px;
+    float: left;
+
+}
+#footerInfo{
+    height: 50px;
+    width: 260px;
+    float: left;
+}
+
+.TextChangeWhite{
+    font-family: arial;
+    font-size: 20px; 
+    margin: 7px;
+    float: left;
+    color: white;
+}
+#footerSpacer{
+    height: 200px;
+    width: 5px;
+    float: left;
+    background-color: white;
+}
+
+#footerSpaceLeftOfSpacer{
+    height: 200px;
+    width: 30px;
+    float: left;
+}
+
+#footerContainerSecond{
+    height: 200px;
+    width: 500px;
+    float: left;
+}
+#footerRight{
+	height: 50px;
+	width: 150px;
+	float: left;
+}
+
+.footerIcon img{
+	height: 26px;
+	width: auto;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	float: left;
+}
+
 /*HEADER BOXES*/
 
 #headerContainer{
@@ -254,7 +320,7 @@ html{
     background-color: white;
     float: left;
 }
-#menuTextChange{
+#TextChange{
     font-family: arial;
     font-size: 20px; 
     margin: 7px;
