@@ -6,6 +6,7 @@ Index Project Professionele Website
 <html lang="nl-NL">
     <head>
         <link rel="stylesheet" type="text/css" href="styles/index.css">
+        <link rel="stylesheet" type="text/css" href="styles/home.css">
         <meta charset="UTF-8">
         <title>Archon Hogeschool</title>
 
@@ -78,7 +79,6 @@ Index Project Professionele Website
                   
             </div> <!-- END OF HEADER -->
             <div id="middleContainer">
-                <img src="img/banner1.png" alt="Studenten"> 
                 <div id="bigButton">
                     <p><?=CONTENT_BIG_BUTTON; ?></p>
                 </div>
