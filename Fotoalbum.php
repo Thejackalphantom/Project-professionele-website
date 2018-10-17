@@ -21,7 +21,7 @@ Index Project Professionele Website
                 </div>
                       <?php include('includes/menu.php');?>
                 <!-- END OF MENU FILLER-->
-                 <h1> FotoAlbum </h1>
+                
             </div> <!-- END OF LEFT SIDE BAR-->
             <div id="header">
                 <div id="headerContainer">
@@ -75,7 +75,9 @@ Index Project Professionele Website
                   </div>
                   
             </div> <!-- END OF HEADER -->
+             <div id="fotosize">
             <img src="img/file.jpg" alt="file">
+             </div>
 >          </div> <!-- END OF MIDDLE CONTAINERS-->
             <div id="sideBarRight">
             </div>
