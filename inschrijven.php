@@ -19,14 +19,8 @@ Index Project Professionele Website
                     <img src="img/kleur_logo.jpg" alt="Archon Hogeschool">
                   </a>
                 </div>
-                <div id="menuFiller">
-                    <div id="menu">
-                        <p><?php echo CONTENT_MENU_1; ?></p>
-                        <p><?php echo CONTENT_MENU_2; ?></p>
-                        <p><?php echo CONTENT_MENU_3; ?></p>
-                        <p><?php echo CONTENT_MENU_4; ?></p>
-                    </div>
-                </div> <!-- END OF MENU FILLER-->
+                        <?php include('menu.php');?>
+                        <!-- END OF MENU FILLER-->
             </div> <!-- END OF LEFT SIDE BAR-->
             <div id="header">
                 <div id="headerContainer">
@@ -79,7 +73,7 @@ Index Project Professionele Website
                     </span>
                     <select>
                       <option> Kies een opleiding </option>
-                      <option value="arch_1">archelologie - glasiologie</option>
+                      <option value="arch_1">archelologie - glaciologie</option>
                       <option value="arch_2">archelologie - bodemonderzoek</option>
                       <option value="tour_1">tourism - hotelmanagment</option>
                       <option value="tour_2">tourism - hospitality</option>

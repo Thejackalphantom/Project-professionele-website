@@ -16,3 +16,11 @@ define('CONTENT_FOOTER_DISCLAIMER', '&copy; Archon College');
 
 
 /*DEFINES ALL LINES FOR THE PAGE SPECIALNEEDS.PHP*/
+
+
+/*DEFINE ALL LINES FOR ENROLL PAGE */
+define('EDUCTATION', 'Chose your education');
+define('EDU_1','archelology - glaciology');
+define('EDU_2','archelology - soil research');
+define('EDU_3','archelology - glaciology');
+define('EDU_4','archelology - glaciology');
