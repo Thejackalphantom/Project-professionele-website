@@ -55,6 +55,7 @@ Index Project Professionele Website
                 </div>
                 
                 <div class="dropdown" id="hamburger">
+<<<<<<< HEAD
                         <div class="dropdown">
                             <div id="hamburgerBox">
                             <img src="img/hamburger.jpg" alt="hamburger_menu">
@@ -67,8 +68,22 @@ Index Project Professionele Website
                               <a href="www.google.com"> <p><?=CONTENT_MENU_3; ?></p> </a>
                               <a href="www.google.com"> <p><?=CONTENT_MENU_4; ?></p> </a>
                             </div>
+=======
+                    <div class="dropdown">
+                        <div id="hamburgerBox">
+                        <img src="img/hamburger.jpg" alt="hamburger_menu">
+                        </div>
+                        <p id="menuTextChange"> MENU </p>
+                        <div class="dropdown-content">
+                            <a href="www.google.com"> <p><?=CONTENT_HAMBURGER_NEWS; ?></p> </a>
+                            <a href="www.google.com"> <p><?=CONTENT_MENU_1; ?></p> </a>
+                            <a href="www.google.com"> <p><?=CONTENT_MENU_2; ?></p> </a> 
+                            <a href="www.google.com"> <p><?=CONTENT_MENU_3; ?></p> </a>
+                            <a href="www.google.com"> <p><?=CONTENT_MENU_4; ?></p> </a>
+>>>>>>> ea6e15a9cd9342c6455cd312a22328268039975d
                         </div>
                     </div>
+                </div>
                 
                   <div id="hamburgerRightSpace">
                   </div>

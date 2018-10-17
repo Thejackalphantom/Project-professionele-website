@@ -5,8 +5,8 @@ Index Project Professionele Website
 -->
 <html lang="nl-NL">
     <head>
-        <link rel="stylesheet" type="text/css" href="index.css">
-        <link rel="stylesheet" type="text/css" href="developer.css">
+        <link rel="stylesheet" type="text/css" href="styles/index.css">
+        <link rel="stylesheet" type="text/css" href="styles/inschrijven.css">
         <meta charset="UTF-8">
         <title>Archon Hogeschool</title>
 
@@ -60,8 +60,57 @@ Index Project Professionele Website
                 </div>
             </div> <!-- END OF HEADER -->
             <div id="middleContainer">
-                <div id="bigButton">
-                </div>
+              <div class="form_main">
+                <form id="inschrijven.php">
+                  <div class="form_header">
+                    <h1> Inschrijven </h1>
+                  </div>
+                  <p>
+
+                  </p>
+                  <p>
+
+                  </p>
+                  <div class="form_row">
+                    <span>
+                         Opleiding
+                    </span>
+                    <select>
+                      <option> Kies een opleiding </option>
+                      <option value="arch_1">archelologie - glasiologie</option>
+                      <option value="arch_2">archelologie - bodemonderzoek</option>
+                      <option value="tour_1">tourism - hotelmanagment</option>
+                      <option value="tour_2">tourism - hospitality</option>
+                    </select>
+                  </div>
+                  <div class="form_row">
+                    <span>
+                      Voornaam
+                    </span>
+                    <input type='text' name='firstname'>
+                  </div>
+                  <div class="form_row">
+                    <span>
+                      Achternaam
+                    </span>
+                    <input type='text' name='lastname'>
+                  </div>
+                  <div class="form_row">
+                    <span>
+                      Plaats
+                    </span>
+                    <input type='text' name='city'>
+                  </div>
+                  <div class="form_row">
+                    <span>
+                      Straat
+                    </span>
+                    <input type='text' name='streetname'>
+                  </div>
+                  <input class="form_input" type="submit">
+                </form>
+              </div>
+
             </div> <!-- END OF MIDDLE CONTAINERS-->
             <div id="sideBarRight">
             </div>
