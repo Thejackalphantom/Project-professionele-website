@@ -68,7 +68,8 @@ Index Project Professionele Website
                 </div>
             </div> <!-- END OF HEADER -->
             <div id="middleContainer">
-                <p><?=TEXT_BLOCK_1?></p>
+                <h1><?=TEXT_BLOCK_1?></h1>
+                <p><?=TEXT_MAIN?></p>
                 <!--                Hier typen--> 
                     
                 <div id="bigButton">

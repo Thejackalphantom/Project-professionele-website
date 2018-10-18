@@ -19,7 +19,10 @@ define('CONTENT_FOOTER_DISCLAIMER', '&copy; Archon College');
 
 
 /*DEFINES ALL LINES FOR THE PAGE SPECIALNEEDS.PHP*/
-define ('TEXT_BLOCK_1', 'test test test');
+define ('TEXT_BLOCK_1', 'Special situations');
+define ('TEXT_MAIN', 'Are you having any problems physically or mentally? Notify us before you start'
+        . 'your course. We offer a lot of extra options for people with a disability or home situation.'
+        . 'Dyslexia, ALS, broken bone or stuck in a wheelchair. All of these are covered, and more! ');
 
 
 /*DEFINE ALL LINES FOR ENROLL PAGE */
