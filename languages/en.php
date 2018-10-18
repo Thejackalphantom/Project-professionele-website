@@ -31,8 +31,8 @@ define('EDUCATION_1', 'Education');
 define('EDUCATION_2', 'Chose your education');
 define('EDU_1','archelology - glaciology');
 define('EDU_2','archelology - soil research');
-define('EDU_3','archelology - glaciology');
-define('EDU_4','archelology - glaciology');
+define('EDU_3','tourism - hotelmanagment');
+define('EDU_4','tourism - hospitality');
 
 define('FIRSTNAME', 'First name');
 define('LASTNAME', 'Last name');
