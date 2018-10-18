@@ -1,4 +1,4 @@
-<?php require_once ('functions/functions.php'); ?>
+<?php include ('functions/config.php'); ?>
 <!DOCTYPE html>
 <!--
 Fotoalbum Project Professionele Website
@@ -9,7 +9,6 @@ Fotoalbum Project Professionele Website
         <link rel="stylesheet" type="text/css" href="styles/fotoalbum.css">
         <meta charset="UTF-8">
         <title>Archon Hogeschool</title>
-
     </head>
     <body>
         <div id="mainContainer">
@@ -22,42 +21,28 @@ Fotoalbum Project Professionele Website
                 <?php include('includes/menu.php');?>
             </div>
                 <?php include('includes/header.php');?>
-
-       
-
             <div id="middelContainer">
-             <div id="boxfotos">
-                <div class="fotosize">
-                 <h1> Fotoalbums </h1>
-               
-                 <div class="boxw">
-                 <img src="img/file.jpg" alt="file">
-                 <div class="textinbox">
-                 <p> Onze school </p> </div> 
+                <div id="boxfotos">
+                    <div class="fotosize">
+                        <h1> Fotoalbums </h1>
+                        <div class="boxw">
+                            <img src="img/file.jpg" alt="file">
+                            <div class="textinbox">
+                            <p> Onze school </p> </div> 
+                        </div>
+                        <div class="boxw">
+                            <img src="img/file.2.jpg" alt="file">
+                            <div class="textinbox">
+                               <p> Onze school </p>
+                            </div>
+                        </div>
+                        <div class="boxtext">
+                             <img src="img/upload.jpg" alt="upload"> <h2> upload je eigen foto's </h2>
+                         </div>
+                    </div>
                 </div>
-                  
-                 <div class="boxw">
-                 <img src="img/file.2.jpg" alt="file">
-                   <div class="textinbox">
-                       <p> Onze school </p>
-                  </div>
-                 </div>
-                 
-                 <div class="boxtext">
-                     <img src="img/upload.jpg" alt="upload"> <h2> upload je eigen foto's </h2>
-                 </div>
-                
-                </div>
-             </div>
             </div> <!-- END OF MIDDLE CONTAINERS-->
-           
-            
-                <?php include('includes/footer.php');?>
+            <?php include('includes/footer.php');?>
         </div> <!-- END OF MAIN CONTAINERS-->
-
-
-
-
-
     </body>
 </html>

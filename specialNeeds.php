@@ -1,4 +1,4 @@
-<?php require_once ('functions/functions.php'); ?>
+<?php include ('functions/config.php');?>
 <!DOCTYPE html>
 
 <html lang="nl-NL">
@@ -16,13 +16,13 @@
                 </div>
                <?php include('includes/menuSpecial.php');?>  
             </div> <!-- END OF LEFT SIDE BAR-->
-            <?php include('includes/header.php'); ?>
+            <?php include('includes/header.php');?>
             <div id="middleContainer">
                 <div id="textSpecial">
-                    <h1><?=TEXT_BLOCK_1?></h1>
-                    <p><?=TEXT_MAIN?></p>
-                    <p><?=TEXT_MAIN_2?></p>
-                     <p><?=TEXT_MAIN_3?></p>
+                    <h1><?php echo $lang['special_title_1'];?></h1>
+                    <p><?php echo $lang['special_body_1'];?></p>
+                    <p><?php echo $lang['special_body_2'];?></p>
+                     <p><?php echo $lang['special_body_3'];?></p>
                 </div>
                 <!--                Hier typen--> 
                     

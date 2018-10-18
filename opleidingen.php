@@ -1,4 +1,4 @@
-<?php require_once ('functions/functions.php'); ?>
+<?php include ('functions/config.php');?>
 <!DOCTYPE html>
 <!--
 Index Project Professionele Website
@@ -26,46 +26,46 @@ Index Project Professionele Website
 
               <div class='opleidingen'>
                 <div class='opleidingen_title'>
-                  <?=COURSE_1; ?>
+                  <?php echo $lang['course_arch'];?>
                 </div>
                 <div class='opleidingen_subtitle'>
-                    <?=COURSE_1_1; ?>
+                    <?php echo $lang['course_glac'];?>
                 </div>
                 <div class='opleidingen_text'>
-                      <?=COURSE_1_1_1; ?>
+                      <?php echo $lang['course_glac_info'];?>
                 </div>
               </div>
               <div class='opleidingen'>
                 <div class='opleidingen_title'>
-                  <?=COURSE_1; ?>
+                  <?php echo $lang['course_arch'];?>
                 </div>
                 <div class='opleidingen_subtitle'>
-                    <?=COURSE_1_2; ?>
+                    <?php echo $lang['course_soil'];?>
                 </div>
                 <div class='opleidingen_text'>
-                  <?=COURSE_1_2_2; ?>
+                  <?php echo $lang['course_soil_info'];?>
                 </div>
               </div>
               <div class='opleidingen'>
                 <div class='opleidingen_title'>
-                  <?=COURSE_2; ?>
+                    <?php echo $lang['course_tour'];?>
                 </div>
                 <div class='opleidingen_subtitle'>
-                    <?=COURSE_2_1; ?>
+                    <?php echo $lang['course_hotel'];?>
                 </div>
                 <div class='opleidingen_text'>
-                  <?=COURSE_2_1_1; ?>
+                    <?php echo $lang['course_hotel_info'];?>
                 </div>
               </div>
               <div class='opleidingen'>
                 <div class='opleidingen_title'>
-                  <?=COURSE_2; ?>
+                    <?php echo $lang['course_tour'];?>
                 </div>
                 <div class='opleidingen_subtitle'>
-                    <?=COURSE_2_2; ?>
+                    <?php echo $lang['course_hosp'];?>
                 </div>
                 <div class='opleidingen_text'>
-                  <?=COURSE_2_2_2; ?>
+                    <?php echo $lang['course_hosp_info'];?>
                 </div>
               </div>
 

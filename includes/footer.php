@@ -14,7 +14,7 @@
             <p class="TextChangeWhite"> Disclaimer </p>
         </div>
         <div id="footerInfo"> 
-            <p class="TextChangeWhite"> <?=CONTENT_FOOTER_DISCLAIMER; ?></p>
+            <p class="TextChangeWhite"> <?php echo $lang['disclaim'];?></p>
         </div>
     </div>
     <div id="footerSpacer">   

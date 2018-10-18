@@ -2,7 +2,7 @@
     <div id="headerContainer">
     </div>
      <a href='inlog.php'> <div class="headerInlog">
-        <p class="biggerText"><?=CONTENT_MENU_LOGIN; ?></p>
+        <p class="biggerText"><?php echo $lang['login']; ?></p>
         
          </div> </a>
     <div id="headerSpace">
@@ -35,12 +35,8 @@
             </div>
                 <p id="TextChange"> MENU </p>
             <div class="dropdown-content">
-                <a href="www.google.com"> <p><?=CONTENT_HAMBURGER_NEWS; ?></p> </a>
-                <a href="www.google.com"> <p><?=CONTENT_MENU_1; ?></p> </a>
-                <a href="www.google.com"> <p><?=CONTENT_MENU_2; ?></p> </a>
-                <a href="www.google.com"> <p><?=CONTENT_MENU_3; ?></p> </a>
-                <a href="www.google.com"> <p><?=CONTENT_MENU_4; ?></p> </a>
-                <a href="Fotoalbum.php"> <p><?=CONTENT_HAMBURGER_NEWS_2; ?></p> </a>
+                <a href="www.google.com"> <p><?php echo $lang['news'];?></p> </a>
+                <a href="Fotoalbum.php"> <p><?php echo $lang['photoalbum'];?></p> </a>
             </div>
         </div>
     </div>

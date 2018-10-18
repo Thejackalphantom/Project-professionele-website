@@ -1,4 +1,4 @@
-<?php require_once ('functions/functions.php'); ?>
+<?php include ('functions/config.php');?>
 <!DOCTYPE html>
 <!--
 Disclaimer Project Professionele Website
