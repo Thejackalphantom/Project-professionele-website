@@ -24,11 +24,18 @@ Fotoalbum Project Professionele Website
                 <?php include('includes/header.php');?>
             
             <div id="boxfotos">
+         
             <div id="middelContainer">
              <div class="fotosize">
+                 <h1> Fotoalbums </h1>
                  <img src="img/file.jpg" alt="file">
-                 
-             </div>
+                 <img src="img/file.2.jpg" alt="file">
+                  <div class="textinbox">
+                  <p> Onze school </p>
+                   <div class="textinbox">
+                       <p> Onze school </p>
+                  </div>
+                </div>
             </div> <!-- END OF MIDDLE CONTAINERS-->
             </div>
             <div id="sideBarRight">

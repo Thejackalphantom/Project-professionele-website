@@ -6,7 +6,7 @@ define('CONTENT_MENU_3', 'Opleidingen');
 define('CONTENT_MENU_4', 'Twijfel je nog over een studie?');
 /*DEFINE HAMBURGER MENU HERE*/
 define('CONTENT_HAMBURGER_NEWS', 'Nieuws');
-
+define('CONTENT_HAMBURGER_NEWS_2', 'Fotoalbum');
 /*DEFINE SEARCH BAR HERE*/
 define('CONTENT_SEARCH', 'Zoeken..');
 
@@ -19,18 +19,26 @@ define('CONTENT_FOOTER_DISCLAIMER', '&copy; Archon Hogeschool');
 
 
 /*DEFINES ALL LINES FOR THE PAGE SPECIALNEEDS.PHP*/
+define('CONTENT_MENU_SPECIAL_1', 'Home');
+define('CONTENT_MENU_SPECIAL_2', 'Jeugdzorg');
+define('CONTENT_MENU_SPECIAL_3', 'Speciale afdeling');
+define('CONTENT_MENU_SPECIAL_4', 'Contact');
 define('TEXT_BLOCK_1', 'Speciale gevallen');
 define ('TEXT_MAIN', 'Heb jij een probleem waar wij van moeten weten? Meld dit dan aan het begin'
         . 'van je sutdie. Wij bieden veel extra opties voor mensen met een beperking of thuissituatie.'
-        . 'Dyslectie, ALS, gebroken botten of zit je een in rolstoel. Dit en meer worden door ons ondersteund!');
+        . 'Dyslectie, ADHD, gebroken botten of zit je een in rolstoel. Dit en meer worden door ons ondersteund!');
+define('TEXT_MAIN_2', 'Wij geven extra tijd aan studenten die het nodig zijn, wij hebben ook meerdere'
+        . ' liften in het gebouw zodat het makkelijker is voor mensen met een fysieke beperking om door de school te komen.'
+        . ' Er kan eventueel ook een persoonlijke studiecoach geregelt worden voor studenten die moeite hebben om zich'
+        . ' te focusen tijdens de studie vanwegen een aandoening of thuissituatie.');
 
 
 /*DEFINE ALL LINES FOR ENROLL PAGE */
 define('PAGEHEADER', 'Inschrijven');
 define('EDUCATION_1', 'Opleiding');
 define('EDUCATION_2', 'Kies je opleiding');
-define('EDU_1','archelologie - glaciologie');
-define('EDU_2','archelologie - bodemonderzoek');
+define('EDU_1','archeologie - glaciologie');
+define('EDU_2','archeologie - bodemonderzoek');
 define('EDU_3','tourism - hotelmanagment');
 define('EDU_4','tourism - hospitality');
 
@@ -38,3 +46,12 @@ define('FIRSTNAME', 'Voornaam');
 define('LASTNAME', 'Achternaam');
 define('CITY', 'Plaats');
 define('STREETNAME', 'Straat');
+
+/*DEFINE ALL LINES FOR COURSES PAGE */
+define('COURSE_1','Archeology');
+define('COURSE_1_1','Glaciology');
+define('COURSE_1_2','Soil research');
+
+define('COURSE_2','Tourism');
+define('COURSE_2_1','Hotelmanagment');
+define('COURSE_2_2','Hospitality');

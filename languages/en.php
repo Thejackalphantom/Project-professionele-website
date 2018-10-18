@@ -6,6 +6,7 @@ define('CONTENT_MENU_3', 'Our courses');
 define('CONTENT_MENU_4', 'Are you still in doubt about a course?');
 /*DEFINE HAMBURGER MENU HERE*/
 define('CONTENT_HAMBURGER_NEWS', 'News');
+define('CONTENT_HAMBURGER_NEWS_2', 'Photoalbum');
 
 /*DEFINE SEARCH BAR HERE*/
 define('CONTENT_SEARCH', 'Search..');
@@ -19,22 +20,40 @@ define('CONTENT_FOOTER_DISCLAIMER', '&copy; Archon College');
 
 
 /*DEFINES ALL LINES FOR THE PAGE SPECIALNEEDS.PHP*/
+define('CONTENT_MENU_SPECIAL_1', 'Home');
+define('CONTENT_MENU_SPECIAL_2', 'Youthcare');
+define('CONTENT_MENU_SPECIAL_3', 'Special Section');
+define('CONTENT_MENU_SPECIAL_4', 'Contact');
 define ('TEXT_BLOCK_1', 'Special situations');
 define ('TEXT_MAIN', 'Are you having any problems physically or mentally? Notify us before you start'
-        . 'your course. We offer a lot of extra options for people with a disability or home situation.'
-        . 'Dyslexia, ALS, broken bone or stuck in a wheelchair. All of these are covered, and more! ');
+        . ' your course. We offer a lot of extra options for people with a disability or home situation.'
+        . 'Dyslexia, ADHD, broken bone or stuck in a wheelchair. All of these are covered, and more! ');
+define('TEXT_MAIN_2', 'We provide extra time for students when needed,'
+        . ' we have multiple lifts in our building so it is easier for students who are physically encumbered'
+        . ' to move around through the school'
+        . ' There is a possibility to get a personal study coach for students who are having a hard time'
+        . ' concentrating due to a disability or home situation.');
 
 
 /*DEFINE ALL LINES FOR ENROLL PAGE */
 define('PAGEHEADER', 'Enroll');
 define('EDUCATION_1', 'Education');
 define('EDUCATION_2', 'Chose your education');
-define('EDU_1','archelology - glaciology');
-define('EDU_2','archelology - soil research');
-define('EDU_3','archelology - glaciology');
-define('EDU_4','archelology - glaciology');
+define('EDU_1','archeology - glaciology');
+define('EDU_2','archeology - soil research');
+define('EDU_3','tourism - hotelmanagment');
+define('EDU_4','tourism - hospitality');
 
 define('FIRSTNAME', 'First name');
 define('LASTNAME', 'Last name');
 define('CITY', 'City');
 define('STREETNAME', 'Streetname');
+
+/*DEFINE ALL LINES FOR COURSES PAGE */
+define('COURSE_1','Archeology');
+define('COURSE_1_1','Glaciology');
+define('COURSE_1_2','Soil research');
+
+define('COURSE_2','Tourism');
+define('COURSE_2_1','Hotelmanagment');
+define('COURSE_2_2','Hospitality');
