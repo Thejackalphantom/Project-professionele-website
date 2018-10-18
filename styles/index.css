@@ -114,6 +114,11 @@ html{
     float: left;
 }
 
+#textSpecial {
+    text-align: left;
+    padding: 5px;
+}
+
 /*CONTAINING THE HAMBURGER MENU AT THE TOP AND LOGIN BUTTON WITH THE CHANGE LANGUAGE BUTTON*/
 
 #header{

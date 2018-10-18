@@ -14,12 +14,14 @@
                 <div id="logo">
                     <img src="img/kleur_logo.jpg" alt="Archon Hogeschool">
                 </div>
-               <?php include('includes/menuSpecial.php');?>
+               <?php include('includes/menuSpecial.php');?>  
             </div> <!-- END OF LEFT SIDE BAR-->
             <?php include('includes/header.php'); ?>
             <div id="middleContainer">
-                <h1><?=TEXT_BLOCK_1?></h1>
-                <p><?=TEXT_MAIN?></p>
+                <div id="textSpecial">
+                    <h1><?=TEXT_BLOCK_1?></h1>
+                    <p><?=TEXT_MAIN?></p>
+                </div>
                 <!--                Hier typen--> 
                     
                 <div id="bigButton">
