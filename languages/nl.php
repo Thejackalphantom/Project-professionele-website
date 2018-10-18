@@ -16,7 +16,7 @@ $lang = array(
     /*DEFINES HAMBURGER MENU HERE*/
     'news' => 'Nieuws',
     'photoalbum' => 'Foto Album',
-    '' => '',
+    'special_education' => 'Speciale Gevallen',
     /*DEFINES SEARCH BAR HERE*/
     'search' => 'Zoeken...',
     /*DEFINES LOGIN BUTTON HERE*/
@@ -26,6 +26,10 @@ $lang = array(
     /*DEFINES THE FOOTER CONTENT/DISCLAIMER*/
     'disclaim' => '&copy; Archon Hogeschool',
     /*DEFINE ALL LINES FOR SPECIALNEEDS PAGE */
+    'menu_special_1' => 'Home',
+    'menu_special_2' => 'Jongerenzorg',
+    'menu_special_3' => 'Special Sectie',
+    'menu_special_4' => 'Contact',
     'special_title_1' => 'Speciale gevallen',
     'special_body_1' => 'Heb jij een probleem waar wij van moeten weten? Meld dit dan aan het begin'
                         . ' van je studie. Wij bieden veel extra opties voor mensen met een beperking of thuissituatie.'

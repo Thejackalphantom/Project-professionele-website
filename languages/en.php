@@ -19,7 +19,7 @@ $lang = array(
     /*DEFINES HAMBURGER MENU HERE*/
     'news' => 'News',
     'photoalbum' => 'Photo Album',
-    '' => '',
+    'special_education' => 'Special Needs',
     /*DEFINES SEARCH BAR HERE*/
     'search' => 'Search...',
     /*DEFINES LOGIN BUTTON HERE*/
@@ -29,6 +29,10 @@ $lang = array(
     /*DEFINES THE FOOTER CONTENT/DISCLAIMER*/
     'disclaim' => '&copy; Archon College',
     /*DEFINE ALL LINES FOR SPECIALNEEDS PAGE */
+    'menu_special_1' => 'Home',
+    'menu_special_2' => 'Youthcare',
+    'menu_special_3' => 'Special Section',
+    'menu_special_4' => 'Contact',
     'special_title_1' => 'Special situations',
     'special_body_1' => 'Are you having any problems physically or mentally? Notify us before you start'
                         . ' your course. We offer a lot of extra options for people with a disability or home situation.'
