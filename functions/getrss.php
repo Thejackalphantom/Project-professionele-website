@@ -1,4 +1,4 @@
-<link rel='stylesheet' type='text/css' href='../styles/rss.css'>
+<link rel='stylesheet' type='text/css' href='styles/rss.css'>
 <?php
 $url = 'https://news.google.com/news/rss/search/section/q/onderwijs?ned=us&gl=US&hl=en';
 $xml=simplexml_load_file($url) or die("Error: Cannot create object");

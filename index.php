@@ -26,6 +26,7 @@ Index Project Professionele Website
                 </div>
             </div> <!-- END OF MIDDLE CONTAINERS-->
             <div id="sideBarRight">
+                <?php include('includes/rss.php');?>
             </div>
                 <?php include('includes/footer.php');?>
         </div> <!-- END OF MAIN CONTAINERS-->

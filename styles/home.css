@@ -8,6 +8,7 @@
     height: 600px;
     background: url('../img/banner1.png');
     float: left;
+    border: none;
 }
 
 #bigButton{

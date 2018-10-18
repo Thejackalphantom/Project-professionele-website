@@ -1,10 +1,11 @@
 *{
-    font: 14px/1.5 Arial, Helvetica, sans-serif;
+    /* font: 14px/1.5 Arial, Helvetica, sans-serif; */
 }
 .news{
-  width: 300px;
+  width: 250px;
   border: 2px solid grey;
-  padding: 10px;
+  padding: 15px;
+  margin: 50px auto;
 }
 .news_title{
   font-size: 16px;
