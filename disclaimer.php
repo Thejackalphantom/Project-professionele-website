@@ -7,7 +7,7 @@ Disclaimer Project Professionele Website
     <head>
         <link rel="stylesheet" type="text/css" href="styles/index.css">
         <meta charset="UTF-8">
-        <title>Archon Hogeschool</title>
+        <title><?php echo $lang['title'];//GETS THE TITLE?></title>
 
     </head>
     <body>

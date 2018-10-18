@@ -8,7 +8,7 @@ Fotoalbum Project Professionele Website
         <link rel="stylesheet" type="text/css" href="styles/index.css">
         <link rel="stylesheet" type="text/css" href="styles/fotoalbum.css">
         <meta charset="UTF-8">
-        <title>Archon Hogeschool</title>
+        <title><?php echo $lang['title'];//GETS THE TITLE?></title>
     </head>
     <body>
         <div id="mainContainer">

@@ -8,7 +8,7 @@ Index Project Professionele Website
         <link rel="stylesheet" type="text/css" href="styles/index.css">
         <link rel="stylesheet" type="text/css" href="styles/home.css">
         <meta charset="UTF-8">
-        <title>Archon Contact formulier</title>
+        <title><?php echo $lang['title'];//GETS THE TITLE?></title>
 
     </head>
     <body>

@@ -23,7 +23,7 @@
     </div>
     <div id="footerContainerSecond">
         <div class="search">
-            <input type="text" placeholder=<?=CONTENT_SEARCH; ?>>
+            <input type="text" placeholder=<?php echo $lang['search'];?>>
         </div>
         <div id="footerRight">
             <div class="footerIcon">
