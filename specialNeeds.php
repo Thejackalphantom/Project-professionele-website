@@ -1,8 +1,6 @@
 <?php require_once ('functions/functions.php'); ?>
 <!DOCTYPE html>
-<!--
-Index Project Professionele Website
--->
+
 <html lang="nl-NL">
     <head>
         <link rel="stylesheet" type="text/css" href="styles/index.css">
@@ -16,7 +14,7 @@ Index Project Professionele Website
                 <div id="logo">
                     <img src="img/kleur_logo.jpg" alt="Archon Hogeschool">
                 </div>
-               <?php include('includes/menu.php');?>
+               <?php include('includes/menuSpecial.php');?>
             </div> <!-- END OF LEFT SIDE BAR-->
             <?php include('includes/header.php'); ?>
             <div id="middleContainer">

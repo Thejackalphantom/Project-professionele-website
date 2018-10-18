@@ -1,4 +1,4 @@
-<div id="menuFiller">
+<div class="menuFiller">
     <div id="menu">
       <p><?=CONTENT_MENU_1; ?></p>
       <p><a href='inschrijven.php'><?=CONTENT_MENU_2; ?></a></p>
