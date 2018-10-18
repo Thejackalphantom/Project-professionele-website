@@ -8,7 +8,7 @@
             <p class="TextChangeWhite"> Over Archon Hogeschool </p>
         </div>
         <div id="footerInfo">   
-            <p class="TextChangeWhite"> Contact </p>
+            <a href="contact.php" <p class="TextChangeWhite"> Contact </p> </a>
         </div>
         <div id="footerInfo">   
             <p class="TextChangeWhite"> Disclaimer </p>
