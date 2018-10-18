@@ -82,7 +82,7 @@ p, h1, form, button{border:0; margin:0; padding:0;}
 #stylized label{
     display:block;
     font-weight:bold;
-    text-align:right;
+    text-align:center;
     width:140px;
     float:left;
 }
@@ -91,7 +91,7 @@ p, h1, form, button{border:0; margin:0; padding:0;}
     display:block;
     font-size:11px;
     font-weight:normal;
-    text-align:right;
+    text-align:center;
     width:140px;
 }
 #stylized input{
@@ -100,7 +100,7 @@ p, h1, form, button{border:0; margin:0; padding:0;}
     padding:4px 2px;
     border:solid 1px #aacfe4;
     width:200px;
-    margin:2px 0 20px 10px;
+    margin:2px 0 20px 1px;
 }
 #stylized button{ 
     clear:both;
