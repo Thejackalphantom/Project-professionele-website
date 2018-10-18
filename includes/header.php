@@ -39,6 +39,7 @@
                 <a href="www.google.com"> <p><?=CONTENT_MENU_2; ?></p> </a>
                 <a href="www.google.com"> <p><?=CONTENT_MENU_3; ?></p> </a>
                 <a href="www.google.com"> <p><?=CONTENT_MENU_4; ?></p> </a>
+                <a href="Fotoalbum.php"> <p><?=CONTENT_HAMBURGER_NEWS_2; ?></p> </a>
             </div>
         </div>
     </div>
