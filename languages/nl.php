@@ -28,9 +28,9 @@ define ('TEXT_MAIN', 'Heb jij een probleem waar wij van moeten weten? Meld dit d
         . 'van je sutdie. Wij bieden veel extra opties voor mensen met een beperking of thuissituatie.'
         . 'Dyslectie, ADHD, gebroken botten of zit je een in rolstoel. Dit en meer worden door ons ondersteund!');
 define('TEXT_MAIN_2', 'Wij geven extra tijd aan studenten die het nodig zijn, wij hebben ook meerdere'
-        . 'liften in het gebouw zodat het makkelijker is voor mensen met een fysieke beperking om door de school te komen.'
-        . 'Er kan eventueel ook een persoonlijke studiecoach geregelt worden voor studenten die moeite hebben om zich'
-        . 'te focusen tijdens de studie vanwegen een aandoening of thuissituatie.');
+        . ' liften in het gebouw zodat het makkelijker is voor mensen met een fysieke beperking om door de school te komen.'
+        . ' Er kan eventueel ook een persoonlijke studiecoach geregelt worden voor studenten die moeite hebben om zich'
+        . ' te focusen tijdens de studie vanwegen een aandoening of thuissituatie.');
 
 
 /*DEFINE ALL LINES FOR ENROLL PAGE */
