@@ -20,9 +20,9 @@ Login Project Professionele Website
             </div>
                <?php include('includes/header.php'); ?>
             <div id="middleContainer">
-                <div id="bigButton">
-                    <p><?=CONTENT_BIG_BUTTON; ?></p>
-                </div>
+                
+                
+                
             </div> <!-- END OF MIDDLE CONTAINERS-->
             <div id="sideBarRight">
                 <?php include('includes/rss.php');?>
