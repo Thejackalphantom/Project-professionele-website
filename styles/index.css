@@ -50,10 +50,12 @@ html{
 
 /*FILLS THE PLACE WHERE THE MENU GOES TO PREVENT THE CONTENT FROM SHIFTING*/
 
-#menuFiller{
+.menuFiller{
     height: 670px;
     width: 360px;
 }
+
+
 
 /*THIS IS THE MENU BAR*/
 
@@ -67,7 +69,25 @@ html{
     background-color: white;
 }
 
+#menuSpecial {
+    height: 460px;
+    width: 280px;
+    margin-top: 25px;
+    margin-left: 35px;
+    margin-right: 35px;
+    border: 2px solid black;
+    background-color: white;
+}
+
 #menu p {
+    font-family: arial;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 25px;
+}
+
+#menuSpecial p {
     font-family: arial;
     padding-top: 30px;
     padding-left: 30px;
