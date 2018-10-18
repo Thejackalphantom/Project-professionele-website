@@ -4,11 +4,11 @@
 .news{
   width: 250px;
   border: 2px solid black;
-  padding: 20px;
-  margin: 55px auto;
+  padding: 16px;
+  margin: 58px auto;
 }
 .news_title{
-  font-size: 17px;
+  font-size: 15px;
 }
 
 .news_link{
@@ -16,5 +16,5 @@
 }
 
 .news_date{
-
+  font-size: 14px;
 }
