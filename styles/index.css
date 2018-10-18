@@ -290,8 +290,7 @@ html{
 
 .search {
     overflow: hidden;
-    background-color: white;
-	float: left;
+    float: left;
 }
 
 .search input[type=text] {
