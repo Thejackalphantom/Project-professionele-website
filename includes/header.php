@@ -36,7 +36,7 @@
             <div class="dropdown-content">
                 <a href="www.google.com"> <p><?=CONTENT_HAMBURGER_NEWS; ?></p> </a>
                 <a href="www.google.com"> <p><?=CONTENT_MENU_1; ?></p> </a>
-                <a href="www.google.com"> <p><?=CONTENT_MENU_2; ?></p> </a> 
+                <a href="www.google.com"> <p><?=CONTENT_MENU_2; ?></p> </a>
                 <a href="www.google.com"> <p><?=CONTENT_MENU_3; ?></p> </a>
                 <a href="www.google.com"> <p><?=CONTENT_MENU_4; ?></p> </a>
             </div>

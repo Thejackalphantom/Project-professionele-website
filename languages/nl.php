@@ -26,7 +26,9 @@ define ('TEXT_MAIN', 'Heb jij een probleem waar wij van moeten weten? Meld dit d
 
 
 /*DEFINE ALL LINES FOR ENROLL PAGE */
-define('EDUCATION', 'Kies je opleiding');
+define('PAGEHEADER', 'Inschrijven');
+define('EDUCATION_1', 'Opleiding');
+define('EDUCATION_2', 'Kies je opleiding');
 define('EDU_1','archelologie - glaciologie');
 define('EDU_2','archelologie - bodemonderzoek');
 define('EDU_3','tourism - hotelmanagment');
