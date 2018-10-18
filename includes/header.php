@@ -1,12 +1,13 @@
 <div id="header">
     <div id="headerContainer">
     </div>
-    <div class="headerInlog">
+     <a href='inlog.php'> <div class="headerInlog">
         <p class="biggerText"><?=CONTENT_MENU_LOGIN; ?></p>
-    </div>
+        
+         </div> </a>
     <div id="headerSpace">
     </div>
-    <div class="headerInlog">
+    <div class="headerLang">
         <div class="headerFlagNL">
             <a href="?lang=nl"><img src="img/nl.jpg" alt="NL"></a>
         </div>
@@ -39,6 +40,7 @@
                 <a href="www.google.com"> <p><?=CONTENT_MENU_2; ?></p> </a>
                 <a href="www.google.com"> <p><?=CONTENT_MENU_3; ?></p> </a>
                 <a href="www.google.com"> <p><?=CONTENT_MENU_4; ?></p> </a>
+                <a href="Fotoalbum.php"> <p><?=CONTENT_HAMBURGER_NEWS_2; ?></p> </a>
             </div>
         </div>
     </div>

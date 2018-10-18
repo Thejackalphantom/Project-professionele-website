@@ -1,0 +1,20 @@
+*{
+    /* font: 14px/1.5 Arial, Helvetica, sans-serif; */
+}
+.news{
+  width: 250px;
+  border: 2px solid black;
+  padding: 16px;
+  margin: 58px auto;
+}
+.news_title{
+  font-size: 15px;
+}
+
+.news_link{
+
+}
+
+.news_date{
+  font-size: 14px;
+}
