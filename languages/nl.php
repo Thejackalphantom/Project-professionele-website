@@ -25,12 +25,16 @@ define('CONTENT_MENU_SPECIAL_3', 'Speciale afdeling');
 define('CONTENT_MENU_SPECIAL_4', 'Contact');
 define('TEXT_BLOCK_1', 'Speciale gevallen');
 define ('TEXT_MAIN', 'Heb jij een probleem waar wij van moeten weten? Meld dit dan aan het begin'
-        . 'van je sutdie. Wij bieden veel extra opties voor mensen met een beperking of thuissituatie.'
-        . 'Dyslectie, ADHD, gebroken botten of zit je een in rolstoel. Dit en meer worden door ons ondersteund!');
+        . ' van je studie. Wij bieden veel extra opties voor mensen met een beperking of thuissituatie.'
+        . ' Dyslectie, ADHD, gebroken botten of zit je een in rolstoel. Dit en meer worden door ons ondersteund!');
 define('TEXT_MAIN_2', 'Wij geven extra tijd aan studenten die het nodig zijn, wij hebben ook meerdere'
         . ' liften in het gebouw zodat het makkelijker is voor mensen met een fysieke beperking om door de school te komen.'
         . ' Er kan eventueel ook een persoonlijke studiecoach geregelt worden voor studenten die moeite hebben om zich'
         . ' te focusen tijdens de studie vanwegen een aandoening of thuissituatie.');
+define('TEXT_MAIN_3', 'Onze school heeft tevens ook vijf vertrouwenspersonen, deze personen zijn er om '
+        . ' voor elk probleem een oplossing te vinden. Deze personen zijn binnen schooltijden altijd beschikbaar,'
+        . ' buiten schooltijden is er elke dag een persoon beschikbaar. Deze personen kunnen door iedereen benaderd worden,'
+        . ' ook door familie en vrienden die iets willen melden over een student. ');
 
 
 /*DEFINE ALL LINES FOR ENROLL PAGE */

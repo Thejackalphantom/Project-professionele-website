@@ -33,6 +33,12 @@ define('TEXT_MAIN_2', 'We provide extra time for students when needed,'
         . ' to move around through the school'
         . ' There is a possibility to get a personal study coach for students who are having a hard time'
         . ' concentrating due to a disability or home situation.');
+define('TEXT_MAIN_3', 'Our school has 5 confidential persons employed, these persons are available to solve problems. '
+        . ' All five of these persons are always available within school times.,'
+        . ' Outside of school times there will always be atleast one person available.'
+        . ' All of these persons can also be approached by everyone,'
+        . ' even family or friends can report something to them if they think '
+        . ' something should be reported. ');
 
 
 /*DEFINE ALL LINES FOR ENROLL PAGE */
