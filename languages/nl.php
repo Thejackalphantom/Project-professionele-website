@@ -48,10 +48,14 @@ define('CITY', 'Plaats');
 define('STREETNAME', 'Straat');
 
 /*DEFINE ALL LINES FOR COURSES PAGE */
-define('COURSE_1','Archeology');
-define('COURSE_1_1','Glaciology');
-define('COURSE_1_2','Soil research');
+define('COURSE_1','Archeologie');
+define('COURSE_1_1','Glaciologie');
+define('COURSE_1_1_1','Glaciologie of gletsjerkunde is de wetenschap die zich met de bestudering van ijs, gletsjerijs, gletsjers en landijs bezighoudt. Het gaat hierbij zowel om bestuderen van glaciale fenomenen die vandaag de dag optreden, als om de studie van glaciaties uit het verleden. Het is een interdisciplinaire aardwetenschap en omvat delen van geologie, klimatologie, meteorologie, hydrologie en natuurkunde.');
+define('COURSE_1_2','Bodemonderzoek');
+define('COURSE_1_2_2','Technisch onderzoek van de bodem, in de bouwwereld vooral naar de geschiktheid van een ondergrond als fundering. Veldonderzoek of terreinonderzoek omvat bv. sonderingen, kleefmeting, grondboringen, milieutechnisch onderzoek, het uitzetten en waterpassen. Belangrijkste doelen zijn het peilen van de plaats van de grondwaterspiegel en het vast stellen van de diepte van de draagkrachtige laag. Laboratoriumonderzoek omvat het bepalen van de sterkte en de stijfheid van de grond aan de hand van zgn. ongeroerde grondmonsters, proefbelastingen, milieuonderzoek naar verontreinigingen.');
 
-define('COURSE_2','Tourism');
+define('COURSE_2','Tourisme');
 define('COURSE_2_1','Hotelmanagment');
+define('COURSE_2_1_1','Of je nu in binnenland of buitenland in een hotel werkt, als hotelmanager leer je omgaan met een internationaal publiek. Ontelbare hotels en ressorts bieden dagelijks onderdak aan evenzoveel bezoekers. Mensen die op reis zijn, een evenement bezoeken of een zakenbijeenkomst houden. Voor een loopbaan in de hotelwereld moet je heel wat in huis hebben. Je streeft alleen maar naar het beste voor je gasten. Kwaliteit en tevreden klanten zijn belangrijk voor jou. Jij als hotelmanager bent daar verantwoordelijk voor. Aangezien de wereld steeds kleiner wordt, door een verenigd Europa en bedrijven met buitenlandse vestigingen, stap je in een afwisselende baan met veel uitdagingen en verantwoordelijkheden.');
 define('COURSE_2_2','Hospitality');
+define('COURSE_2_2_2',' Hospitality (ook wel gastvrijheid genoemd) is een ware trend, maar het is veel meer dan dat. Hospitality is een woord met een enorme lading, waar steeds meer betekenis aan wordt gegeven. Hospitality is een verandering van het deoxyribonucleic acid (DNA) van een organisatie en bedrijfscultuur. Bedrijven die hospitality op de juiste wijze inzetten, maken het verschil en veroveren het hart van hun klant.');
