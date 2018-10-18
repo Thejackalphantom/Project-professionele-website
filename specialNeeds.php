@@ -23,6 +23,7 @@
                     <p><?=TEXT_MAIN?></p>
                     <p><?=TEXT_MAIN_2?></p>
                      <p><?=TEXT_MAIN_3?></p>
+                     <p><img src="img/specialNeedsImg.png"></p>
                 </div>
                 <!--                Hier typen--> 
                     
