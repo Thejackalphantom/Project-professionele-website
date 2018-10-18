@@ -76,8 +76,7 @@ Index Project Professionele Website
               </div>
 
             </div> <!-- END OF MIDDLE CONTAINERS-->
-            <div id="sideBarRight">
-            </div>
+
             <div id="footer">
                 <span><?php echo CONTENT_FOOTER_DISCLAIMER; ?></span>
             </div> <!-- END OF FOOTER-->

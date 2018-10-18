@@ -37,8 +37,8 @@ define('TEXT_MAIN_2', 'Wij geven extra tijd aan studenten die het nodig zijn, wi
 define('PAGEHEADER', 'Inschrijven');
 define('EDUCATION_1', 'Opleiding');
 define('EDUCATION_2', 'Kies je opleiding');
-define('EDU_1','archelologie - glaciologie');
-define('EDU_2','archelologie - bodemonderzoek');
+define('EDU_1','archeologie - glaciologie');
+define('EDU_2','archeologie - bodemonderzoek');
 define('EDU_3','tourism - hotelmanagment');
 define('EDU_4','tourism - hospitality');
 
@@ -46,3 +46,12 @@ define('FIRSTNAME', 'Voornaam');
 define('LASTNAME', 'Achternaam');
 define('CITY', 'Plaats');
 define('STREETNAME', 'Straat');
+
+/*DEFINE ALL LINES FOR COURSES PAGE */
+define('COURSE_1','Archeology');
+define('COURSE_1_1','Glaciology');
+define('COURSE_1_2','Soil research');
+
+define('COURSE_2','Tourism');
+define('COURSE_2_1','Hotelmanagment');
+define('COURSE_2_2','Hospitality');
