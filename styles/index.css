@@ -105,6 +105,13 @@ html{
     background-color: white;
     float: left;
 }
+#middleSpaceLeft{
+    width: 400px;
+    height: 598px;
+    float: left;
+    background-color: white;
+    margin-top: 1px;
+}
 
 /*CONTAINING THE HOMEPAGE FOTO'S AND EXPLORE EDUCATION BUTTON'*/
 
