@@ -6,6 +6,7 @@ define('CONTENT_MENU_3', 'Our courses');
 define('CONTENT_MENU_4', 'Are you still in doubt about a course?');
 /*DEFINE HAMBURGER MENU HERE*/
 define('CONTENT_HAMBURGER_NEWS', 'News');
+define('CONTENT_HAMBURGER_NEWS_2', 'Photoalbum');
 
 /*DEFINE SEARCH BAR HERE*/
 define('CONTENT_SEARCH', 'Search..');
