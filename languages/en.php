@@ -29,8 +29,8 @@ define ('TEXT_MAIN', 'Are you having any problems physically or mentally? Notify
 define('PAGEHEADER', 'Enroll');
 define('EDUCATION_1', 'Education');
 define('EDUCATION_2', 'Chose your education');
-define('EDU_1','archelology - glaciology');
-define('EDU_2','archelology - soil research');
+define('EDU_1','archeology - glaciology');
+define('EDU_2','archeology - soil research');
 define('EDU_3','tourism - hotelmanagment');
 define('EDU_4','tourism - hospitality');
 
@@ -38,3 +38,12 @@ define('FIRSTNAME', 'First name');
 define('LASTNAME', 'Last name');
 define('CITY', 'City');
 define('STREETNAME', 'Streetname');
+
+/*DEFINE ALL LINES FOR COURSES PAGE */
+define('COURSE_1','Archeology');
+define('COURSE_1_1','Glaciology');
+define('COURSE_1_2','Soil research');
+
+define('COURSE_2','Tourism');
+define('COURSE_2_1','Hotelmanagment');
+define('COURSE_2_2','Hospitality');

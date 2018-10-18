@@ -21,9 +21,65 @@ Index Project Professionele Website
             </div> <!-- END OF LEFT SIDE BAR-->
                 <?php include('includes/header.php'); ?>
             <div id="middleContainer">
+
               <div class='opleidingen'>
                 <div class='opleidingen_title'>
-                  Archelologie
+                  <?=COURSE_1; ?>
+                </div>
+                <div class='opleidingen_subtitle'>
+                    <?=COURSE_1_1; ?>
+                </div>
+                <div class='opleidingen_text'>
+                  Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
+                  Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw,
+                  toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde om een font-catalogus te maken.
+                  Het heeft niet alleen vijf eeuwen overleefd maar is ook,
+                  vrijwel onveranderd, overgenomen in elektronische letterzetting.
+                </div>
+              </div>
+              <div class='opleidingen'>
+                <div class='opleidingen_title'>
+                  <?=COURSE_1; ?>
+                </div>
+                <div class='opleidingen_subtitle'>
+                    <?=COURSE_1_2; ?>
+                </div>
+                <div class='opleidingen_text'>
+                  Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
+                  Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw,
+                  toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde om een font-catalogus te maken.
+                  Het heeft niet alleen vijf eeuwen overleefd maar is ook,
+                  vrijwel onveranderd, overgenomen in elektronische letterzetting.
+                </div>
+              </div>
+              <div class='opleidingen'>
+                <div class='opleidingen_title'>
+                  <?=COURSE_2; ?>
+                </div>
+                <div class='opleidingen_subtitle'>
+                    <?=COURSE_2_1; ?>
+                </div>
+                <div class='opleidingen_text'>
+                  Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
+                  Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw,
+                  toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde om een font-catalogus te maken.
+                  Het heeft niet alleen vijf eeuwen overleefd maar is ook,
+                  vrijwel onveranderd, overgenomen in elektronische letterzetting.
+                </div>
+              </div>
+              <div class='opleidingen'>
+                <div class='opleidingen_title'>
+                  <?=COURSE_2; ?>
+                </div>
+                <div class='opleidingen_subtitle'>
+                    <?=COURSE_2_2; ?>
+                </div>
+                <div class='opleidingen_text'>
+                  Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
+                  Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw,
+                  toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde om een font-catalogus te maken.
+                  Het heeft niet alleen vijf eeuwen overleefd maar is ook,
+                  vrijwel onveranderd, overgenomen in elektronische letterzetting.
                 </div>
               </div>
 
