@@ -1,0 +1,19 @@
+*{
+    font: 14px/1.5 Arial, Helvetica, sans-serif;
+}
+.news{
+  width: 300px;
+  border: 2px solid grey;
+  padding: 10px;
+}
+.news_title{
+  font-size: 16px;
+}
+
+.news_link{
+
+}
+
+.news_date{
+
+}
