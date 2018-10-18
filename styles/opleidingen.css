@@ -1,0 +1,22 @@
+.opleidingen{
+  width: 500px;
+  height: 200px;
+  padding: 30px 50px 30px 50px;
+  float: left;
+  margin-top: 10px;
+}
+
+.opleidingen_title{
+  font-weight: bold;
+  padding: 3px;
+  font-size: 25px;
+}
+.opleidingen_subtitle{
+  padding: 5px 5px 15px 5px;
+  font-size: 20px;
+}
+
+.opleidingen_text{
+  padding-left: 5px;
+  font-size: 15px;
+}
