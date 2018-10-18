@@ -42,13 +42,16 @@ Fotoalbum Project Professionele Website
                        <p> Onze school </p>
                   </div>
                  </div>
+                 
+                 <div class="boxtext">
+                     <img src="img/upload.jpg" alt="upload"> <h2> upload je eigen foto's </h2>
+                 </div>
                 
                 </div>
              </div>
             </div> <!-- END OF MIDDLE CONTAINERS-->
            
-            <div id="sideBarRight">
-            </div>
+            
                 <?php include('includes/footer.php');?>
         </div> <!-- END OF MAIN CONTAINERS-->
 

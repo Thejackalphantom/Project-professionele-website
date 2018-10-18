@@ -9,7 +9,6 @@ Index Project Professionele Website
         <link rel="stylesheet" type="text/css" href="styles/home.css">
         <meta charset="UTF-8">
         <title>Archon Hogeschool</title>
-
     </head>
     <body>
         <div id="mainContainer">

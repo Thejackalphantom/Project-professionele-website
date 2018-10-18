@@ -63,6 +63,7 @@ p, h1, form, button{border:0; margin:0; padding:0;}
 
 /* ----------- stylized ----------- */
 #stylized{
+    margin-top: 100px;
     border:solid 2px #b7ddf2;
     background:#ebf4fb;
 
@@ -74,10 +75,10 @@ p, h1, form, button{border:0; margin:0; padding:0;}
 }
 #stylized p{
     font-size:11px;
-    color:#666666;
+   
     margin-bottom:20px;
     border-bottom:solid 1px #b7ddf2;
-    padding-bottom:10px;
+    padding-bottom:15px;
 }
 #stylized label{
     display:block;
@@ -116,4 +117,7 @@ p, h1, form, button{border:0; margin:0; padding:0;}
 }
 textarea{
     resize: none;
+}
+#dropdown{
+    padding-bottom: 20px;
 }
