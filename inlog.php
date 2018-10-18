@@ -14,7 +14,9 @@ Login Project Professionele Website
         <div id="mainContainer">
             <div id="sideBarLeft">
                 <div id="logo">
-                    <img src="img/kleur_logo.jpg" alt="Archon Hogeschool">
+                    <a href='index.php'>
+                        <img src="img/kleur_logo.jpg" alt="Archon Hogeschool">
+                    </a>
                 </div>
                 <?php include('includes/menu.php');?>
             </div>
@@ -37,10 +39,6 @@ Login Project Professionele Website
                         <label>
                           <input type="checkbox" checked="checked" name="remember"> Remember me
                         </label>
-                      </div>
-
-                      <div class="container" style="background-color:#f1f1f1">
-                        <span class="psw">Forgot <a href="#">password?</a></span>
                       </div>
                     </form>
 
