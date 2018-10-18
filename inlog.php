@@ -21,8 +21,29 @@ Login Project Professionele Website
                <?php include('includes/header.php'); ?>
             <div id="middleContainer">
                 <div id="middleSpaceLeft">
+                    
                 </div>
-                
+                <h2>Login Form</h2>
+                    <form action="/action_page.php">
+                     
+                      <div class="container">
+                          <p> <b>Username</b></p>
+                        <input type="text" placeholder="Enter Username" name="uname" required>
+
+                        <p><b>Password</b></p>
+                        <input type="password" placeholder="Enter Password" name="psw" required>
+
+                        <button type="submit">Login</button>
+                        <label>
+                          <input type="checkbox" checked="checked" name="remember"> Remember me
+                        </label>
+                      </div>
+
+                      <div class="container" style="background-color:#f1f1f1">
+                        <span class="psw">Forgot <a href="#">password?</a></span>
+                      </div>
+                    </form>
+
             </div> <!-- END OF MIDDLE CONTAINERS-->
             <div id="sideBarRight">
                
