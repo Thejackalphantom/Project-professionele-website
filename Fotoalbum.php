@@ -20,14 +20,22 @@ Fotoalbum Project Professionele Website
                 <?php include('includes/menu.php');?>
             </div>
                 <?php include('includes/header.php');?>
+            
+            <div id="boxfotos">
             <div id="middelContainer">
              <div class="fotosize">
                  <img src="img/file.jpg" alt="file">
              </div>
             </div> <!-- END OF MIDDLE CONTAINERS-->
+            </div>
             <div id="sideBarRight">
             </div>
                 <?php include('includes/footer.php');?>
         </div> <!-- END OF MAIN CONTAINERS-->
-     </body>
+    
+    
+    
+    
+    
+    </body>
 </html>
