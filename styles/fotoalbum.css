@@ -1,5 +1,5 @@
-#fotosize{
-	width: 800px;
-	height: 800px;
-	float: left;
+.fotosize img {
+    height: 100px;
+    width: 100px;
+  
 }

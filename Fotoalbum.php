@@ -75,8 +75,9 @@ Index Project Professionele Website
                   </div>
                   
             </div> <!-- END OF HEADER -->
-             <div id="fotosize">
-            <img src="img/file.jpg" alt="file">
+            <div id="middelContainer">
+             <div class="fotosize">
+                 <img src="img/file.jpg" alt="file">
              </div>
 >          </div> <!-- END OF MIDDLE CONTAINERS-->
             <div id="sideBarRight">
