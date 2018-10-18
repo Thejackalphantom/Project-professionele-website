@@ -58,8 +58,13 @@ define('STREETNAME', 'Streetname');
 /*DEFINE ALL LINES FOR COURSES PAGE */
 define('COURSE_1','Archeology');
 define('COURSE_1_1','Glaciology');
+define('COURSE_1_1_1','Glaciology, scientific discipline concerned with all aspects of ice on landmasses. It deals with the structure and properties of glacier ice, its formation and distribution, the dynamics of ice flow, and the interactions of ice accumulation with climate. Glaciological research is conducted with a variety of methods. The internal structure of glaciers, for example, is studied by means of radar sounding, while glacier movement is monitored by measuring the deformation of vertical boreholes or lateral tunnels dug into the ice. Estimates of ice accumulation over large areas are made with data secured by remote sensing (e.g., with satellite-borne infrared and multispectral scanners), and the successive annual layers in glacier ice are commonly differentiated by measuring oxygen isotope ratios.');
+
 define('COURSE_1_2','Soil research');
+define('COURSE_1_2_2','Soil, the biologically active, porous medium that has developed in the uppermost layer of Earth’s crust. Soil is one of the principal substrata of life on Earth, serving as a reservoir of water and nutrients, as a medium for the filtration and breakdown of injurious wastes, and as a participant in the cycling of carbon and other elements through the global ecosystem. It has evolved through weathering processes driven by biological, climatic, geologic, and topographic influences.');
 
 define('COURSE_2','Tourism');
-define('COURSE_2_1','Hotelmanagment');
+define('COURSE_2_1','Hotel managment');
+define('COURSE_2_1_1','Hotel Management is an area of study that covers a wide range of topics concerned with the operational aspects of hoteliery. Educational courses in hotel management are varied and cover topics as wide ranging as marketing, eco-tourism, leisure, business administration and management.');
 define('COURSE_2_2','Hospitality');
+define('COURSE_2_2_2','Hospitality management focuses on ensuring customer safety and comfort in a hotel, restaurant or entertainment facility. Hospitality management centres on customer satisfaction that would lead to his loyalty and repeated business. Students in hospitality management usually have the opportunity to receive hands-on experience in real hospitality organisations. Hospitality management integrates theories from similar disciplines like: commerce, business administration and supply chain management and logistics.');

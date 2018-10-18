@@ -15,7 +15,9 @@ Index Project Professionele Website
         <div id="mainContainer">
             <div id="sideBarLeft">
                 <div id="logo">
+                  <a href='index.php'>
                     <img src="img/kleur_logo.jpg" alt="Archon Hogeschool">
+                  </a>
                 </div>
                       <?php include('includes/menu.php');?>
             </div> <!-- END OF LEFT SIDE BAR-->
@@ -30,11 +32,7 @@ Index Project Professionele Website
                     <?=COURSE_1_1; ?>
                 </div>
                 <div class='opleidingen_text'>
-                  Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
-                  Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw,
-                  toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde om een font-catalogus te maken.
-                  Het heeft niet alleen vijf eeuwen overleefd maar is ook,
-                  vrijwel onveranderd, overgenomen in elektronische letterzetting.
+                      <?=COURSE_1_1_1; ?>
                 </div>
               </div>
               <div class='opleidingen'>
@@ -45,11 +43,7 @@ Index Project Professionele Website
                     <?=COURSE_1_2; ?>
                 </div>
                 <div class='opleidingen_text'>
-                  Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
-                  Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw,
-                  toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde om een font-catalogus te maken.
-                  Het heeft niet alleen vijf eeuwen overleefd maar is ook,
-                  vrijwel onveranderd, overgenomen in elektronische letterzetting.
+                  <?=COURSE_1_2_2; ?>
                 </div>
               </div>
               <div class='opleidingen'>
@@ -60,11 +54,7 @@ Index Project Professionele Website
                     <?=COURSE_2_1; ?>
                 </div>
                 <div class='opleidingen_text'>
-                  Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
-                  Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw,
-                  toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde om een font-catalogus te maken.
-                  Het heeft niet alleen vijf eeuwen overleefd maar is ook,
-                  vrijwel onveranderd, overgenomen in elektronische letterzetting.
+                  <?=COURSE_2_1_1; ?>
                 </div>
               </div>
               <div class='opleidingen'>
@@ -75,11 +65,7 @@ Index Project Professionele Website
                     <?=COURSE_2_2; ?>
                 </div>
                 <div class='opleidingen_text'>
-                  Lorem Ipsum is slechts een proeftekst uit het drukkerij- en zetterijwezen.
-                  Lorem Ipsum is de standaard proeftekst in deze bedrijfstak sinds de 16e eeuw,
-                  toen een onbekende drukker een zethaak met letters nam en ze door elkaar husselde om een font-catalogus te maken.
-                  Het heeft niet alleen vijf eeuwen overleefd maar is ook,
-                  vrijwel onveranderd, overgenomen in elektronische letterzetting.
+                  <?=COURSE_2_2_2; ?>
                 </div>
               </div>
 
