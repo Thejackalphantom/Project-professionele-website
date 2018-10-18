@@ -93,6 +93,13 @@ html{
     float: left;
 }
 
+#middleSpaceLeft{
+    width: 400px;
+    height: 600px;
+    float: left;
+    background-color: pink;
+}
+
 /*CONTAINING THE HAMBURGER MENU AT THE TOP AND LOGIN BUTTON WITH THE CHANGE LANGUAGE BUTTON*/
 
 #header{
