@@ -15,17 +15,27 @@ Fotoalbum Project Professionele Website
         <div id="mainContainer">
             <div id="sideBarLeft">
                 <div id="logo">
+                     <a href='index.php'>
                     <img src="img/kleur_logo.jpg" alt="Archon Hogeschool">
+                    </a>
                 </div>
                 <?php include('includes/menu.php');?>
             </div>
                 <?php include('includes/header.php');?>
             
             <div id="boxfotos">
+         
             <div id="middelContainer">
              <div class="fotosize">
+                 <h1> Fotoalbums </h1>
                  <img src="img/file.jpg" alt="file">
-             </div>
+                 <img src="img/file.2.jpg" alt="file">
+                  <div class="textinbox">
+                  <p> Onze school </p>
+                   <div class="textinbox">
+                       <p> Onze school </p>
+                  </div>
+                </div>
             </div> <!-- END OF MIDDLE CONTAINERS-->
             </div>
             <div id="sideBarRight">

@@ -87,10 +87,17 @@ html{
 /*CONTAINING THE HOMEPAGE FOTO'S AND EXPLORE EDUCATION BUTTON'*/
 
 #middleContainer{
-    width: 1200px;
+    width: 1196px;
     height: 600px;
     border: 2px solid black;
     float: left;
+}
+
+#middleSpaceLeft{
+    width: 400px;
+    height: 600px;
+    float: left;
+    background-color: pink;
 }
 
 /*CONTAINING THE HAMBURGER MENU AT THE TOP AND LOGIN BUTTON WITH THE CHANGE LANGUAGE BUTTON*/
