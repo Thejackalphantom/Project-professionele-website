@@ -26,8 +26,13 @@ define('CONTENT_MENU_SPECIAL_3', 'Special Section');
 define('CONTENT_MENU_SPECIAL_4', 'Contact');
 define ('TEXT_BLOCK_1', 'Special situations');
 define ('TEXT_MAIN', 'Are you having any problems physically or mentally? Notify us before you start'
-        . 'your course. We offer a lot of extra options for people with a disability or home situation.'
+        . ' your course. We offer a lot of extra options for people with a disability or home situation.'
         . 'Dyslexia, ADHD, broken bone or stuck in a wheelchair. All of these are covered, and more! ');
+define('TEXT_MAIN_2', 'We provide extra time for students when needed,'
+        . ' we have multiple lifts in our building so it is easier for students who are physically encumbered'
+        . ' to move around through the school'
+        . ' There is a possibility to get a personal study coach for students who are having a hard time'
+        . ' concentrating due to a disability or home situation.');
 
 
 /*DEFINE ALL LINES FOR ENROLL PAGE */

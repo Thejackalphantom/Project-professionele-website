@@ -21,6 +21,7 @@
                 <div id="textSpecial">
                     <h1><?=TEXT_BLOCK_1?></h1>
                     <p><?=TEXT_MAIN?></p>
+                    <p><?=TEXT_MAIN_2?></p>
                 </div>
                 <!--                Hier typen--> 
                     
