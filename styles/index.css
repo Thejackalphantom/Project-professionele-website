@@ -224,6 +224,14 @@ html{
 	padding-left: 20px;
 }
 
+.headerLang{
+	height: 40px;
+	width: 180px;
+	background-color: lightgrey;
+	float: left;
+	padding-left: 20px;
+}
+
 .headerFlagNL{
         border: 4px solid grey;
 	margin-top: 6px;
@@ -282,8 +290,7 @@ html{
 
 .search {
     overflow: hidden;
-    background-color: white;
-	float: left;
+    float: left;
 }
 
 .search input[type=text] {

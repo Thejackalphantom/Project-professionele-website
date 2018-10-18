@@ -5,6 +5,7 @@ Login Project Professionele Website
 -->
 <html lang="nl-NL">
     <head>
+        <link rel="stylesheet" type="text/css" href="styles/index.css">
         <link rel="stylesheet" type="text/css" href="styles/inlog.css">
         <meta charset="UTF-8">
         <title>Archon Hogeschool</title>
@@ -26,7 +27,7 @@ Login Project Professionele Website
                     
                 </div>
                 <h2>Login Form</h2>
-                    <form action="/action_page.php">
+                    <form action="/action_page.php" method="POST">
                      
                       <div class="container">
                           <p> <b>Username</b></p>
