@@ -19,7 +19,11 @@ define('CONTENT_FOOTER_DISCLAIMER', '&copy; Archon Hogeschool');
 
 
 /*DEFINES ALL LINES FOR THE PAGE SPECIALNEEDS.PHP*/
-define('TEXT_BLOCK_1', 'Test test test');
+define('TEXT_BLOCK_1', 'Speciale gevallen');
+define ('TEXT_MAIN', 'Heb jij een probleem waar wij van moeten weten? Meld dit dan aan het begin'
+        . 'van je sutdie. Wij bieden veel extra opties voor mensen met een beperking of thuissituatie.'
+        . 'Dyslectie, ALS, gebroken botten of zit je een in rolstoel. Dit en meer worden door ons ondersteund!');
+
 
 /*DEFINE ALL LINES FOR ENROLL PAGE */
 define('PAGEHEADER', 'Inschrijven');
