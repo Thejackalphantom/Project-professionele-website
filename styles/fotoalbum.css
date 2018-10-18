@@ -1,5 +1,12 @@
 .fotosize img {
-    height: 100px;
-    width: 100px;
-  
+    height: 250px;
+    width: auto;
+    margin-left: 50px;
+    margin-top: 28px;
+}
+.fotosize {
+    height: 600px;
+    width: 1200px;
+    /*background-color: red; */
+    float: left;
 }
