@@ -118,6 +118,13 @@ html{
     font-family: arial;
     font-size: 20px;
 }
+
+#textDoubt{
+    text-align: left;
+    padding: 5px;
+    font-family: arial;
+    font-size: 25px;
+}
 /*CONTAINING THE HAMBURGER MENU AT THE TOP AND LOGIN BUTTON WITH THE CHANGE LANGUAGE BUTTON*/
 
 #header{
