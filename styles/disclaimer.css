@@ -102,18 +102,19 @@ html{
     float: left;
 }
 #middleSpaceLeft{
-    width: 00px;
+    width: 300px;
     height: 598px;
     float: left;
     background-color: white;
     margin-top: 1px;
 }
 #middleText{
-    width: 800px;
+    width: 600px;
     height: 598px;
     float: left;
     background-color: white;
     margin-top: 1px;
+    text-align: justify;
 }
 
 /*CONTAINING THE HOMEPAGE FOTO'S AND EXPLORE EDUCATION BUTTON'*/
