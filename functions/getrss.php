@@ -6,7 +6,7 @@
     <body>
         <?php
             set_error_handler(function() { /* ignore errors */ });
-            $url = 'https://news.google.com/news/rss/search/section/q/hogeschool?ned=us&gl=US&hl=en';
+            $url = 'https://news.google.com/news/rss/search/section/q/' . $lang["rss_searchterm"] . '?ned=us&gl=US&hl=en';
             // $url = 'testniks.xml';
             $xml=simplexml_load_file($url);
             if(empty($xml)){
@@ -31,4 +31,3 @@
         ?>
     </body>
 </html>
-
