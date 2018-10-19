@@ -98,6 +98,20 @@ $lang = array(
                 . ' voor ontwikkeling. Toch houden wij ondanks onze afgelegen locatie een sterke band met het buitenland. Onze focus ligt '
                 . ' voor een groot deel in het buitenland. Stages kunnen hierdoor internationaal gevolgd worden.'
                 . ' Dit bied nog meer kansen voor studenten, een kans die de meeste scholen niet bieden.',
+    /*DEFINE ALL LINES FOR STILL IN DOUBT*/
+    'menu_doubt_1' => 'Home',
+    'menu_doubt_2' => 'Opleidingen',
+    'menu_doubt_3' => 'Contact',
+    'doubt_title_1' => 'Twijfel jij nog?',
+    'doubt_body_1' => 'Het is natuurlijk ook moeilijk om een studie te kiezen, dit is iets waarmee duizenden studenten per jaar moeite mee hebben.'
+                . ' Als je nu nog steeds twijfelt over je studie dan kun je een paar dingen doen.',
+    'doubt_body_2' => ' Je kunt de opleiding proberen, je gaat de eerste paar weken kijken of het wel echt iets voor je is.'
+                . ' Dit is niet de best optie, sinds je nog wel de boeken nodig bent en de andere benodigde materialen. Ook kost het de staat veel geld.'
+                . ' De tweede optie is om een verbrede studiekeuzecheck te nemen. Wij kunnen deze regelen indien nodig.'
+                . ' De laatse keuze is om een tussenjaar te nemen, in dit tussenjaar kun je opnieuw evalueren of je een goede studie gaat kiezen,'
+                . ' ga naar zoveel mogelijk open dagen en orienteer zoveel mogelijk. Hierdoor heb je genoeg tijd om de juiste keuze te maken.',
+    
+    
 
 
 );

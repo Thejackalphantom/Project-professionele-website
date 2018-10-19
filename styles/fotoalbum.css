@@ -12,6 +12,15 @@
     
 }
 
+.boxwfotos img {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    
+}
+
 
 .boxtext {
     height: 50px;
@@ -28,6 +37,7 @@
 .boxtext img {
     height: 20px;
     width: auto;
+    padding-bottom: 10px;
     
 }
 
@@ -67,6 +77,6 @@ h1 {
    margin:0;
    font-family: arial;
    float: left;
-   margin-left: 20px;
+   
    text-align: center;
 }
