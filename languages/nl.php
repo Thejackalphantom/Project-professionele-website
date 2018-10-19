@@ -72,7 +72,6 @@ $lang = array(
     'course_hosp_info' => 'Hospitality (ook wel gastvrijheid genoemd) is een ware trend, maar het is veel meer dan dat. Hospitality is een woord met een enorme lading, '
                 . ' waar steeds meer betekenis aan wordt gegeven. Hospitality is een verandering van het deoxyribonucleic acid (DNA) van een organisatie en bedrijfscultuur. '
                 . ' Bedrijven die hospitality op de juiste wijze inzetten, maken het verschil en veroveren het hart van hun klant.',
-<<<<<<< HEAD
     /*DEFINE ALL LINES FOR RSS PAGE*/
     'rss_title' => 'Nieuws over onderwijs',
     'rss_searchterm' => 'hogeschool',
@@ -98,9 +97,5 @@ $lang = array(
                 . ' voor een groot deel in het buitenland. Stages kunnen hierdoor internationaal gevolgd worden.'
                 . ' Dit bied nog meer kansen voor studenten, een kans die de meeste scholen niet bieden.',
 
-  );
 
 );
-=======
-
->>>>>>> e3aef6c3ff524d5634da6a8e7c67860e2a08beea
