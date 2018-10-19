@@ -86,5 +86,14 @@ $lang = array(
     'menu_about_1' => 'Home',
     'menu_about_2' => 'Courses',
     'menu_about_3' => 'Contact',
-    'menu_about_4' => 'Speciale situations',
+    'menu_about_4' => 'Special situations',
+    'about_title_1' => 'Our school',
+    'about_body_1' => 'We at Archon strive to educate students to become professionals. We do this by offering courses which allow the '
+                        . ' students to grow both academically aswell as mentally. Our students work in groups to simulate a project in a company'
+                        . ' We implement the newest trends and developments, we do this so our students have an easier time to intregrate into the workforce.',
+    'about_body_2' => 'The future we offer our students is one where they call the shots, by using the knowledge gained in our school. '
+                        . ' This is what makes us special, we make the impossible possible in an ever changing world.',
+    'about_body_3' => 'Our location in Emmen helps us with this, by placing ourselves in the Northern parts of the country we have more room for'
+                        . ' development. Despite our isolated location we keep a strong bond with foreign countries. Our focus is invested in foreign countries.'
+                        . ' Due to this internships can be attended internationally. This offers even more opportunities, an opportunity most schools dont offer.',
 );

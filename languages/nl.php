@@ -83,4 +83,16 @@ $lang = array(
     'menu_about_2' => 'Opleidingen',
     'menu_about_3' => 'Contact',
     'menu_about_4' => 'Speciale situaties',
+    'about_title_1' => 'Onze school',
+    'about_body_1' => 'Wij van Archon hebben het doel om proffesionals op te leiden. Dit doen wij door opleidingen te bieden die de studenten laten groeien'
+                . ' zowel academisch en mentaal. De studenten werken in groepsverband samen om zo een simulatie te geven van het bedrijfsleven.'
+                . ' Ook implementeren onze opleidingen de niewste trends en ontwikkelingen, dit zodat het makkelijker is voor onze studenten om het '
+                . ' bedrijfsleven in te komen.',
+    'about_body_2' => 'De toekomst die wij onze studenten bieden is een waar in zij de touwtjes in handen hebben, door de kennis te gebruiken die ze'
+                . ' in onze school hebben opgedaan. Dit is wat ons zo speciaal maakt, het onmogelijke mogelijk maken in een steeds veranderende wereld.',
+    'about_body_3' => 'Onze locatie in Emmen help hier aan mee, door in het Noorden van het land te zitten hebben wij meer ruimte'
+                . ' voor ontwikkeling. Toch houden wij ondanks onze afgelegen locatie een sterke band met het buitenland. Onze focus ligt '
+                . ' voor een groot deel in het buitenland. Stages kunnen hierdoor internationaal gevolgd worden.'
+                . ' Dit bied nog meer kansen voor studenten, een kans die de meeste scholen niet bieden.',
+    
 );

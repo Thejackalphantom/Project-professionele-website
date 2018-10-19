@@ -112,6 +112,12 @@ html{
     font-family: arial;
 }
 
+#textAboutArchon{
+    text-align: left;
+    padding: 5px;
+    font-family: arial;
+    font-size: 20px;
+}
 /*CONTAINING THE HAMBURGER MENU AT THE TOP AND LOGIN BUTTON WITH THE CHANGE LANGUAGE BUTTON*/
 
 #header{

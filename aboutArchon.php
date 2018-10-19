@@ -19,6 +19,10 @@
             <?php include('includes/header.php');?>
             <div id="middleContainer">
                 <div id="textAboutArchon">
+                    <h1><?php echo $lang['about_title_1'];?></h1>
+                    <p><?php echo $lang['about_body_1']; ?></p>
+                    <p><?php echo $lang['about_body_2']; ?></p>
+                    <p><?php echo $lang['about_body_3']; ?></p>
                     
                 </div>
                 <div id="bigButton">
