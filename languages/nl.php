@@ -21,6 +21,7 @@ $lang = array(
     'search' => 'Zoeken...',
     /*DEFINES LOGIN BUTTON HERE*/
     'login' => 'Inloggen',
+    'logout' => 'Uitloggen',
     /*DEFINES THE LARGE BUTTON ON THE INDEX PAGE(HOME)*/
     'discover' => 'Ontdek onze opleidingen!',
     /*DEFINES THE FOOTER CONTENT/DISCLAIMER*/
@@ -83,4 +84,16 @@ $lang = array(
     'menu_about_2' => 'Opleidingen',
     'menu_about_3' => 'Contact',
     'menu_about_4' => 'Speciale situaties',
+    
+    /*LOGIN AND DISCLAIMER*/
+    'login_1' => 'Welkom!',
+    'login_2' => 'Informatie Leerling',
+    'login_3' => 'Voornaam: Admin',
+    'login_4' => 'Achternaam:',
+    'login_5' => 'Adres: Orderstraat 66',
+    'login_6' => 'Opleiding:',
+    
+    'disclaimer_1' => 'Argon hogeschool doet haar best om ontbrekende zaken en wijzigingen in het aanbod voor de opleidingen en hun presentatie en beschrijvingen zo snel mogelijk op de website door te voeren. '
+                    . 'Heb je vragen over de inhoud of kom je iets tegen dat niet correct of niet duidelijk is? Vul dan het contact formulier in.',
+    'disclaimer_2' => 'Deze website is beschermd door het auteursrecht en andere intellectuele eigendomsrechten. Inhoud van deze website mag je alleen kopiëren, citeren en openbaar maken voor persoonlijk en niet-commercieel gebruik en met volledige bronvermelding.',
 );

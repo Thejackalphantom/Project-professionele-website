@@ -24,6 +24,7 @@ $lang = array(
     'search' => 'Search...',
     /*DEFINES LOGIN BUTTON HERE*/
     'login' => 'Login',
+    'logout' => 'Logout',
     /*DEFINES THE LARGE BUTTON ON THE INDEX PAGE(HOME)*/
     'discover' => 'Discover our courses!',
     /*DEFINES THE FOOTER CONTENT/DISCLAIMER*/
@@ -87,4 +88,15 @@ $lang = array(
     'menu_about_2' => 'Courses',
     'menu_about_3' => 'Contact',
     'menu_about_4' => 'Speciale situations',
+    /*LOGIN AND DISCLAIMER*/
+    'login_1' => 'Welcome!',
+    'login_2' => 'Information Student',
+    'login_3' => 'First name: Admin',
+    'login_4' => 'Last name:',
+    'login_5' => 'Adress: Orderstraat 66',
+    'login_6' => 'Course:',
+    
+    'disclaimer_1' => 'Argon University of Applied Sciences is doing its best to implement missing items and changes to the training offer and their presentation and descriptions as quickly '
+                    . 'as possible on the website. Do you have questions about the content or do you encounter something that is not correct or not clear? Fill in the contact form.',
+    'disclaimer_2' => 'This website is protected by copyright and other intellectual property rights. Content of this website may only be copied, quoted and made public for personal and non-commercial use and with full source reference.',
 );
