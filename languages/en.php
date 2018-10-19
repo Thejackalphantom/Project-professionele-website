@@ -1,17 +1,8 @@
 <?php
 
-///*DEFINES ALL LINES FOR THE PAGE SPECIALNEEDS.PHP*/
-//define('CONTENT_MENU_SPECIAL_1', 'Home');
-//define('CONTENT_MENU_SPECIAL_2', 'Youthcare');
-//define('CONTENT_MENU_SPECIAL_3', 'Special Section');
-//define('CONTENT_MENU_SPECIAL_4', 'Contact');
-/********************************HIERBOVEN MOET NOG OPNIEUW WORDEN INGESTELD************************/
-
-
-
 $lang = array(
     /*DEFINES TITLE AND MENU HERE*/
-    'title' => 'Archon college', 
+    'title' => 'Archon college',
     'home' => 'Home',
     'enroll' => 'Enroll',
     'courses' => 'Courses',
@@ -82,4 +73,7 @@ $lang = array(
     'course_hosp_info' => 'Hospitality management focuses on ensuring customer safety and comfort in a hotel, restaurant or entertainment facility. '
                         . ' Hospitality management centres on customer satisfaction that would lead to his loyalty and repeated business. Students in hospitality management usually have the opportunity to receive hands-on experience in real hospitality organisations. '
                         . ' Hospitality management integrates theories from similar disciplines like: commerce, business administration and supply chain management and logistics.',
+      /*DEFINE ALL LINES FOR RSS PAGE*/
+      'rss_title' => 'News about education',
+      'rss_searchterm' => 'highschool',
 );
