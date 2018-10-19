@@ -11,7 +11,7 @@
             <a href="contact2.php" <p class="TextChangeWhite"> Contact </p> </a>
         </div>
         <div id="footerInfo">   
-            <p class="TextChangeWhite"> Disclaimer </p>
+            <a href="disclaimer.php"><p class="TextChangeWhite"> Disclaimer </p></a>
         </div>
         <div id="footerInfo"> 
             <p class="TextChangeWhite"> <?php echo $lang['disclaim'];?></p>
