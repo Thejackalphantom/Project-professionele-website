@@ -35,7 +35,7 @@
             </div>
                 <p id="TextChange"> MENU </p>
             <div class="dropdown-content">
-                <a href="www.google.com"> <p><?php echo $lang['news'];?></p> </a>
+                <a href="nieuws.php"> <p><?php echo $lang['news'];?></p> </a>
                 <a href="Fotoalbum.php"> <p><?php echo $lang['photoalbum'];?></p> </a>
                 <a href="specialNeeds.php"> <p><?php echo $lang['special_education'];?></p> </a>
             </div>
