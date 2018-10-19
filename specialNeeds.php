@@ -25,12 +25,9 @@
                     <p><?php echo $lang['special_body_3'];?></p>
                     <p><img src="img/specialNeedsImg.png"></p>
                 </div>
-                 
                 <div id="bigButton">
                 </div>
             </div> <!-- END OF MIDDLE CONTAINERS-->
-            <div id="sideBarRight">
-            </div>
             <?php include('includes/footer.php');?>
         </div> <!-- END OF MAIN CONTAINERS-->
      </body>
