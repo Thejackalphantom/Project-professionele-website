@@ -80,6 +80,8 @@ $lang = array(
     'news_title' => 'News about our school',
     'news_artikel_title' => 'Welcome on our new website!',
     'news_artikel_text' => 'As you might have noticed we have a new website, we felt it was necessary to make a new site to mark a new start.',
+    'news_artikel_title_2' => 'Archon, our new name.',
+    'news_artikel_text_2' => 'We resently fused with another school, this means we needed a new name. We chose voor de name \'archon\' , this is a combination between the words archeology and hotel.',
 
      /*DEFINE ALL LINES FOR ABOUT ARCHON*/
     'menu_about_1' => 'Home',
@@ -95,4 +97,21 @@ $lang = array(
     'about_body_3' => 'Our location in Emmen helps us with this, by placing ourselves in the Northern parts of the country we have more room for'
                         . ' development. Despite our isolated location we keep a strong bond with foreign countries. Our focus is invested in foreign countries.'
                         . ' Due to this internships can be attended internationally. This offers even more opportunities, an opportunity most schools dont offer.',
+    /*DEFINE ALL LINES FOR STILL IN DOUBT*/
+    'menu_doubt_1' => 'Home',
+    'menu_doubt_2' => 'Courses',
+    'menu_doubt_3' => 'Contact',
+    'doubt_title_1' => 'Still in doubt?',
+    'doubt_body_1' => ' It is hard choosing what to study, this is a problem thousands of students face each year.'
+                        . ' There are a few things to do if you are still in doubt about the course you enrolled in.',
+    
+    'doubt_body_2' => ' The first thing you could do is to try the course for a few weeks, see how you like it. This is not the '
+                        . ' preferred option though, since it will cost you a lot of money. You will have to buy the books and other materials,'
+                        . ' this option will also cost the government a lot of money. '
+                        . ' The second option is to take an expanded "studiekeuzecheck", this is a test which will determine what course suits you the '
+                        . ' best according to the answers given. We can provide this if needed.'
+                        . ' The last option is to take an inbetween year, in this year you can evaluate if the course you chose'
+                        . ' is really the right one for you. It is best to visit as many schools and courses to orientate as much as possible'
+                        . ' With the last option you should have enough time to make the right choice.',
+
 );

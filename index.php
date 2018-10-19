@@ -21,9 +21,13 @@ Index Project Professionele Website
                 </div> <!-- END OF LEFT SIDE BAR-->
                 <?php include('includes/header.php'); //INCLUDES THE HEADER.PHP FILE?>
                 <div id="middleContainer"><!-- BEGIN OF MIDDLE CONTAINER INSERT YOUR DATA IN THIS BOX(MODEL)-->
+                  <a href='opleidingen.php'>
                     <div id="bigButton">
-                        <p><?php echo $lang['discover']; ?></p>
+                        <p>
+                          <?php echo $lang['discover']; ?>
+                        </p>
                     </div>
+                  </a>
                 </div> <!---------------------------------- END OF MIDDLE CONTAINERS-------------------------->
                 <div id="sideBarRight">
                     <?php include('includes/rss.php');//INCLUDES THE RSS.PHP FILE WHERE THE RSS FEET IS GETTING IMPLEMENTED FROM?>

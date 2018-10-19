@@ -26,8 +26,8 @@ Login Project Professionele Website
                 <div id="middleSpaceLeft">
                     
                 </div>
-                <h2>Login Form</h2>
-                    <form action="/action_page.php" method="POST">
+                <h2>Login</h2>
+                    <form action="/ppw/loggedin.php" method="POST">
                      
                       <div class="container">
                           <p> <b>Username</b></p>
@@ -35,11 +35,8 @@ Login Project Professionele Website
 
                         <p><b>Password</b></p>
                         <input type="password" placeholder="Enter Password" name="psw" required>
-
+                        
                         <button type="submit">Login</button>
-                        <label>
-                          <input type="checkbox" checked="checked" name="remember"> Remember me
-                        </label>
                       </div>
                     </form>
 
