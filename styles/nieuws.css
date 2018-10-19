@@ -1,0 +1,21 @@
+#middleContainer{
+    width: 1096px;
+    height: 500px;
+    padding: 25px;
+}
+
+.nieuws_titel{
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.nieuws_artikel{
+  padding: 10px;
+  width: 700px;
+}
+
+.nieuws_artikel_titel{
+    font-weight: bold;
+    padding: 0px 0px 5px 0px;
+}

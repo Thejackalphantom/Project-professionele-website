@@ -76,5 +76,10 @@ $lang = array(
     /*DEFINE ALL LINES FOR RSS PAGE*/
     'rss_title' => 'Nieuws over onderwijs',
     'rss_searchterm' => 'hogeschool',
+    /*DEFINE ALL LINES FOR NEWS PAGE*/
+    'news_title' => 'Nieuws over onze school',
+    'news_artikel_title' => 'Welkom op de nieuwe website!',
+    'news_artikel_text' => 'Zoals je waarschijnlijk al hebt opgemerkt hebben we na onze fusie ook gekozen voor een nieuwe website, deze staat voor de nieuwe start die we nu doormaken.',
+
 
 );

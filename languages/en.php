@@ -76,4 +76,9 @@ $lang = array(
       /*DEFINE ALL LINES FOR RSS PAGE*/
       'rss_title' => 'News about education',
       'rss_searchterm' => 'highschool',
+      /*DEFINE ALL LINES FOR NEWS PAGE*/
+      'news_title' => 'News about our school',
+      'news_artikel_title' => 'Welcome on our new website!',
+      'news_artikel_text' => 'As you might have noticed we have a new website, we felt it was necessary to make a new site to mark a new start.',
+
 );
