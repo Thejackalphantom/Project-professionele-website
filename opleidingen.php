@@ -23,7 +23,6 @@ Index Project Professionele Website
             </div> <!-- END OF LEFT SIDE BAR-->
                 <?php include('includes/header.php'); ?>
             <div id="middleContainer">
-
               <div class='opleidingen'>
                 <div class='opleidingen_title'>
                   <?php echo $lang['course_arch'];?>
