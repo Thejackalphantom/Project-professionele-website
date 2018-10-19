@@ -28,9 +28,9 @@ $lang = array(
     /*DEFINE ALL LINES FOR SPECIALNEEDS PAGE */
     'menu_special_1' => 'Home',
     'menu_special_2' => 'Jongerenzorg',
-    'menu_special_3' => 'Special Sectie',
+    'menu_special_3' => 'Speciale Sectie',
     'menu_special_4' => 'Contact',
-    'special_title_1' => 'Speciale gevallen',
+    'special_title_1' => 'Speciale situaties',
     'special_body_1' => 'Heb jij een probleem waar wij van moeten weten? Meld dit dan aan het begin'
                         . ' van je studie. Wij bieden veel extra opties voor mensen met een beperking of thuissituatie.'
                         . ' Dyslectie, ADHD, gebroken botten of zit je een in rolstoel. Dit en meer worden door ons ondersteund!', 

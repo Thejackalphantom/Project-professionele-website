@@ -23,8 +23,9 @@
                     <p><?php echo $lang['special_body_1'];?></p>
                     <p><?php echo $lang['special_body_2'];?></p>
                     <p><?php echo $lang['special_body_3'];?></p>
+                    <p><img src="img/specialNeedsImg.png"></p>
                 </div>
-                <!--                Hier typen--> 
+                 
                 <div id="bigButton">
                 </div>
             </div> <!-- END OF MIDDLE CONTAINERS-->
