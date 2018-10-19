@@ -24,21 +24,52 @@ Fotoalbum Project Professionele Website
             <div id="middelContainer">
                 <div id="boxfotos">
                     <div class="fotosize">
-                        <h1> Fotoalbums </h1>
-                        <div class="boxw">
-                            <img src="img/file.jpg" alt="file">
-                            <div class="textinbox">
-                                <a href='fotosonzeschool.php'> <p> Onze school </p> </a> </div> 
+                        <h1> Foto's onze school </h1>
+                        
+                        <div class="boxwfotos">
+                            <img src="img/imgo1.jpg" alt="file">
                         </div>
-                        <div class="boxw">
-                            <img src="img/file.2.jpg" alt="file">
-                            <div class="textinbox">
-                                <a href='fotosonzeopleidingen.php'> <p> Onze Opleidingen</p> </a>
-                            </div>
+                        <div class="boxwfotos">
+                            <img src="img/imgo2.jpg" alt="file">
+                            
                         </div>
-                        <div class="boxtext">
-                             <img src="img/upload.jpg" alt="upload"> <h2> upload je eigen foto's </h2>
+                        
+                       <div class="boxwfotos">
+                            <img src="img/imgo3.jpg" alt="file">
+                            
+                        </div>
+                        
+                        <div class="boxwfotos">
+                            <img src="img/imgo4.jpg" alt="file">
+                            
+                        </div>
+                        
+                        <div class="boxwfotos">
+                            <img src="img/imgo5.jpg" alt="file">
+                            
+                        </div>
+                        <div class="boxwfotos">
+                            <img src="img/imgo6.jpg" alt="file">
+                            
+                        </div>
+                        <div class="boxwfotos">
+                            <img src="img/imgo7.jpg" alt="file">
+                            
+                        </div>
+                        
+                        <div class="boxwfotos">
+                            <img src="img/imgo8.jpg" alt="file">
+                            
+                        </div>
+                    
+                        <div class="boxtexten">
+                            <h2> Binnenkort meer fotos.. </h2> 
+                         
+                            <div class="boxtexten">
+                                <a href='Fotoalbum.php'>   <h2> <u>  Terug naar fotos ◄ </u> <h2> </a>
                          </div>
+                        </div>
+                            
                     </div>
                 </div>
             </div> <!-- END OF MIDDLE CONTAINERS-->
