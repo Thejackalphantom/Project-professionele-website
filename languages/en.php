@@ -19,7 +19,7 @@ $lang = array(
     /*DEFINES HAMBURGER MENU HERE*/
     'news' => 'News',
     'photoalbum' => 'Photo Album',
-    'special_education' => 'Special Needs',
+    'special_education' => 'Special situations',
     /*DEFINES SEARCH BAR HERE*/
     'search' => 'Search...',
     /*DEFINES LOGIN BUTTON HERE*/
