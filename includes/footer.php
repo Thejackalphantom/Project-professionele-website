@@ -5,13 +5,13 @@
     </div>
     <div id="footerContainer"> 
         <div id="footerInfo">   
-            <p class="TextChangeWhite"> Over Archon Hogeschool </p>
+           <a href="aboutArchon.php"><p class="TextChangeWhite"> Over Archon Hogeschool</p></a>
         </div>
         <div id="footerInfo">   
-            <a href="contact2.php" <p class="TextChangeWhite"> Contact </p> </a>
+            <a href="contact2.php"><p class="TextChangeWhite"> Contact </p></a>
         </div>
         <div id="footerInfo">   
-            <p class="TextChangeWhite"> Disclaimer </p>
+            <a href="disclaimer.php"><p class="TextChangeWhite">Disclaimer</p></a>
         </div>
         <div id="footerInfo"> 
             <p class="TextChangeWhite"> <?php echo $lang['disclaim'];?></p>

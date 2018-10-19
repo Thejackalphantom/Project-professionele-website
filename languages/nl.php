@@ -10,7 +10,7 @@ $lang = array(
     /*DEFINES HAMBURGER MENU HERE*/
     'news' => 'Nieuws',
     'photoalbum' => 'Foto Album',
-    'special_education' => 'Speciale Gevallen',
+    'special_education' => 'Speciale situaties',
     /*DEFINES SEARCH BAR HERE*/
     'search' => 'Zoeken...',
     /*DEFINES LOGIN BUTTON HERE*/
@@ -22,9 +22,8 @@ $lang = array(
     /*DEFINE ALL LINES FOR SPECIALNEEDS PAGE */
     'menu_special_1' => 'Home',
     'menu_special_2' => 'Jongerenzorg',
-    'menu_special_3' => 'Special Sectie',
-    'menu_special_4' => 'Contact',
-    'special_title_1' => 'Speciale gevallen',
+    'menu_special_3' => 'Contact',
+    'special_title_1' => 'Speciale situaties',
     'special_body_1' => 'Heb jij een probleem waar wij van moeten weten? Meld dit dan aan het begin'
                         . ' van je studie. Wij bieden veel extra opties voor mensen met een beperking of thuissituatie.'
                         . ' Dyslectie, ADHD, gebroken botten of zit je een in rolstoel. Dit en meer worden door ons ondersteund!',
@@ -73,6 +72,7 @@ $lang = array(
     'course_hosp_info' => 'Hospitality (ook wel gastvrijheid genoemd) is een ware trend, maar het is veel meer dan dat. Hospitality is een woord met een enorme lading, '
                 . ' waar steeds meer betekenis aan wordt gegeven. Hospitality is een verandering van het deoxyribonucleic acid (DNA) van een organisatie en bedrijfscultuur. '
                 . ' Bedrijven die hospitality op de juiste wijze inzetten, maken het verschil en veroveren het hart van hun klant.',
+<<<<<<< HEAD
     /*DEFINE ALL LINES FOR RSS PAGE*/
     'rss_title' => 'Nieuws over onderwijs',
     'rss_searchterm' => 'hogeschool',
@@ -81,5 +81,26 @@ $lang = array(
     'news_artikel_title' => 'Welkom op de nieuwe website!',
     'news_artikel_text' => 'Zoals je waarschijnlijk al hebt opgemerkt hebben we na onze fusie ook gekozen voor een nieuwe website, deze staat voor de nieuwe start die we nu doormaken.',
 
+    /*DEFINE ALL LINES FOR ABOUT ARCHON*/
+    'menu_about_1' => 'Home',
+    'menu_about_2' => 'Opleidingen',
+    'menu_about_3' => 'Contact',
+    'menu_about_4' => 'Speciale situaties',
+    'about_title_1' => 'Onze school',
+    'about_body_1' => 'Wij van Archon hebben het doel om proffesionals op te leiden. Dit doen wij door opleidingen te bieden die de studenten laten groeien'
+                . ' zowel academisch en mentaal. De studenten werken in groepsverband samen om zo een simulatie te geven van het bedrijfsleven.'
+                . ' Ook implementeren onze opleidingen de niewste trends en ontwikkelingen, dit zodat het makkelijker is voor onze studenten om het '
+                . ' bedrijfsleven in te komen.',
+    'about_body_2' => 'De toekomst die wij onze studenten bieden is een waar in zij de touwtjes in handen hebben, door de kennis te gebruiken die ze'
+                . ' in onze school hebben opgedaan. Dit is wat ons zo speciaal maakt, het onmogelijke mogelijk maken in een steeds veranderende wereld.',
+    'about_body_3' => 'Onze locatie in Emmen help hier aan mee, door in het Noorden van het land te zitten hebben wij meer ruimte'
+                . ' voor ontwikkeling. Toch houden wij ondanks onze afgelegen locatie een sterke band met het buitenland. Onze focus ligt '
+                . ' voor een groot deel in het buitenland. Stages kunnen hierdoor internationaal gevolgd worden.'
+                . ' Dit bied nog meer kansen voor studenten, een kans die de meeste scholen niet bieden.',
+
+  );
 
 );
+=======
+
+>>>>>>> e3aef6c3ff524d5634da6a8e7c67860e2a08beea

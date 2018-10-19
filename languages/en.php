@@ -10,7 +10,7 @@ $lang = array(
     /*DEFINES HAMBURGER MENU HERE*/
     'news' => 'News',
     'photoalbum' => 'Photo Album',
-    'special_education' => 'Special Needs',
+    'special_education' => 'Special situations',
     /*DEFINES SEARCH BAR HERE*/
     'search' => 'Search...',
     /*DEFINES LOGIN BUTTON HERE*/
@@ -73,12 +73,32 @@ $lang = array(
     'course_hosp_info' => 'Hospitality management focuses on ensuring customer safety and comfort in a hotel, restaurant or entertainment facility. '
                         . ' Hospitality management centres on customer satisfaction that would lead to his loyalty and repeated business. Students in hospitality management usually have the opportunity to receive hands-on experience in real hospitality organisations. '
                         . ' Hospitality management integrates theories from similar disciplines like: commerce, business administration and supply chain management and logistics.',
-      /*DEFINE ALL LINES FOR RSS PAGE*/
-      'rss_title' => 'News about education',
-      'rss_searchterm' => 'highschool',
-      /*DEFINE ALL LINES FOR NEWS PAGE*/
-      'news_title' => 'News about our school',
-      'news_artikel_title' => 'Welcome on our new website!',
-      'news_artikel_text' => 'As you might have noticed we have a new website, we felt it was necessary to make a new site to mark a new start.',
+<<<<<<< HEAD
 
+=======
+    /*DEFINE ALL LINES FOR RSS PAGE*/
+    'rss_title' => 'News about education',
+    'rss_searchterm' => 'highschool',
+    /*DEFINE ALL LINES FOR NEWS PAGE*/
+    'news_title' => 'News about our school',
+    'news_artikel_title' => 'Welcome on our new website!',
+    'news_artikel_text' => 'As you might have noticed we have a new website, we felt it was necessary to make a new site to mark a new start.',
+
+    );
+
+     /*DEFINE ALL LINES FOR ABOUT ARCHON*/
+    'menu_about_1' => 'Home',
+    'menu_about_2' => 'Courses',
+    'menu_about_3' => 'Contact',
+    'menu_about_4' => 'Special situations',
+    'about_title_1' => 'Our school',
+    'about_body_1' => 'We at Archon strive to educate students to become professionals. We do this by offering courses which allow the '
+                        . ' students to grow both academically aswell as mentally. Our students work in groups to simulate a project in a company'
+                        . ' We implement the newest trends and developments, we do this so our students have an easier time to intregrate into the workforce.',
+    'about_body_2' => 'The future we offer our students is one where they call the shots, by using the knowledge gained in our school. '
+                        . ' This is what makes us special, we make the impossible possible in an ever changing world.',
+    'about_body_3' => 'Our location in Emmen helps us with this, by placing ourselves in the Northern parts of the country we have more room for'
+                        . ' development. Despite our isolated location we keep a strong bond with foreign countries. Our focus is invested in foreign countries.'
+                        . ' Due to this internships can be attended internationally. This offers even more opportunities, an opportunity most schools dont offer.',
 );
+>>>>>>> e3aef6c3ff524d5634da6a8e7c67860e2a08beea
