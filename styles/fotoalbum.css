@@ -41,6 +41,23 @@
     
 }
 
+.boxtexten {
+    height: 50px;
+    width: 1200px;
+    /*background-color: green;*/
+    float: left;
+}
+
+.boxtexten img {
+    height: 20px;
+    width: auto;
+    float: left;
+    
+}
+.boxtexten h2 {
+    float: left;
+}
+
 .fotosize {
     height: 600px;
     width: 1200px;
