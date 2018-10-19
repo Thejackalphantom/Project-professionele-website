@@ -28,12 +28,12 @@ Fotoalbum Project Professionele Website
                         <div class="boxw">
                             <img src="img/file.jpg" alt="file">
                             <div class="textinbox">
-                            <p> Onze school </p> </div> 
+                                <a href='fotosonzeschool.php'> <p> Onze school </p> </a> </div> 
                         </div>
                         <div class="boxw">
                             <img src="img/file.2.jpg" alt="file">
                             <div class="textinbox">
-                               <p> Onze school </p>
+                                <a href='fotosonzeopleidingen.php'> <p> Onze Opleidingen</p> </a>
                             </div>
                         </div>
                         <div class="boxtext">
