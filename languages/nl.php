@@ -79,6 +79,8 @@ $lang = array(
     'news_title' => 'Nieuws over onze school',
     'news_artikel_title' => 'Welkom op de nieuwe website!',
     'news_artikel_text' => 'Zoals je waarschijnlijk al hebt opgemerkt hebben we na onze fusie ook gekozen voor een nieuwe website, deze staat voor de nieuwe start die we nu doormaken.',
+    'news_artikel_title_2' => 'Archon, de nieuwe naam na fusie.',
+    'news_artikel_text_2' => 'We hebben na de fusie voor de naam \'archon\' gekozen, dit combineert de woorden archeologie en hotel.',
 
     /*DEFINE ALL LINES FOR ABOUT ARCHON*/
     'menu_about_1' => 'Home',

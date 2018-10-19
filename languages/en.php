@@ -80,6 +80,8 @@ $lang = array(
     'news_title' => 'News about our school',
     'news_artikel_title' => 'Welcome on our new website!',
     'news_artikel_text' => 'As you might have noticed we have a new website, we felt it was necessary to make a new site to mark a new start.',
+    'news_artikel_title_2' => 'Archon, our new name.',
+    'news_artikel_text_2' => 'We resently fused with another school, this means we needed a new name. We chose voor de name \'archon\' , this is a combination between the words archeology and hotel.',
 
      /*DEFINE ALL LINES FOR ABOUT ARCHON*/
     'menu_about_1' => 'Home',

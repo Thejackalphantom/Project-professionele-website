@@ -34,6 +34,16 @@ Index Project Professionele Website
                     </div>
                   </div>
 
+                  <div class='nieuws_artikel'>
+                    <div class='nieuws_artikel_titel'>
+                      <?php echo $lang['news_artikel_title_2']; ?>
+
+                    </div>
+                    <div class='nieuws_artikel_inhoud'>
+                      <?php echo $lang['news_artikel_text_2']; ?>
+                    </div>
+                  </div>
+
                 </div> <!-- END OF MIDDLE CONTAINERS  -->
                 <div id="sideBarRight">
                     <?php include('includes/rss.php');//INCLUDES THE RSS.PHP FILE WHERE THE RSS FEET IS GETTING IMPLEMENTED FROM?>
