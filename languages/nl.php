@@ -16,7 +16,7 @@ $lang = array(
     /*DEFINES HAMBURGER MENU HERE*/
     'news' => 'Nieuws',
     'photoalbum' => 'Foto Album',
-    'special_education' => 'Speciale Gevallen',
+    'special_education' => 'Speciale situaties',
     /*DEFINES SEARCH BAR HERE*/
     'search' => 'Zoeken...',
     /*DEFINES LOGIN BUTTON HERE*/
@@ -28,9 +28,8 @@ $lang = array(
     /*DEFINE ALL LINES FOR SPECIALNEEDS PAGE */
     'menu_special_1' => 'Home',
     'menu_special_2' => 'Jongerenzorg',
-    'menu_special_3' => 'Special Sectie',
-    'menu_special_4' => 'Contact',
-    'special_title_1' => 'Speciale gevallen',
+    'menu_special_3' => 'Contact',
+    'special_title_1' => 'Speciale situaties',
     'special_body_1' => 'Heb jij een probleem waar wij van moeten weten? Meld dit dan aan het begin'
                         . ' van je studie. Wij bieden veel extra opties voor mensen met een beperking of thuissituatie.'
                         . ' Dyslectie, ADHD, gebroken botten of zit je een in rolstoel. Dit en meer worden door ons ondersteund!', 
@@ -79,4 +78,9 @@ $lang = array(
     'course_hosp_info' => 'Hospitality (ook wel gastvrijheid genoemd) is een ware trend, maar het is veel meer dan dat. Hospitality is een woord met een enorme lading, '
                 . ' waar steeds meer betekenis aan wordt gegeven. Hospitality is een verandering van het deoxyribonucleic acid (DNA) van een organisatie en bedrijfscultuur. '
                 . ' Bedrijven die hospitality op de juiste wijze inzetten, maken het verschil en veroveren het hart van hun klant.',
+    /*DEFINE ALL LINES FOR ABOUT ARCHON*/
+    'menu_about_1' => 'Home',
+    'menu_about_2' => 'Opleidingen',
+    'menu_about_3' => 'Contact',
+    'menu_about_4' => 'Speciale situaties',
 );

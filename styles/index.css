@@ -71,25 +71,7 @@ html{
     background-color: white;
 }
 
-#menuSpecial {
-    height: 460px;
-    width: 280px;
-    margin-top: 25px;
-    margin-left: 35px;
-    margin-right: 35px;
-    border: 2px solid black;
-    background-color: white;
-}
-
 #menu p {
-    font-family: arial;
-    padding-top: 30px;
-    padding-left: 30px;
-    padding-right: 30px;
-    font-size: 25px;
-}
-
-#menuSpecial p {
     font-family: arial;
     padding-top: 30px;
     padding-left: 30px;

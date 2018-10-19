@@ -19,7 +19,7 @@ $lang = array(
     /*DEFINES HAMBURGER MENU HERE*/
     'news' => 'News',
     'photoalbum' => 'Photo Album',
-    'special_education' => 'Special Needs',
+    'special_education' => 'Special situations',
     /*DEFINES SEARCH BAR HERE*/
     'search' => 'Search...',
     /*DEFINES LOGIN BUTTON HERE*/
@@ -82,4 +82,9 @@ $lang = array(
     'course_hosp_info' => 'Hospitality management focuses on ensuring customer safety and comfort in a hotel, restaurant or entertainment facility. '
                         . ' Hospitality management centres on customer satisfaction that would lead to his loyalty and repeated business. Students in hospitality management usually have the opportunity to receive hands-on experience in real hospitality organisations. '
                         . ' Hospitality management integrates theories from similar disciplines like: commerce, business administration and supply chain management and logistics.',
+     /*DEFINE ALL LINES FOR ABOUT ARCHON*/
+    'menu_about_1' => 'Home',
+    'menu_about_2' => 'Courses',
+    'menu_about_3' => 'Contact',
+    'menu_about_4' => 'Speciale situations',
 );
