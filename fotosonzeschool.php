@@ -56,10 +56,15 @@ Fotoalbum Project Professionele Website
                             <img src="img/imgs7.jpg" alt="file">
                             
                         </div>
-                        
-                        <div class="boxtext">
-                             <h2> Binnenkort meer fotos.. </h2>
+                    
+                        <div class="boxtexten">
+                            <h2> Binnenkort meer fotos.. </h2> 
+                         
+                            <div class="boxtexten">
+                                <a href='Fotoalbum.php'>   <h2> <u>  Terug naar fotos ◄  </u><h2> </a>
                          </div>
+                        </div>
+                            
                     </div>
                 </div>
             </div> <!-- END OF MIDDLE CONTAINERS-->

@@ -114,4 +114,18 @@ $lang = array(
                         . ' is really the right one for you. It is best to visit as many schools and courses to orientate as much as possible'
                         . ' With the last option you should have enough time to make the right choice.',
 
-);
+   /*LOGIN AND DISCLAIMER*/
+    'login_1' => 'Welcome!',
+    'login_2' => 'Information Student',
+    'login_3' => 'First name: Admin',
+    'login_4' => 'Last name:',
+    'login_5' => 'Adress: Orderstraat 66',
+    'login_6' => 'Course:',
+    'login_7' => 'Logout',
+    
+    'disclaimer_1' => 'Argon University of Applied Sciences is doing its best to implement missing items and changes to the training offer and their presentation and descriptions as quickly as possible on the website. '
+                    . 'Do you have questions about the content or do you encounter something that is not correct or not clear? Fill in the contact form.',
+    'disclaimer_2' => 'This website is protected by copyright and other intellectual property rights. Content of this website may only be copied, quoted and made public for personal and non-commercial use and with full source reference.',
+    /*LOGIN AND DISCLAIMER*/
+    'about' => 'About Archon Hogeschool',
+    );

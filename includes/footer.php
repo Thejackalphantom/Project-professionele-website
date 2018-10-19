@@ -5,7 +5,7 @@
     </div>
     <div id="footerContainer"> 
         <div id="footerInfo">   
-           <a href="aboutArchon.php"><p class="TextChangeWhite"> Over Archon Hogeschool</p></a>
+           <a href="aboutArchon.php"><p class="TextChangeWhite"> <?php echo $lang['about'];?></p></a>
         </div>
         <div id="footerInfo">   
             <a href="contact2.php"><p class="TextChangeWhite"> Contact </p></a>

@@ -26,18 +26,18 @@ Fotoalbum Project Professionele Website
                     <div class="fotosize">
                         <h1> Fotoalbums </h1>
                         <div class="boxw">
-                            <img src="img/file.jpg" alt="file">
+                           
                             <div class="textinbox">
-                                <a href='fotosonzeschool.php'> <p> Onze school </p> </a> </div> 
+                                <a href='fotosonzeschool.php'>  <img src="img/file.jpg" alt="file"> <p> Onze school </p> </a> </div> 
                         </div>
                         <div class="boxw">
-                            <img src="img/file.2.jpg" alt="file">
+                            
                             <div class="textinbox">
-                                <a href='fotosonzeopleidingen.php'> <p> Onze Opleidingen</p> </a>
+                                <a href='fotosonzeopleidingen.php'> <img src="img/file.2.jpg" alt="file"> <p> Onze Opleidingen</p> </a>
                             </div>
                         </div>
                         <div class="boxtext">
-                             <img src="img/upload.jpg" alt="upload"> <h2> upload je eigen foto's </h2>
+                            <h2> upload je eigen foto's door <a href='inlog.php'> inteloggen. </a> </h2>
                          </div>
                     </div>
                 </div>

@@ -1,7 +1,7 @@
 .fotosize img {
     height: 250px;
     width: auto;
-    margin-left: 10px;
+    margin-left: -80px;
     margin-top: 28px;
 }
 .boxw {
@@ -39,6 +39,23 @@
     width: auto;
     padding-bottom: 10px;
     
+}
+
+.boxtexten {
+    height: 50px;
+    width: 1200px;
+    /*background-color: green;*/
+    float: left;
+}
+
+.boxtexten img {
+    height: 20px;
+    width: auto;
+    float: left;
+    
+}
+.boxtexten h2 {
+    float: left;
 }
 
 .fotosize {
