@@ -78,4 +78,9 @@ $lang = array(
     'course_hosp_info' => 'Hospitality (ook wel gastvrijheid genoemd) is een ware trend, maar het is veel meer dan dat. Hospitality is een woord met een enorme lading, '
                 . ' waar steeds meer betekenis aan wordt gegeven. Hospitality is een verandering van het deoxyribonucleic acid (DNA) van een organisatie en bedrijfscultuur. '
                 . ' Bedrijven die hospitality op de juiste wijze inzetten, maken het verschil en veroveren het hart van hun klant.',
+    /*DEFINE ALL LINES FOR ABOUT ARCHON*/
+    'menu_about_1' => 'Home',
+    'menu_about_2' => 'Opleidingen',
+    'menu_about_3' => 'Contact',
+    'menu_about_4' => 'Speciale situaties',
 );
