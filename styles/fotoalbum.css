@@ -1,7 +1,7 @@
 .fotosize img {
     height: 250px;
     width: auto;
-    margin-left: 10px;
+    margin-left: -80px;
     margin-top: 28px;
 }
 .boxw {
@@ -28,7 +28,7 @@
     /*background-color: green;*/
     float: left;
 }
-.boxtext h1,h2 {
+.boxtext h1,h2,form {
     margin-left: 50px;
     float: left;
     margin-bottom: 10px;

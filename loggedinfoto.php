@@ -37,8 +37,13 @@ Fotoalbum Project Professionele Website
                             </div>
                         </div>
                         <div class="boxtext">
-                            <h2> upload je eigen foto's door <a href='inlogfoto.php'> <u> inteloggen. <u> </a> </h2>
-                         </div>
+                          
+                          <form action="http://localhost/ppw/sended.php">  
+                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                         <input type="file" name="pic" accept="image/*">
+                         <input type="submit"> 
+                         </form>
+                         </div> 
                     </div>
                 </div>
             </div> <!-- END OF MIDDLE CONTAINERS-->
@@ -46,3 +51,9 @@ Fotoalbum Project Professionele Website
         </div> <!-- END OF MAIN CONTAINERS-->
     </body>
 </html>
+
+
+
+
+
+
