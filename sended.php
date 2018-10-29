@@ -24,22 +24,10 @@ Fotoalbum Project Professionele Website
             <div id="middelContainer">
                 <div id="boxfotos">
                     <div class="fotosize">
-                        <h1> Fotoalbums </h1>
-                        <div class="boxw">
-                           
-                            <div class="textinbox">
-                                <a href='fotosonzeschool.php'>  <img src="img/file.jpg" alt="file"> <p> Onze school </p> </a> </div> 
-                        </div>
-                        <div class="boxw">
-                            
-                            <div class="textinbox">
-                                <a href='fotosonzeopleidingen.php'> <img src="img/file.2.jpg" alt="file"> <p> Onze Opleidingen</p> </a>
-                            </div>
-                        </div>
-                        <div class="boxtext">
-                            <h2> upload je eigen foto's door <a href='inlogfoto.php'> <u> inteloggen. <u> </a> </h2>
-                         </div>
-                    </div>
+                        <h1> Foto gestuurd </h1>
+                        
+                            <h2> Dankjewel! we verwerken de opdracht en controleren of deze gepast is op onze site. </h2>
+                    
                 </div>
             </div> <!-- END OF MIDDLE CONTAINERS-->
             <?php include('includes/footer.php');?>

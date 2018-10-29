@@ -28,7 +28,7 @@
     /*background-color: green;*/
     float: left;
 }
-.boxtext h1,h2 {
+.boxtext h1,h2,form {
     margin-left: 50px;
     float: left;
     margin-bottom: 10px;
