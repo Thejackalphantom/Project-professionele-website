@@ -2,7 +2,7 @@
     <div id="headerContainer">
     </div>
      <a href='inlog.php'> <div class="headerInlog">
-        <p class="biggerText"><?php echo $lang['login']; ?></p>
+        <p class="biggerText"><?php echo $lang['login_7']; ?></p>
         
          </div> </a>
     <div id="headerSpace">

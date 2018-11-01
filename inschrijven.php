@@ -1,4 +1,4 @@
-<?php require_once ('functions/functions.php'); ?>
+<?php include ('functions/config.php');?>
 <!DOCTYPE html>
 <!--
 Index Project Professionele Website
@@ -8,7 +8,7 @@ Index Project Professionele Website
         <link rel="stylesheet" type="text/css" href="styles/index.css">
         <link rel="stylesheet" type="text/css" href="styles/inschrijven.css">
         <meta charset="UTF-8">
-        <title>Archon Hogeschool</title>
+        <title><?php echo $lang['title'];//GETS THE TITLE?></title>
 
     </head>
     <body>
@@ -19,15 +19,14 @@ Index Project Professionele Website
                     <img src="img/kleur_logo.jpg" alt="Archon Hogeschool">
                   </a>
                 </div>
-                        <?php include('includes/menu.php');?>
-                        <!-- END OF MENU FILLER-->
+                <?php include('includes/menu.php');?>
             </div> <!-- END OF LEFT SIDE BAR-->
         <?php include('includes/header.php');?>
             <div id="middleContainer">
               <div class="form_main">
                 <form id="inschrijven.php">
                   <div class="form_header">
-                    <h1>  <?=PAGEHEADER?> </h1>
+                    <h1>  <?php echo $lang['enroll_title_1'];?> </h1>
                   </div>
                   <p>
 
@@ -37,37 +36,37 @@ Index Project Professionele Website
                   </p>
                   <div class="form_row">
                     <span>
-                         <?=EDUCATION_1?>
+                         <?php echo $lang['enroll_education_1'];?>
                     </span>
                     <select>
-                      <option><?=EDUCATION_2; ?></option>
-                      <option value="arch_1"><?=EDU_1; ?></option>
-                      <option value="arch_2"><?=EDU_2; ?></option>
-                      <option value="tour_1"><?=EDU_3; ?></option>
-                      <option value="tour_2"><?=EDU_4; ?></option>
+                      <option><?php echo $lang['enroll_education_2'];?></option>
+                      <option value="arch_1"><?php echo $lang['enroll_choice_1'];?></option>
+                      <option value="arch_2"><?php echo $lang['enroll_choice_2'];?></option>
+                      <option value="tour_1"><?php echo $lang['enroll_choice_3'];?></option>
+                      <option value="tour_2"><?php echo $lang['enroll_choice_4'];?></option>
                     </select>
                   </div>
                   <div class="form_row">
                     <span>
-                      <?=FIRSTNAME; ?>
+                      <?php echo $lang['enroll_form_firstname'];?>
                     </span>
                     <input type='text' name='firstname'>
                   </div>
                   <div class="form_row">
                     <span>
-                      <?=LASTNAME; ?>
+                      <?php echo $lang['enroll_form_lastname'];?>
                     </span>
                     <input type='text' name='lastname'>
                   </div>
                   <div class="form_row">
                     <span>
-                      <?=CITY; ?>
+                      <?php echo $lang['enroll_form_city'];?>
                     </span>
                     <input type='text' name='city'>
                   </div>
                   <div class="form_row">
                     <span>
-                      <?=STREETNAME; ?>
+                      <?php echo $lang['enroll_form_streetname'];?>
                     </span>
                     <input type='text' name='streetname'>
                   </div>
@@ -76,10 +75,7 @@ Index Project Professionele Website
               </div>
 
             </div> <!-- END OF MIDDLE CONTAINERS-->
-
-            <div id="footer">
-                <span><?php echo CONTENT_FOOTER_DISCLAIMER; ?></span>
-            </div> <!-- END OF FOOTER-->
+            <?php include('includes/footer.php');?>
         </div> <!-- END OF MAIN CONTAINERS-->
      </body>
 </html>

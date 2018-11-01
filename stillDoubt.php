@@ -14,16 +14,14 @@
                 <div id="logo">
                     <img src="img/kleur_logo.jpg" alt="Archon Hogeschool">
                 </div>
-            <?php include('includes/menuSpecial.php');?>  
+            <?php include('includes/menuDoubt.php');?>  
             </div> <!-- END OF LEFT SIDE BAR-->
             <?php include('includes/header.php');?>
             <div id="middleContainer">
-                <div id="textSpecial">
-                    <h1><?php echo $lang['special_title_1'];?></h1>
-                    <p><?php echo $lang['special_body_1'];?></p>
-                    <p><?php echo $lang['special_body_2'];?></p>
-                    <p><?php echo $lang['special_body_3'];?></p>
-                    <p><img src="img/specialNeedsImg.png"></p>
+                <div id="textDoubt">
+                    <h1><?php echo $lang['doubt_title_1']; ?></h1>
+                    <p><?php echo $lang['doubt_body_1'];?></p>
+                    <p><?php echo $lang['doubt_body_2'];?></p>
                 </div>
                 <div id="bigButton">
                 </div>

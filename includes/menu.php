@@ -1,9 +1,9 @@
 <div id="menuFiller">
     <div id="menu">
-        <a href="index.php"><p><?=CONTENT_MENU_1; ?></p></a>
-        <a href='inschrijven.php'><p><?=CONTENT_MENU_2; ?></p></a>
-        <p><a href='opleidingen.php'><?=CONTENT_MENU_3; ?></a></p>
-        <p><?=CONTENT_MENU_4; ?></p>
+        <a href="index.php"><p><?php echo $lang['home']; ?></p></a>
+        <a href='inschrijven.php'><p><?php echo $lang['enroll']; ?></p></a>
+        <a href='opleidingen.php'><p><?php echo $lang['courses']; ?></p></a>
+        <a href='stillDoubt.php'><p><?php echo $lang['doubt']; ?></p></a>
     </div>
 </div>
 

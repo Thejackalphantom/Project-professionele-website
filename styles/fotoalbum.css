@@ -1,12 +1,60 @@
 .fotosize img {
     height: 250px;
     width: auto;
-    margin-left: 10px;
+    margin-left: -80px;
     margin-top: 28px;
 }
 .boxw {
     height: 300px;
     width: 250px;
+    float: left;
+    margin-bottom: 120px;
+    
+}
+
+.boxwfotos img {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    
+}
+
+
+.boxtext {
+    height: 50px;
+    width: 1200px;
+    /*background-color: green;*/
+    float: left;
+}
+.boxtext h1,h2,form {
+    margin-left: 50px;
+    float: left;
+    margin-bottom: 10px;
+}
+
+.boxtext img {
+    height: 20px;
+    width: auto;
+    padding-bottom: 10px;
+    
+}
+
+.boxtexten {
+    height: 50px;
+    width: 1200px;
+    /*background-color: green;*/
+    float: left;
+}
+
+.boxtexten img {
+    height: 20px;
+    width: auto;
+    float: left;
+    
+}
+.boxtexten h2 {
     float: left;
 }
 
@@ -27,7 +75,7 @@
     text-align: center;
    
 }
-h2 {
+textinbox h2 {
    padding:0;
    margin:0;
    font-family: arial;
@@ -46,6 +94,6 @@ h1 {
    margin:0;
    font-family: arial;
    float: left;
-   margin-left: 20px;
+   
    text-align: center;
 }

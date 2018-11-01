@@ -1,8 +1,3 @@
-/*
-    Created on : 13-sep-2018, 10:45:44
-    Author     : Remy Conen
-*/
-
 /*RESETS BROWSER*/
 html, body{
     padding: 0px;
@@ -15,11 +10,6 @@ html, body{
 
 html{
     background-color: white;
-}
-
-a{
-  text-decoration: none;
-  color: black;
 }
 
 /*CONTAINER HOLDING THE WEBSITE*/
@@ -99,7 +89,72 @@ a{
     background-color: white;
     margin-top: 1px;
 }
+#middleSpaceUp{
+    width: 1199px;
+    height: 48px;
+    float: left;
+    background-color: white;
+    margin-top: 1px;
+}
 
+#welcome{
+    width: 299px;
+    height: 88px;
+    float: left;
+    background-color: #83bcd9;   
+}
+#welcomeLeft{
+    width: 99px;
+    height: 88px;
+    float: left;
+    background-color: #83bcd9; 
+}
+#welcomeMiddle{
+    width: 601px;
+    height: 88px;
+    float: left;
+    background-color: white; 
+}
+#welcomeRight{
+    width: 99px;
+    height: 88px;
+    float: left;
+    background-color: #83bcd9; 
+}
+#infoLeft{
+    width: 299px;
+    height: 458px;
+    float: left;
+    background-color: white; 
+}
+#infoPic{
+    width: 199px;
+    height: 228px;
+    background-color: grey; 
+    margin: 0 auto;
+}
+#infoMid{
+    width: 599px;
+    height: 458px;
+    float: left;
+    background-color: white; 
+}
+#infoPic img{
+    width: 199px;
+    height: 228px;
+}
+#infoRight{
+    width: 99px;
+    height: 58px;
+    float: left;
+    background-color: #75a5bd; 
+}
+h1{
+    color: white;
+}
+h3{
+    color: white;
+}
 /*CONTAINING THE HOMEPAGE FOTO'S AND EXPLORE EDUCATION BUTTON'*/
 
 #middleContainer{
@@ -117,19 +172,6 @@ a{
     font-family: arial;
 }
 
-#textAboutArchon{
-    text-align: left;
-    padding: 5px;
-    font-family: arial;
-    font-size: 20px;
-}
-
-#textDoubt{
-    text-align: left;
-    padding: 5px;
-    font-family: arial;
-    font-size: 25px;
-}
 /*CONTAINING THE HAMBURGER MENU AT THE TOP AND LOGIN BUTTON WITH THE CHANGE LANGUAGE BUTTON*/
 
 #header{

@@ -27,7 +27,7 @@ Login Project Professionele Website
                     
                 </div>
                 <h2>Login</h2>
-                    <form action="/ppw/loggedin.php" method="POST">
+                    <form action="/ppw/loggedinfoto.php" method="POST">
                      
                       <div class="container">
                           <p> <b>Username</b></p>
