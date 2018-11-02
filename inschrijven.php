@@ -9,7 +9,6 @@ Index Project Professionele Website
         <link rel="stylesheet" type="text/css" href="styles/inschrijven.css">
         <meta charset="UTF-8">
         <title><?php echo $lang['title'];//GETS THE TITLE?></title>
-
     </head>
     <body>
         <div id="mainContainer">
@@ -21,22 +20,20 @@ Index Project Professionele Website
                 </div>
                 <?php include('includes/menu.php');?>
             </div> <!-- END OF LEFT SIDE BAR-->
-        <?php include('includes/header.php');?>
+            <?php include('includes/header.php');?>
             <div id="middleContainer">
               <div class="form_main">
                 <form id="inschrijven.php">
                   <div class="form_header">
-                    <h1>  <?php echo $lang['enroll_title_1'];?> </h1>
+                    <h1><?php echo $lang['enroll_title_1'];?></h1>
                   </div>
                   <p>
-
                   </p>
                   <p>
-
                   </p>
                   <div class="form_row">
                     <span>
-                         <?php echo $lang['enroll_education_1'];?>
+                        <?php echo $lang['enroll_education_1'];?>
                     </span>
                     <select>
                       <option><?php echo $lang['enroll_education_2'];?></option>
@@ -48,32 +45,31 @@ Index Project Professionele Website
                   </div>
                   <div class="form_row">
                     <span>
-                      <?php echo $lang['enroll_form_firstname'];?>
+                        <?php echo $lang['enroll_form_firstname'];?>
                     </span>
                     <input type='text' name='firstname'>
                   </div>
                   <div class="form_row">
                     <span>
-                      <?php echo $lang['enroll_form_lastname'];?>
+                        <?php echo $lang['enroll_form_lastname'];?>
                     </span>
                     <input type='text' name='lastname'>
                   </div>
                   <div class="form_row">
                     <span>
-                      <?php echo $lang['enroll_form_city'];?>
+                        <?php echo $lang['enroll_form_city'];?>
                     </span>
                     <input type='text' name='city'>
                   </div>
                   <div class="form_row">
                     <span>
-                      <?php echo $lang['enroll_form_streetname'];?>
+                        <?php echo $lang['enroll_form_streetname'];?>
                     </span>
                     <input type='text' name='streetname'>
                   </div>
                   <input class="form_input" type="submit">
                 </form>
               </div>
-
             </div> <!-- END OF MIDDLE CONTAINERS-->
             <?php include('includes/footer.php');?>
         </div> <!-- END OF MAIN CONTAINERS-->

@@ -14,45 +14,35 @@ Fotoalbum Project Professionele Website
         <div id="mainContainer">
             <div id="sideBarLeft">
                 <div id="logo">
-                     <a href='index.php'>
-                    <img src="img/kleur_logo.jpg" alt="Archon Hogeschool">
+                    <a href='index.php'>
+                        <img src="img/kleur_logo.jpg" alt="Archon Hogeschool">
                     </a>
                 </div>
                 <?php include('includes/menu.php');?>
             </div>
-                <?php include('includes/headerLOG.php');?>
+            <?php include('includes/headerLOG.php');?>
             <div id="middelContainer">
                 <div id="boxfotos">
-                        <div class="fotosize2">
-                            <div class="fotoSizeUp">
-                        <h1> Uw foto's </h1>
-                        
-                        <p> <b> U heeft geupload: </b>  </p> 
-            
-                             <?php
-                             $files = glob("uploads/*.*");
-                             for ($i=0; $i<count($files); $i++)
-                              {
-                                $image = $files[$i];
-                                $supported_file = array(
-                                        'gif',
-                                        'jpg',
-                                        'jpeg',
-                                        'png'
-                                 );
+                    <div class="fotosize2">
+                        <div class="fotoSizeUp">
+                            <h1>Uw foto's</h1>
+                            <p><b>U heeft geupload:</b></p> 
+                            <?php
+                                $files = glob("uploads/*.*");
+                                for ($i=0; $i<count($files); $i++)
+                                {
+                                    $image = $files[$i];
+                                    $supported_file = array('gif', 'jpg', 'jpeg', 'png');
+                                    $ext = strtolower(pathinfo($image, PATHINFO_EXTENSION));
+                                        if (in_array($ext, $supported_file)) {
+                                            echo '<img src="'. $image .'" alt="Random image"  width="200" height="100" />';
+                                        } else {
+                                            continue;
+                                        }
+                                }
 
-                                 $ext = strtolower(pathinfo($image, PATHINFO_EXTENSION));
-                                 if (in_array($ext, $supported_file)) {
-                                    
-                                     echo '<img src="'.$image .'" alt="Random image"  width="200" height="100" />';
-                                    } else {
-                                        continue;
-                                    }
-                                  }
-                                  
-                                 ?>
-
-                            </div>
+                            ?>
+                        </div>
                     </div>
                 </div>
             </div> <!-- END OF MIDDLE CONTAINERS-->
