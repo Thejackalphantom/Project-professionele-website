@@ -33,6 +33,7 @@ Index Project Professionele Website
                 <body>
 
                     <div id="stylized" class="myform">
+                      
 
                         <form id="form1" action="Mail.php" method="POST">
 
