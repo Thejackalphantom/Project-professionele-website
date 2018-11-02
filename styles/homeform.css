@@ -1,0 +1,39 @@
+
+/* 
+    Created on : 2-nov-2018, 13:50:17
+    Author     : thijs
+*/
+
+#middleContainer{
+    width: 1200px;
+    height: 600px;
+   /* background: url('../img/banner1.png'); */
+    float: left;
+    border: none;
+}
+
+@media all and (max-width: 500px) {
+  #middleContainer {
+    width: 500px;
+}
+}
+
+#bigButton{
+    height: 100px;
+    width: 500px;
+    background-color:rgba(255,255,255, 0.7);
+    font-family: arial;
+    font-size: 40px;
+    margin-top: 25px;
+    margin-right: 25px;
+    float: right;
+}
+
+#bigButton p{
+
+    font-family: arial;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 25px;
+    margin-right: 25px;
+}
