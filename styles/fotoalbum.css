@@ -4,6 +4,11 @@
     margin-left: -80px;
     margin-top: 28px;
 }
+.fotosize2 img {
+    height: 100px;
+    width: 200px;
+    float:left;
+}
 .boxw {
     height: 300px;
     width: 250px;
@@ -28,7 +33,7 @@
     /*background-color: green;*/
     float: left;
 }
-.boxtext h1,h2 {
+.boxtext h1,h2,form {
     margin-left: 50px;
     float: left;
     margin-bottom: 10px;
@@ -66,6 +71,22 @@
     border: 2px solid black;
    
 }
+.fotosize2 {
+    height: 598px;
+    width: 1198px;
+    /*background-color: red;*/
+    float: left;
+    border: 2px solid black;
+}
+
+.fotoSizeUp {
+    height: 98px;
+    width: 1198px;
+    /*background-color: red;*/
+    float: left;
+    
+}
+
 
 .textinbox {
     height: 50px;

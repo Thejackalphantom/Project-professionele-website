@@ -20,7 +20,20 @@ Fotoalbum Project Professionele Website
                 </div>
                 <?php include('includes/menu.php');?>
             </div>
-                <?php include('includes/header.php');?>
+                <?php include('includes/headerLOG.php');?>
+            <?php
+
+                    if (!empty($_POST)){
+                        $user= $_POST["uname"];  
+                        $pass= $_POST["psw"];
+                        if ($user === "admin" && $pass === "1234"){
+                            header("Location: loggedinfoto.php");
+                        }  
+                        else{
+                            header("Location: inlogfoto.php"); 
+                        }
+                    }
+                   ?>
             <div id="middelContainer">
                 <div id="boxfotos">
                     <div class="fotosize">
@@ -36,9 +49,24 @@ Fotoalbum Project Professionele Website
                                 <a href='fotosonzeopleidingen.php'> <img src="img/file.2.jpg" alt="file"> <p> Onze Opleidingen</p> </a>
                             </div>
                         </div>
+                        
+                        <div class="boxw">
+                           
+                            <div class="textinbox">
+                                <a href='eigenfotosprof.php'>  <img src="img/file.3.jpg" alt="file"> <p> Eigen Foto's </p> </a> </div> 
+                        </div>
                         <div class="boxtext">
-                            <h2> upload je eigen foto's door <a href='inlogfoto.php'> <u> in te loggen. <u> </a> </h2>
-                         </div>
+                          
+                          
+                            <form action="eigenfotos.php" method="post" enctype="multipart/form-data">
+                                Select image to upload:
+                                <input type="file" name="fileToUpload" id="fileToUpload">
+                                <input type="submit" value="Upload Image" name="submit">
+                            </form>
+
+                         
+                       
+                         </div> 
                     </div>
                 </div>
             </div> <!-- END OF MIDDLE CONTAINERS-->
@@ -46,3 +74,9 @@ Fotoalbum Project Professionele Website
         </div> <!-- END OF MAIN CONTAINERS-->
     </body>
 </html>
+
+
+
+
+
+
