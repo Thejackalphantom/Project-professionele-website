@@ -8,14 +8,18 @@
     <div id="headerSpace">
     </div>
     <div class="headerLang">
-        <div class="headerFlagNL">
-            <a href="?lang=nl"><img src="img/nl.jpg" alt="NL"></a>
-        </div>
-        <div class="headerFlagSpace">
-        </div>
-        <div class="headerFlagENG">
-            <a href="?lang=en"><img src="img/eng.jpg" alt="ENG"></a>
-        </div>
+        <?php 
+            if(isset($_GET['lang'])){
+                if($_GET['lang'] == "nl"){
+                    echo "<a href='?lang=en'>Verander taal</a>";
+                }else{
+                    echo "<a href='?lang=nl'>Change Language</a>";
+                }
+            }else{
+                echo "<a href='?lang=en'>Verander taal</a>";
+            }
+        
+        ?>
     </div> <!-- END OF HEADER INLOG-->
     <div id="headerContainer2">
     </div>

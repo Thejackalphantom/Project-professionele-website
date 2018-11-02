@@ -1,12 +1,13 @@
-/*
-    Created on : 17-okt-2018, 13:54:30
-    Author     : Remy Conen
+
+/* 
+    Created on : 2-nov-2018, 13:50:17
+    Author     : thijs
 */
 
 #middleContainer{
     width: 1200px;
     height: 600px;
-    background: url('../img/banner1.png');
+   /* background: url('../img/banner1.png'); */
     float: left;
     border: none;
 }
