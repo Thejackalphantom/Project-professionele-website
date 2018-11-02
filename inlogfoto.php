@@ -22,10 +22,12 @@ Login Project Professionele Website
                 <?php include('includes/menu.php');?>
             </div>
                <?php include('includes/header.php'); ?>
+             
             <div id="middleContainer">
                 <div id="middleSpaceLeft">
                     
                 </div>
+                
                 <h2>Login</h2>
                     <form action="/ppw/loggedinfoto.php" method="POST">
                      

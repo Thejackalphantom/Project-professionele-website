@@ -20,7 +20,20 @@ Fotoalbum Project Professionele Website
                 </div>
                 <?php include('includes/menu.php');?>
             </div>
-                <?php include('includes/header.php');?>
+                <?php include('includes/headerLOG.php');?>
+            <?php
+
+                    if (!empty($_POST)){
+                        $user= $_POST["uname"];  
+                        $pass= $_POST["psw"];
+                        if ($user === "admin" && $pass === "1234"){
+                            header("Location: loggedinfoto.php");
+                        }  
+                        else{
+                            header("Location: inlogfoto.php"); 
+                        }
+                    }
+                   ?>
             <div id="middelContainer">
                 <div id="boxfotos">
                     <div class="fotosize">
@@ -40,7 +53,7 @@ Fotoalbum Project Professionele Website
                         <div class="boxw">
                            
                             <div class="textinbox">
-                                <a href='eigenfotos.php'>  <img src="img/file.3.jpg" alt="file"> <p> Eigen Foto's </p> </a> </div> 
+                                <a href='eigenfotosprof.php'>  <img src="img/file.3.jpg" alt="file"> <p> Eigen Foto's </p> </a> </div> 
                         </div>
                         <div class="boxtext">
                           

@@ -59,7 +59,8 @@ Logged-in page Project Professionele Website
                     <p> <?php echo $lang['login_3']; ?> </p>    <!-- First name: -->
                     <p> <?php echo $lang['login_4']; ?>  </p>   <!-- Last name: -->
                     <p> <?php echo $lang['login_5']; ?></p>     <!-- Adress: -->
-                    <p> <?php echo $lang['login_6']; ?> </p>    <!-- Course: -->          
+                    <p> <?php echo $lang['login_6']; ?> </p>    <!-- Course: -->   
+                    <a href='eigenfotosprof.php'> <p> Uw foto's </p> </a>
                 </div>
 
 

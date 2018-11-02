@@ -5,9 +5,9 @@
     margin-top: 28px;
 }
 .fotosize2 img {
-    height: auto;
-    width: auto;
-    float: left
+    height: 100px;
+    width: 200px;
+    float:left;
 }
 .boxw {
     height: 300px;
@@ -72,12 +72,19 @@
    
 }
 .fotosize2 {
-    height: 600px;
-    width: 1200px;
+    height: 598px;
+    width: 1198px;
     /*background-color: red;*/
     float: left;
     border: 2px solid black;
-   
+}
+
+.fotoSizeUp {
+    height: 98px;
+    width: 1198px;
+    /*background-color: red;*/
+    float: left;
+    
 }
 
 
