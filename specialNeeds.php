@@ -6,7 +6,6 @@
         <link rel="stylesheet" type="text/css" href="styles/index.css">
         <meta charset="UTF-8">
         <title><?php echo $lang['title'];//GETS THE TITLE?></title>
-
     </head>
     <body>
         <div id="mainContainer">
