@@ -4,6 +4,11 @@
     margin-left: -80px;
     margin-top: 28px;
 }
+.fotosize2 img {
+    height: auto;
+    width: auto;
+    float: left
+}
 .boxw {
     height: 300px;
     width: 250px;
@@ -66,6 +71,15 @@
     border: 2px solid black;
    
 }
+.fotosize2 {
+    height: 600px;
+    width: 1200px;
+    /*background-color: red;*/
+    float: left;
+    border: 2px solid black;
+   
+}
+
 
 .textinbox {
     height: 50px;
