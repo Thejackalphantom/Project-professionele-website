@@ -14,62 +14,47 @@ Fotoalbum Project Professionele Website
         <div id="mainContainer">
             <div id="sideBarLeft">
                 <div id="logo">
-                     <a href='index.php'>
-                    <img src="img/kleur_logo.jpg" alt="Archon Hogeschool">
+                    <a href='index.php'>
+                        <img src="img/kleur_logo.jpg" alt="Archon Hogeschool">
                     </a>
                 </div>
                 <?php include('includes/menu.php');?>
             </div>
-                <?php include('includes/header.php');?>
+            <?php include('includes/header.php');?>
             <div id="middelContainer">
                 <div id="boxfotos">
                     <div class="fotosize">
-                        <h1> Foto's onze school </h1>
-                        
+                        <h1>Foto's onze school</h1>                        
                         <div class="boxwfotos">
                             <img src="img/imgo1.jpg" alt="file">
                         </div>
                         <div class="boxwfotos">
-                            <img src="img/imgo2.jpg" alt="file">
-                            
-                        </div>
-                        
+                            <img src="img/imgo2.jpg" alt="file">                           
+                        </div>                   
                        <div class="boxwfotos">
-                            <img src="img/imgo3.jpg" alt="file">
-                            
-                        </div>
-                        
+                            <img src="img/imgo3.jpg" alt="file">                 
+                        </div>  
                         <div class="boxwfotos">
-                            <img src="img/imgo4.jpg" alt="file">
-                            
-                        </div>
-                        
+                            <img src="img/imgo4.jpg" alt="file">                          
+                        </div>                      
                         <div class="boxwfotos">
-                            <img src="img/imgo5.jpg" alt="file">
-                            
+                            <img src="img/imgo5.jpg" alt="file">                          
                         </div>
                         <div class="boxwfotos">
-                            <img src="img/imgo6.jpg" alt="file">
-                            
+                            <img src="img/imgo6.jpg" alt="file">                        
                         </div>
                         <div class="boxwfotos">
-                            <img src="img/imgo7.jpg" alt="file">
-                            
-                        </div>
-                        
+                            <img src="img/imgo7.jpg" alt="file">                         
+                        </div>                     
                         <div class="boxwfotos">
-                            <img src="img/imgo8.jpg" alt="file">
-                            
-                        </div>
-                    
+                            <img src="img/imgo8.jpg" alt="file">                         
+                        </div>              
                         <div class="boxtexten">
-                            <h2> Binnenkort meer fotos.. </h2> 
-                         
+                            <h2> Binnenkort meer fotos..</h2>                    
                             <div class="boxtexten">
-                                <a href='Fotoalbum.php'>   <h2> <u>  Terug naar fotos ◄ </u> <h2> </a>
-                         </div>
-                        </div>
-                            
+                                <a href='Fotoalbum.php'><h2><u>Terug naar fotos ◄</u><h2></a>
+                            </div>
+                        </div>       
                     </div>
                 </div>
             </div> <!-- END OF MIDDLE CONTAINERS-->

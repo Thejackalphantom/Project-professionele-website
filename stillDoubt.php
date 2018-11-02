@@ -1,6 +1,5 @@
 <?php include ('functions/config.php');?>
 <!DOCTYPE html>
-
 <html lang="nl-NL">
     <head>
         <link rel="stylesheet" type="text/css" href="styles/index.css">
