@@ -36,13 +36,23 @@ Fotoalbum Project Professionele Website
                                 <a href='fotosonzeopleidingen.php'> <img src="img/file.2.jpg" alt="file"> <p> Onze Opleidingen</p> </a>
                             </div>
                         </div>
+                        
+                        <div class="boxw">
+                           
+                            <div class="textinbox">
+                                <a href='eigenfotos.php'>  <img src="img/file.3.jpg" alt="file"> <p> Eigen Foto's </p> </a> </div> 
+                        </div>
                         <div class="boxtext">
                           
-                          <form action="http://localhost/ppw/sended.php">  
-                              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                         <input type="file" name="pic" accept="image/*">
-                         <input type="submit"> 
-                         </form>
+                          
+                            <form action="eigenfotos.php" method="post" enctype="multipart/form-data">
+                                Select image to upload:
+                                <input type="file" name="fileToUpload" id="fileToUpload">
+                                <input type="submit" value="Upload Image" name="submit">
+                            </form>
+
+                         
+                       
                          </div> 
                     </div>
                 </div>
