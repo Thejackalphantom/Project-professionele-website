@@ -11,6 +11,12 @@
     border: none;
 }
 
+@media all and (max-width: 500px) {
+  #middleContainer {
+    width: 500px;
+}
+}
+
 #bigButton{
     height: 100px;
     width: 500px;

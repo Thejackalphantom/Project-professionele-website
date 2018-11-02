@@ -8,7 +8,7 @@ Index Project Professionele Website
     <head>
         <link rel="stylesheet" type="text/css" href="styles/index.css">
         <link rel="stylesheet" type="text/css" href="styles/home.css">
-        <meta charset="UTF-8">
+        <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
         <title><?php echo $lang['title'];//GETS THE TITLE?></title>
     </head>
     <body>
