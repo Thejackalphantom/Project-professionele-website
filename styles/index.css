@@ -11,14 +11,14 @@ html, body{
     font-family: arial;
 }
 
-/*BACKGROUND COLOR*/
+/*BACKGROUND COLOR* AND DEFINING 100% AS THE USERS SCREEN RESOLUTION FOR RESPONSIVENESS*/
 
 html{
     background-color: white;
     height: 1200px;
     width: 100%;
 }
-
+/*REMOVES LINK DECORATION TO APPEAR CLEANER*/
 a{
   text-decoration: none;
   color: black;
@@ -32,7 +32,7 @@ a{
     margin: 0 auto;
 }
 
-/*EVERYTHING BELONGING TO THE LEFT SIDE BAR SUCH AS THE LOGO AND MENU*/
+/*HERE THE LEFT SIDE BAR IS CREATED WITH THE MENU ITSELF AND LOGO DISPLAY IN THE UPPER LEFT CORNER  !!!!!!NOT THE HAMBURGER MENU!!!!!*/
 
 #sideBarLeft{
     height: 930px;
@@ -40,32 +40,6 @@ a{
     background-color: white;
     float: left;
 }
-
-/*LOGO SPACE*/
-
-#logo{
-    height: 260px;
-    width: 330px;
-    background-color: white;
-}
-
-#logo img{
-    height: 260px;
-    width: auto;
-    padding-left: 32px;
-    padding-right: 32px;
-}
-
-/*FILLS THE PLACE WHERE THE MENU GOES TO PREVENT THE CONTENT FROM SHIFTING*/
-
-.menuFiller{
-    height: 670px;
-    width: 360px;
-}
-
-
-
-/*THIS IS THE MENU BAR*/
 
 #menu{
     height: 460px;
@@ -85,20 +59,17 @@ a{
     font-size: 25px;
 }
 
-/*EVERYTHING BELONGING TO THE RIGHT SIDE BAR SUCH AS THE SOCIAL MEDIA BUTTONS*/
-
-#sideBarRight{
-    height: 700px;
-    width: 360px;
+#logo{
+    height: 260px;
+    width: 330px;
     background-color: white;
-    float: left;
 }
-#middleSpaceLeft{
-    width: 400px;
-    height: 598px;
-    float: left;
-    background-color: white;
-    margin-top: 1px;
+
+#logo img{
+    height: 260px;
+    width: auto;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 /*CONTAINING THE HOMEPAGE FOTO'S AND EXPLORE EDUCATION BUTTON'*/
@@ -132,195 +103,82 @@ a{
     font-family: arial;
     font-size: 25px;
 }
+
+/*EVERYTHING BELONGING TO THE RIGHT SIDE BAR SUCH AS THE SOCIAL MEDIA BUTTONS*/
+
+#sideBarRight{
+    height: 700px;
+    width: 360px;
+    background-color: white;
+    float: left;
+}
+#middleSpaceLeft{
+    width: 400px;
+    height: 598px;
+    float: left;
+    background-color: white;
+    margin-top: 1px;
+}
+
+/*FILLS THE PLACE WHERE THE MENU GOES TO PREVENT THE CONTENT FROM SHIFTING*/
+
+.menuFiller{
+    height: 670px;
+    width: 360px;
+}
+
 /*CONTAINING THE HAMBURGER MENU AT THE TOP AND LOGIN BUTTON WITH THE CHANGE LANGUAGE BUTTON*/
 
 #header{
     height: 230px;
-    width: 1560px;
-    float: left;
-    background-color: purple;
-}
-
-/*CONTAINS EVERYTHING FOR THE FOOTER*/
-
-#footer{
-    height: 270px;
-    width: 100%;
-    padding-top: 40px;
-    float: left;
-    background-color: #83bcd9;
-}
-
-#footerInfoContent{
-    height: 200px;
-    width: 260px;
+    width: 50%;
     float: left;
 }
 
-#footerContainer{
-    height: 250px;
-    width: 750px;
+#navMenu{
+    height: 40px;
+    width: 408px;
     margin: 0 auto;
+    position:relative;
+    left: 50px;
 }
 
-.footerInfo{
-    height: 50px;
-    width: 260px;
-}
-
-.TextChangeWhite{
-    font-family: arial;
-    font-size: 20px;
-    margin: 7px;
+.navInlog{
+    height: 40px;
+    width: 180px;
+    background-color: lightgrey;
     float: left;
-    color: white;
+    padding-left: 20px;
 }
-#footerSpacer{
-    height: 200px;
-    width: 5px;
+
+.navLang{
+    height: 40px;
+    width: 180px;
+    background-color: lightgrey;
     float: left;
-    margin-left: 25px;
-    margin-right: 25px;
-    margin-bottom: 20px;
-    background-color: white;
+    padding-left: 20px;
 }
 
-#footerSearchContent{
-    height: 50px;
-    width: 430px;
+#navSpace{
+    height: 40px;
+    width: 8px;
+    background-color: grey;
     float: left;
-}
-
-@media all and (max-width: 500px) {
-  #footerSearchContent {
-    clear:both;
-}
-}
-
-.footerIcon img{
-	height: 26px;
-	width: auto;
-	padding-left: 5px;
-	padding-right: 5px;
-	padding-top: 12px;
-	padding-bottom: 12px;
-	float: left;
-}
-
-/*HEADER BOXES*/
-
-#headerContainer{
-	height: 40px;
-	width: 850px;
-	background-color: white;
-	float: left;
-
-}
-.headerInlog{
-	height: 40px;
-	width: 180px;
-	background-color: lightgrey;
-	float: left;
-	padding-left: 20px;
-}
-
-.headerLang{
-	height: 40px;
-	width: 180px;
-	background-color: lightgrey;
-	float: left;
-	padding-left: 20px;
-}
-
-.headerFlagNL{
-        border: 4px solid grey;
-	margin-top: 6px;
-	float: left;
-        display:block
-}
-
-.headerFlagNL img{
-        display:block
-}
-
-.headerFlagENG{
-        border: 4px solid grey;
-	margin-top: 6px;
-	float: left;
-        display:block
-}
-.headerFlagENG img{
-        display:block
-}
-
-.headerFlagSpace{
-	height: 20px;
-	width: 90px;
-	background-color: lightgrey;
-	padding-top: 10px;
-	float: left;
-}
-
-#headerSpace{
-	height: 40px;
-	width: 8px;
-	background-color: grey;
-	float: left;
-
-}
-#headerContainer2{
-	height: 40px;
-	width: 302px;
-	background-color: white;
-	float: left;
-}
-
-.biggerText{
-	font-size: 20px;
-	font-family: arial;
-	margin-top: 10px;
-}
-
-.headerWhiteSpace{
-	height: 190px;
-	width: 800px;
-	background-color: white;
-	float: left;
-}
-
-.search {
-    overflow: hidden;
-    float: left;
-}
-
-.search input[type=text] {
-
-    padding: 12px;
-    padding-left: 120px;
-    font-size: 17px;
-    float: left;
-}
-
-.search input[type=text] {
-    border: 2px solid #ccc;
 
 }
 
-.headerWhiteSpace2{
-    height: 50px;
-    width: 760px;
-    background-color: white;
-    float: left;
+@media all and (max-width: 500px){
+    #header{
+        width: 500px;
+    }
+    #navMenu{
+        margin: 0 auto;
+        left: 0px;
+    }
 }
 
-.searchSpace{
-    height: 140px;
-    width: 400px;
-    background-color: white;
-    float: left;
-}
+/*MENU STYLING*/
 
-/* Menu classes/id's*/
 #menuSpace{
     height: 140px;
     width: 60px;
@@ -365,7 +223,7 @@ a{
     float: left;
 }
 
-/*dropdown code*/
+/*DROPDOWN HAMBURGER MENU STYLING*/
 
 .dropdown {
     position: relative;
@@ -389,3 +247,97 @@ a{
     margin-top: 40px;
 
 }
+
+/*CONTAINS EVERYTHING FOR THE FOOTER*/
+
+#footer{
+    height: 270px;
+    width: 100%;
+    padding-top: 40px;
+    float: left;
+    background-color: #83bcd9;
+}
+
+#footerInfoContent{
+    height: 200px;
+    width: 260px;
+    float: left;
+}
+
+#footerContainer{
+    height: 250px;
+    width: 750px;
+    margin: 0 auto;
+}
+
+.footerInfo{
+    height: 50px;
+    width: 260px;
+}
+
+.TextChangeWhite{
+    font-family: arial;
+    font-size: 20px;
+    margin: 7px;
+    float: left;
+    color: white;
+}
+
+#footerSpacer{
+    height: 200px;
+    width: 5px;
+    float: left;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+#footerSearchContent{
+    height: 50px;
+    width: 430px;
+    float: left;
+}
+
+@media all and (max-width: 500px) {
+  #footerSearchContent {
+    clear:both;
+    margin-left: 10px;
+}
+}
+
+.footerIcon img{
+	height: 26px;
+	width: auto;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	float: left;
+}
+
+.search {
+    overflow: hidden;
+    float: left;
+}
+
+.searchSpace{
+    height: 140px;
+    width: 400px;
+    background-color: white;
+    float: left;
+}
+
+.search input[type=text] {
+
+    padding: 12px;
+    padding-left: 120px;
+    font-size: 17px;
+    float: left;
+}
+
+.search input[type=text] {
+    border: 2px solid #ccc;
+}
+
+
