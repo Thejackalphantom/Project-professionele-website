@@ -1,12 +1,10 @@
 <?php include ('functions/config.php');?>
 <!DOCTYPE html>
-
 <html lang="nl-NL">
     <head>
         <link rel="stylesheet" type="text/css" href="styles/index.css">
         <meta charset="UTF-8">
         <title><?php echo $lang['title'];//GETS THE TITLE?></title>
-
     </head>
     <body>
         <div id="mainContainer">
@@ -23,7 +21,7 @@
                     <p><?php echo $lang['special_body_1'];?></p>
                     <p><?php echo $lang['special_body_2'];?></p>
                     <p><?php echo $lang['special_body_3'];?></p>
-                    <p><img src="img/specialNeedsImg.png"></p>
+                    <p><img src="img/specialNeedsImg.png" alt="SpecialNeedsImg"></p>
                 </div>
                 <div id="bigButton">
                 </div>
