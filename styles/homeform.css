@@ -7,9 +7,8 @@
 #middleContainer{
     width: 1200px;
     height: 600px;
-   /* background: url('../img/banner1.png'); */
+    border: 2px solid black;
     float: left;
-    border: none;
 }
 
 @media all and (max-width: 500px) {

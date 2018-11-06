@@ -51,3 +51,10 @@
   border: 0;
   margin: 20px 160px 0;
 }
+
+@media all and (max-width: 500px){
+    #middleContainer{
+    width: 440px;
+    height: 600px;
+}
+}
