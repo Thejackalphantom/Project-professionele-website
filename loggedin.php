@@ -32,6 +32,7 @@ Logged-in page Project Professionele Website
                         }  
                         else{
                             header("Location: inlog.php"); 
+                          
                         }
                     }
                    ?>
