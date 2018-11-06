@@ -22,28 +22,24 @@ Index Project Professionele Website
                 <?php include('includes/header.php'); //INCLUDES THE HEADER.PHP FILE?>
                 <div id="middleContainer"><!-- BEGIN OF MIDDLE CONTAINER INSERT YOUR DATA IN THIS BOX(MODEL)-->
                   <div class='nieuws_titel'>
-                    <?php echo $lang['news_title']; ?>
+                        <?php echo $lang['news_title'];?>
                   </div>
                   <div class='nieuws_artikel'>
                     <div class='nieuws_artikel_titel'>
-                      <?php echo $lang['news_artikel_title']; ?>
-
+                        <?php echo $lang['news_artikel_title'];?>
                     </div>
                     <div class='nieuws_artikel_inhoud'>
-                      <?php echo $lang['news_artikel_text']; ?>
+                        <?php echo $lang['news_artikel_text'];?>
                     </div>
                   </div>
-
                   <div class='nieuws_artikel'>
                     <div class='nieuws_artikel_titel'>
-                      <?php echo $lang['news_artikel_title_2']; ?>
-
+                        <?php echo $lang['news_artikel_title_2'];?>
                     </div>
                     <div class='nieuws_artikel_inhoud'>
-                      <?php echo $lang['news_artikel_text_2']; ?>
+                        <?php echo $lang['news_artikel_text_2'];?>
                     </div>
                   </div>
-
                 </div> <!-- END OF MIDDLE CONTAINERS  -->
                 <div id="sideBarRight">
                     <?php include('includes/rss.php');//INCLUDES THE RSS.PHP FILE WHERE THE RSS FEET IS GETTING IMPLEMENTED FROM?>

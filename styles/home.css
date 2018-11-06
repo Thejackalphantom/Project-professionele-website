@@ -11,11 +11,6 @@
     border: none;
 }
 
-@media all and (max-width: 500px) {
-  #middleContainer {
-    width: 500px;
-}
-}
 
 #bigButton{
     height: 100px;
@@ -35,4 +30,19 @@
     text-align: center;
     margin-top: 25px;
     margin-right: 25px;
+}
+
+@media all and (max-width: 500px) {
+    #middleContainer {
+        width: 500px;
+}
+    #bigButton{
+        width: 400px;
+        margin-left: 10px;
+        float: left;
+}
+
+    #bigButton p{
+        font-size: 33px;
+}
 }

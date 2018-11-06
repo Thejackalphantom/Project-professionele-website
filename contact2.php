@@ -33,8 +33,9 @@ Index Project Professionele Website
                 <body>
 
                     <div id="stylized" class="myform">
+                      
 
-                        <form id="form1" id="form1" action="mail.php" method="POST">
+                        <form id="form1" action="Mail.php" method="POST">
 
                             <label>Naam
                                 <span class="small">Add your name</span>
@@ -71,7 +72,7 @@ Index Project Professionele Website
                             </label>
                             <textarea name="message" rows="6" cols="25"></textarea><br />
 
-                            <button type="submit" value="Send" style="margin-top:15px;">Submit</button>
+                            <button type="submit" name ="submit" value="Send" style="margin-top:15px;">Submit</button>
                             <div class="spacer"></div>
 
                         </form>
