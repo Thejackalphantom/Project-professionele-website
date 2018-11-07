@@ -1,4 +1,6 @@
 /** CONTACT FORM */
+body {font-family: Arial, Helvetica, sans-serif;}
+
 
 body{
     font-family: arial; 
@@ -64,8 +66,8 @@ p, h1, form, button{border:0; margin:0; padding:0;}
 /* ----------- stylized ----------- */
 #stylized{
     margin-top: 100px;
-    border:solid 2px #b7ddf2;
-    background:#ebf4fb;
+    border:solid 2px black;
+    background:white;
 
 }
 #stylized h1 {
