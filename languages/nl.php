@@ -128,4 +128,6 @@ $lang = array(
     /*CONTACT*/
      'telnumber' => 'telefoonnummer',
      'bericht' => 'Typ hier je bericht',
+    /*MAIL*/
+    'response' => 'Bedankt voor het bericht! Wij zullen zo snel mogelijk contact met je opnemen',
     );

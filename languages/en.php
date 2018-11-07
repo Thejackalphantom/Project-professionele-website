@@ -131,5 +131,7 @@ $lang = array(
     /* CONTACT */
     'telnumber' => 'Phone number',
     'bericht' => 'Typ your message here',
+    /*MAIL*/
+    'response' => 'Thank you for your message! We will contact you soon',
     );
  
