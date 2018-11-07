@@ -2,7 +2,7 @@
     <div id="navMenu">
         <a href='inlog.php'> 
             <div class="navInlog">
-                <span><?php echo $lang['login']; ?></span>
+                <span><?php echo $lang['login_7']; ?></span>
             </div> 
         </a>
         <div id="navSpace">

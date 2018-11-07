@@ -5,6 +5,7 @@ Logged-in page Project Professionele Website
 -->
 <html lang="nl-NL">
     <head>
+        <link rel="stylesheet" type="text/css" href="styles/index.css">
         <link rel="stylesheet" type="text/css" href="styles/loggedin.css">
         <meta charset="UTF-8">
         <title><?php echo $lang['title'];//GETS THE TITLE?></title>
