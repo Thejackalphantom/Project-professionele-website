@@ -128,4 +128,8 @@ $lang = array(
     'disclaimer_2' => 'This website is protected by copyright and other intellectual property rights. Content of this website may only be copied, quoted and made public for personal and non-commercial use and with full source reference.',
     /*LOGIN AND DISCLAIMER*/
     'about' => 'About Archon Hogeschool',
+    /* CONTACT */
+    'telnumber' => 'Phone number',
+    'bericht' => 'Typ your message here',
     );
+ 
