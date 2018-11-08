@@ -36,11 +36,11 @@ Index Project Professionele Website
                         <?php echo $lang['enroll_education_1'];?>
                     </span>
                     <select>
-                      <option><?php echo $lang['enroll_education_2'];?></option>
-                      <option value="arch_1"><?php echo $lang['enroll_choice_1'];?></option>
-                      <option value="arch_2"><?php echo $lang['enroll_choice_2'];?></option>
-                      <option value="tour_1"><?php echo $lang['enroll_choice_3'];?></option>
-                      <option value="tour_2"><?php echo $lang['enroll_choice_4'];?></option>
+                      <option label="enrolleducation2"><?php echo $lang['enroll_education_2'];?></option>
+                      <option value="arch_1" label="arch_1"><?php echo $lang['enroll_choice_1'];?></option>
+                      <option value="arch_2" label="arch_2"><?php echo $lang['enroll_choice_2'];?></option>
+                      <option value="tour_1" label="tour_1"><?php echo $lang['enroll_choice_3'];?></option>
+                      <option value="tour_2" label="tour_2"><?php echo $lang['enroll_choice_4'];?></option>
                     </select>
                   </div>
                   <div class="form_row">

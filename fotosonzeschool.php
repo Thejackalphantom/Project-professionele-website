@@ -49,7 +49,7 @@ Fotoalbum Project Professionele Website
                         <div class="boxtexten">
                             <h2> Binnenkort meer fotos..</h2>                    
                             <div class="boxtexten">
-                                <a href='Fotoalbum.php'><h2><u>Terug naar fotos ◄</u><h2></a>
+                                <a href='Fotoalbum.php'><h2><u>Terug naar fotos ◄</u></h2></a>
                             </div>
                         </div>      
                     </div>

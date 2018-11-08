@@ -37,7 +37,7 @@ Fotoalbum Project Professionele Website
                             </div>
                         </div>
                         <div class="boxtext">
-                            <h2> upload je eigen foto's door <a href='inlogfoto.php'> <u> in te loggen. <u> </a> </h2>
+                            <h2> upload je eigen foto's door <a href='inlogfoto.php'> <u> in te loggen. </u> </a> </h2>
                          </div>
                     </div>
                 </div>

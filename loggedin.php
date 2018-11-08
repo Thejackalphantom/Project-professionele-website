@@ -36,14 +36,14 @@ Logged-in page Project Professionele Website
             <div id="middleContainer">
                 <div id="middleSpaceUp">   
                 </div>
-                <div id="welcome"> 
+                <div class="welcome"> 
                     <div id="welcomeLeft">  
                     </div>
                     <h1><?php echo $lang['login_1'];?></h1> <!-- Welcome!-->
                 </div>  
                 <div id="welcomeMiddle">  
                 </div>
-                <div id="welcome">  
+                <div class="welcome">  
                 </div>
                 <div id="infoLeft">
                     <div id="infoPic">

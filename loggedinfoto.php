@@ -54,7 +54,7 @@ Fotoalbum Project Professionele Website
                         </div>
                         <div class="boxtext">
                             <form action="eigenfotos.php" method="post" enctype="multipart/form-data">
-                                Select image to upload:
+                                <p>Select image to upload:<p>
                                 <input type="file" name="fileToUpload" id="fileToUpload">
                                 <input type="submit" value="Upload Image" name="submit">
                             </form>
@@ -66,9 +66,3 @@ Fotoalbum Project Professionele Website
         </div> <!-- END OF MAIN CONTAINERS-->
     </body>
 </html>
-
-
-
-
-
-

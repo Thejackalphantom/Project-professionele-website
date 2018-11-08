@@ -25,9 +25,7 @@ Index Project Professionele Website
             </div> <!-- END OF LEFT SIDE BAR-->
             <?php include('includes/header.php'); ?>
             <div id="middleContainer">
-                <p>
                 <h2> <?php echo $lang['response'];?>.</h2>
-                </p>
                 <?php
                 if (isset($_POST['submit'])) {
                     $to = "thijsvanderwall@live.nl"; // this is your Email address
