@@ -14,8 +14,8 @@ Fotoalbum Project Professionele Website
         <div id="mainContainer">
             <div id="sideBarLeft">
                 <div id="logo">
-                     <a href='index.php'>
-                    <img src="img/kleur_logo.jpg" alt="Archon Hogeschool">
+                    <a href='index.php'>
+                        <img src="img/kleur_logo.jpg" alt="Archon Hogeschool">
                     </a>
                 </div>
                 <?php include('includes/menu.php');?>
@@ -26,18 +26,17 @@ Fotoalbum Project Professionele Website
                     <div class="fotosize">
                         <h1> Fotoalbums </h1>
                         <div class="boxw">
-                           
                             <div class="textinbox">
-                                <a href='fotosonzeschool.php'>  <img src="img/file.jpg" alt="file"> <p> Onze school </p> </a> </div> 
+                                <a href='fotosonzeschool.php'><img src="img/file.jpg" alt="file"><p>Onze school</p></a> 
+                            </div> 
                         </div>
                         <div class="boxw">
-                            
                             <div class="textinbox">
-                                <a href='fotosonzeopleidingen.php'> <img src="img/file.2.jpg" alt="file"> <p> Onze Opleidingen</p> </a>
+                                <a href='fotosonzeopleidingen.php'> <img src="img/file.2.jpg" alt="file"><p>Onze Opleidingen</p></a>
                             </div>
                         </div>
                         <div class="boxtext">
-                            <h2> upload je eigen foto's door <a href='inlogfoto.php'> <u> in te loggen. <u> </a> </h2>
+                            <h2>upload je eigen foto's door<a href='inlogfoto.php'><u>in te loggen.<u></a></h2>
                          </div>
                     </div>
                 </div>
