@@ -125,4 +125,9 @@ $lang = array(
     'disclaimer_2' => 'Deze website is beschermd door het auteursrecht en andere intellectuele eigendomsrechten. Inhoud van deze website mag je alleen kopiëren, citeren en openbaar maken voor persoonlijk en niet-commercieel gebruik en met volledige bronvermelding.',
     /*LOGIN AND DISCLAIMER*/
     'about' => 'Over Archon Hogeschool',
+    /*CONTACT*/
+     'telnumber' => 'telefoonnummer',
+     'bericht' => 'Typ hier je bericht',
+    /*MAIL*/
+    'response' => 'Bedankt voor het bericht! Wij zullen zo snel mogelijk contact met je opnemen',
     );

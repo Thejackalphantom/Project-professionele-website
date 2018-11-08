@@ -11,14 +11,14 @@ html, body{
     font-family: arial;
 }
 
-/*BACKGROUND COLOR*/
+/*BACKGROUND COLOR* AND DEFINING 100% AS THE USERS SCREEN RESOLUTION FOR RESPONSIVENESS*/
 
 html{
     background-color: white;
     height: 1200px;
     width: 100%;
 }
-
+/*REMOVES LINK DECORATION TO APPEAR CLEANER*/
 a{
   text-decoration: none;
   color: black;
@@ -32,7 +32,7 @@ a{
     margin: 0 auto;
 }
 
-/*EVERYTHING BELONGING TO THE LEFT SIDE BAR SUCH AS THE LOGO AND MENU*/
+/*HERE THE LEFT SIDE BAR IS CREATED WITH THE MENU ITSELF AND LOGO DISPLAY IN THE UPPER LEFT CORNER  !!!!!!NOT THE HAMBURGER MENU!!!!!*/
 
 #sideBarLeft{
     height: 930px;
@@ -40,32 +40,6 @@ a{
     background-color: white;
     float: left;
 }
-
-/*LOGO SPACE*/
-
-#logo{
-    height: 260px;
-    width: 330px;
-    background-color: white;
-}
-
-#logo img{
-    height: 260px;
-    width: auto;
-    padding-left: 32px;
-    padding-right: 32px;
-}
-
-/*FILLS THE PLACE WHERE THE MENU GOES TO PREVENT THE CONTENT FROM SHIFTING*/
-
-.menuFiller{
-    height: 670px;
-    width: 360px;
-}
-
-
-
-/*THIS IS THE MENU BAR*/
 
 #menu{
     height: 460px;
@@ -85,20 +59,17 @@ a{
     font-size: 25px;
 }
 
-/*EVERYTHING BELONGING TO THE RIGHT SIDE BAR SUCH AS THE SOCIAL MEDIA BUTTONS*/
-
-#sideBarRight{
-    height: 700px;
-    width: 360px;
+#logo{
+    height: 260px;
+    width: 330px;
     background-color: white;
-    float: left;
 }
-#middleSpaceLeft{
-    width: 400px;
-    height: 598px;
-    float: left;
-    background-color: white;
-    margin-top: 1px;
+
+#logo img{
+    height: 260px;
+    width: auto;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 /*CONTAINING THE HOMEPAGE FOTO'S AND EXPLORE EDUCATION BUTTON'*/
@@ -132,13 +103,181 @@ a{
     font-family: arial;
     font-size: 25px;
 }
+
+@media all and (max-width: 500px){
+    #middleContainer{
+    width: 450px;
+    height: 1200px;
+}
+
+}
+
+/*EVERYTHING BELONGING TO THE RIGHT SIDE BAR SUCH AS THE SOCIAL MEDIA BUTTONS*/
+
+#sideBarRight{
+    height: 700px;
+    width: 360px;
+    background-color: white;
+    float: left;
+}
+#middleSpaceLeft{
+    width: 400px;
+    height: 598px;
+    float: left;
+    background-color: white;
+    margin-top: 1px;
+}
+
+/*FILLS THE PLACE WHERE THE MENU GOES TO PREVENT THE CONTENT FROM SHIFTING*/
+
+.menuFiller{
+    height: 670px;
+    width: 360px;
+}
+
 /*CONTAINING THE HAMBURGER MENU AT THE TOP AND LOGIN BUTTON WITH THE CHANGE LANGUAGE BUTTON*/
 
 #header{
     height: 230px;
-    width: 1560px;
+    width: 79%;
+    float: right;
+}
+
+#navMenu{
+    height: 40px;
+    width: 408px;
+    float: right;
+    right: 400px;
+    position:relative;
+}
+
+.navInlog{
+    height: 40px;
+    width: 180px;
+    background-color: lightgrey;
     float: left;
-    background-color: purple;
+    padding-left: 20px;
+}
+
+.navInlog span{
+    font-size: 25px;
+    padding-left: 35px;
+}
+.navLang{
+    height: 40px;
+    width: 180px;
+    background-color: lightgrey;
+    float: left;
+}
+
+.navLang a{
+    font-size: 25px;
+    padding-left: 35px;
+}
+
+.navLang a{
+    text-align: center;
+}
+
+#navSpace{
+    height: 40px;
+    width: 8px;
+    background-color: grey;
+    float: left;
+
+}
+
+@media all and (max-width: 500px){
+    #header{
+        width: 500px;
+    }
+    #navMenu{
+        margin: 0 auto;
+        left: 0px;
+    }
+}
+
+/*MENU STYLING*/
+
+#menuSpace{
+    height: 140px;
+    width: 60px;
+    background-color: white;
+    float: left;
+}
+#hamburger{
+    height: 40px;
+    width: 140px;
+    background-color: white;
+    margin-top: 60px;
+    float: right;
+    left: 150px;
+}
+
+#hamburgerBox{
+    height: 40px;
+    width: 50px;
+    background-color: white;
+    float: left;
+}
+.hamburgerButton {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+#hamburgerRightSpace{
+    height: 40px;
+    width: 160px;
+    background-color: white;
+    float: left;
+}
+#hamburgerUnderSpace{
+    height: 100px;
+    width: 300px;
+    background-color: white;
+    float: left;
+}
+#TextChange{
+    font-family: arial;
+    font-size: 20px;
+    margin: 7px;
+    float: left;
+}
+
+@media all and (max-width: 500px){
+    #hamburger{
+    height: 40px;
+    width: 140px;
+    background-color: white;
+    margin-top: 60px;
+    float: left;
+}
+}
+
+/*DROPDOWN HAMBURGER MENU STYLING*/
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+    float: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    margin-top: 40px;
+
 }
 
 /*CONTAINS EVERYTHING FOR THE FOOTER*/
@@ -175,6 +314,7 @@ a{
     float: left;
     color: white;
 }
+
 #footerSpacer{
     height: 200px;
     width: 5px;
@@ -194,6 +334,7 @@ a{
 @media all and (max-width: 500px) {
   #footerSearchContent {
     clear:both;
+    margin-left: 10px;
 }
 }
 
@@ -207,89 +348,15 @@ a{
 	float: left;
 }
 
-/*HEADER BOXES*/
-
-#headerContainer{
-	height: 40px;
-	width: 850px;
-	background-color: white;
-	float: left;
-
-}
-.headerInlog{
-	height: 40px;
-	width: 180px;
-	background-color: lightgrey;
-	float: left;
-	padding-left: 20px;
-}
-
-.headerLang{
-	height: 40px;
-	width: 180px;
-	background-color: lightgrey;
-	float: left;
-	padding-left: 20px;
-}
-
-.headerFlagNL{
-        border: 4px solid grey;
-	margin-top: 6px;
-	float: left;
-        display:block
-}
-
-.headerFlagNL img{
-        display:block
-}
-
-.headerFlagENG{
-        border: 4px solid grey;
-	margin-top: 6px;
-	float: left;
-        display:block
-}
-.headerFlagENG img{
-        display:block
-}
-
-.headerFlagSpace{
-	height: 20px;
-	width: 90px;
-	background-color: lightgrey;
-	padding-top: 10px;
-	float: left;
-}
-
-#headerSpace{
-	height: 40px;
-	width: 8px;
-	background-color: grey;
-	float: left;
-
-}
-#headerContainer2{
-	height: 40px;
-	width: 302px;
-	background-color: white;
-	float: left;
-}
-
-.biggerText{
-	font-size: 20px;
-	font-family: arial;
-	margin-top: 10px;
-}
-
-.headerWhiteSpace{
-	height: 190px;
-	width: 800px;
-	background-color: white;
-	float: left;
-}
-
 .search {
     overflow: hidden;
+    float: left;
+}
+
+.searchSpace{
+    height: 140px;
+    width: 400px;
+    background-color: white;
     float: left;
 }
 
@@ -303,89 +370,6 @@ a{
 
 .search input[type=text] {
     border: 2px solid #ccc;
-
 }
 
-.headerWhiteSpace2{
-    height: 50px;
-    width: 760px;
-    background-color: white;
-    float: left;
-}
 
-.searchSpace{
-    height: 140px;
-    width: 400px;
-    background-color: white;
-    float: left;
-}
-
-/* Menu classes/id's*/
-#menuSpace{
-    height: 140px;
-    width: 60px;
-    background-color: white;
-    float: left;
-}
-#hamburger{
-    height: 40px;
-    width: 140px;
-    background-color: white;
-    float: left;
-}
-
-#hamburgerBox{
-    height: 40px;
-    width: 50px;
-    background-color: white;
-    float: left;
-}
-.hamburgerButton {
-    width: 35px;
-    height: 5px;
-    background-color: black;
-    margin: 6px 0;
-}
-#hamburgerRightSpace{
-    height: 40px;
-    width: 160px;
-    background-color: white;
-    float: left;
-}
-#hamburgerUnderSpace{
-    height: 100px;
-    width: 300px;
-    background-color: white;
-    float: left;
-}
-#TextChange{
-    font-family: arial;
-    font-size: 20px;
-    margin: 7px;
-    float: left;
-}
-
-/*dropdown code*/
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
-    float: left;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-    margin-top: 40px;
-
-}

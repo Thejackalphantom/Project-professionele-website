@@ -30,6 +30,7 @@ Fotoalbum Project Professionele Website
                         }  
                         else{
                             header("Location: inlogfoto.php"); 
+                            echo" test";
                         }
                 }
             ?>

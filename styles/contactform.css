@@ -1,7 +1,9 @@
 /** CONTACT FORM */
+body {font-family: Arial, Helvetica, sans-serif;}
+
 
 body{
-    font-family:"Lucida Grande", "Lucida Sans Unicode", Verdana, Arial, Helvetica, sans-serif; 
+    font-family: arial; 
     font-size:12px;
 
 p, h1, form, button{border:0; margin:0; padding:0;}
@@ -64,8 +66,8 @@ p, h1, form, button{border:0; margin:0; padding:0;}
 /* ----------- stylized ----------- */
 #stylized{
     margin-top: 100px;
-    border:solid 2px #b7ddf2;
-    background:#ebf4fb;
+    border:solid 2px black;
+    background:white;
 
 }
 #stylized h1 {
@@ -104,16 +106,15 @@ p, h1, form, button{border:0; margin:0; padding:0;}
     margin:2px 0 20px 1px;
 }
 #stylized button{ 
-    clear:both;
-    margin-left:160px;
-    width:125px;
-    height:31px;
-    background:#444;
-    text-align:center;
-    line-height:31px;
-    color:#FFFFFF;
-    font-size:11px;
-    font-weight:bold;
+  display: block;
+  border-radius: 2px;
+  background-color: #83BCD9;
+  color: #ffffff;
+  font-weight: bold;
+  box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+  padding: 14px 22px;
+  border: 0;
+  margin: 20px 160px 0;
 }
 textarea{
     resize: none;
