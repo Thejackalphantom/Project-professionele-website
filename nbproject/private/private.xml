@@ -3,13 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/PPW/loggedin.php</file>
-            <file>file:/C:/xampp/htdocs/PPW/languages/nl.php</file>
-            <file>file:/C:/xampp/htdocs/PPW/includes/header.php</file>
-            <file>file:/C:/xampp/htdocs/PPW/styles/loggedin.css</file>
-            <file>file:/C:/xampp/htdocs/PPW/languages/en.php</file>
-            <file>file:/C:/xampp/htdocs/PPW/disclaimer.php</file>
-            <file>file:/C:/xampp/htdocs/PPW/includes/headerLOG.php</file>
+            <file>file:/C:/xampp/htdocs/PPW/inschrijven.php</file>
+            <file>file:/C:/xampp/htdocs/PPW/styles/inschrijven.css</file>
+            <file>file:/C:/xampp/htdocs/PPW/contact2.php</file>
+            <file>file:/C:/xampp/htdocs/PPW/styles/inlog.css</file>
+            <file>file:/C:/xampp/htdocs/PPW/styles/contactform.css</file>
         </group>
     </open-files>
 </project-private>

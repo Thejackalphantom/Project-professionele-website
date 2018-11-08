@@ -5,8 +5,9 @@ Index Project Professionele Website
 -->
 <html lang="nl-NL">
     <head>
-        <link rel="stylesheet" type="text/css" href="styles/form2.css">
+        <link rel="stylesheet" type="text/css" href="styles/index.css">
         <link rel="stylesheet" type="text/css" href="styles/homeform.css">
+        <link rel="stylesheet" type="text/css" href="styles/contactform.css">
         <meta charset="UTF-8">
         <title><?php echo $lang['title']; //GETS THE TITLE  ?></title>
 
@@ -25,7 +26,7 @@ Index Project Professionele Website
             <?php include('includes/header.php'); ?>
             <div id="middleContainer">
                 <p>
-                <h2> Bedankt voor het bericht! Wij zullen zo snel mogelijk contact met je opnemen.</h2>
+                <h2> <?php echo $lang['response'];?>.</h2>
                 </p>
                 <?php
                 if (isset($_POST['submit'])) {
