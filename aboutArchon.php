@@ -6,7 +6,6 @@
         <link rel="stylesheet" type="text/css" href="styles/index.css">
         <meta charset="UTF-8">
         <title><?php echo $lang['title'];//GETS THE TITLE?></title>
-
     </head>
     <body>
         <div id="mainContainer">
@@ -22,8 +21,7 @@
                     <h1><?php echo $lang['about_title_1'];?></h1>
                     <p><?php echo $lang['about_body_1']; ?></p>
                     <p><?php echo $lang['about_body_2']; ?></p>
-                    <p><?php echo $lang['about_body_3']; ?></p>
-                    
+                    <p><?php echo $lang['about_body_3']; ?></p    
                 </div>
                 <div id="bigButton">
                 </div>

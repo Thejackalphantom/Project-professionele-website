@@ -26,12 +26,12 @@ Disclaimer Project Professionele Website
                 </div>
                 <div id="middleText">
                     <h1> Disclaimer </h1>
-                        <p>Argon hogeschool doet haar best om ontbrekende zaken en wijzigingen in het aanbod voor de opleidingen en hun presentatie en beschrijvingen zo snel mogelijk op de website door te voeren. 
-                        Heb je vragen over de inhoud of kom je iets tegen dat niet correct of niet duidelijk is? Vul dan het contact formulier in.
+                        <p>
+                            <?php echo $lang['disclaimer']; ?>
                         </p>
                     <h2>Copyright</h2>
-                        <p>Deze website is beschermd door het auteursrecht en andere intellectuele eigendomsrechten. Inhoud van deze website mag je alleen kopiëren,
-                            citeren en openbaar maken voor persoonlijk en niet-commercieel gebruik en met volledige bronvermelding.
+                        <p>
+                            <?php echo $lang['copyright']; ?>
                         </p>    
                 </div>
             </div> <!-- END OF MIDDLE CONTAINERS-->

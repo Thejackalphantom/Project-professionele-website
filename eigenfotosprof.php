@@ -40,7 +40,6 @@ Fotoalbum Project Professionele Website
                                             continue;
                                         }
                                 }
-
                             ?>
                         </div>
                     </div>
