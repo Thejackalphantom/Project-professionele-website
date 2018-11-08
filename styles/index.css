@@ -104,6 +104,14 @@ a{
     font-size: 25px;
 }
 
+@media all and (max-width: 500px){
+    #middleContainer{
+    width: 450px;
+    height: 1200px;
+}
+
+}
+
 /*EVERYTHING BELONGING TO THE RIGHT SIDE BAR SUCH AS THE SOCIAL MEDIA BUTTONS*/
 
 #sideBarRight{
@@ -131,16 +139,16 @@ a{
 
 #header{
     height: 230px;
-    width: 50%;
-    float: left;
+    width: 79%;
+    float: right;
 }
 
 #navMenu{
     height: 40px;
     width: 408px;
-    margin: 0 auto;
+    float: right;
+    right: 400px;
     position:relative;
-    left: 50px;
 }
 
 .navInlog{
@@ -151,12 +159,24 @@ a{
     padding-left: 20px;
 }
 
+.navInlog span{
+    font-size: 25px;
+    padding-left: 35px;
+}
 .navLang{
     height: 40px;
     width: 180px;
     background-color: lightgrey;
     float: left;
-    padding-left: 20px;
+}
+
+.navLang a{
+    font-size: 25px;
+    padding-left: 35px;
+}
+
+.navLang a{
+    text-align: center;
 }
 
 #navSpace{
@@ -189,7 +209,9 @@ a{
     height: 40px;
     width: 140px;
     background-color: white;
-    float: left;
+    margin-top: 60px;
+    float: right;
+    left: 150px;
 }
 
 #hamburgerBox{
@@ -221,6 +243,16 @@ a{
     font-size: 20px;
     margin: 7px;
     float: left;
+}
+
+@media all and (max-width: 500px){
+    #hamburger{
+    height: 40px;
+    width: 140px;
+    background-color: white;
+    margin-top: 60px;
+    float: left;
+}
 }
 
 /*DROPDOWN HAMBURGER MENU STYLING*/
