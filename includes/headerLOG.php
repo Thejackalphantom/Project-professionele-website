@@ -30,6 +30,7 @@
                     <a href="nieuws.php"> <p><?php echo $lang['news'];?></p> </a>
                     <a href="Fotoalbum.php"> <p><?php echo $lang['photoalbum'];?></p> </a>
                     <a href="specialNeeds.php"> <p><?php echo $lang['special_education'];?></p> </a>
+                    <a href="contact2.php"> <p>Contact</p> </a>
                 </div>
             </div>
         </div>
